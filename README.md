@@ -22,7 +22,7 @@ Authoria - Requiem Reforged is a SFW Skyrim modlist built around Requiem, with f
   Legacy of the Dragonborn, DAc0da, Vigilant, Glenmoril, Unslaad, The Forgotten City, Wyrmstooth, Sirenroot, Olenveld, Ascend, Sleepwalking into a Nightmare — and many more.
 
 - **Combat:**  
-  Features For Honor (With stances in the future), full MCO integration, and a suite of enemy balance and difficulty tweaks. The combat system supports a challenging but fair experience where any playstyle is viable—battlemage, stealth archer, heavy melee, dual wield, and more. 
+  Features For Honor, full MCO integration, and a suite of enemy balance and difficulty tweaks. The combat system supports a challenging but fair experience where any playstyle is viable—battlemage, stealth archer, heavy melee, dual wield, and more. 
 
 - **City and World Overhauls:**  
   Each city overhaul has been selectively picked to result in the best possible visuals:
