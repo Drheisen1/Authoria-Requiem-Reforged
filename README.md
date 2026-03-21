@@ -175,7 +175,7 @@ Before you begin, make sure you meet the following **hard requirements**:
        Select the `\downloaded mods` directory from Step 3.  
      - An **Installation Location** – where the modlist will be fully installed and run from.  
        Create a `\Authoria` directory in the `\modlists` folder from Step 3.  
-       ⚠️ **This must be on an SSD** for performance and stability.  
+        **This must be on an SSD** for performance and stability.  
 
 6. **Start Installation**
    - Click **Start** to begin the automated installation.
@@ -186,7 +186,7 @@ Before you begin, make sure you meet the following **hard requirements**:
 
 7. **While Wabbajack is running:**
    - Join the [Discord server](https://discord.gg/8ZCa7w8BZQ) and ask any questions you might have.
-   - Review the gameplay guides and Requiem Guides
+   - Review the [Gameplay Guide](https://github.com/Drheisen1/Authoria-Requiem-Reforged/blob/main/GameplayGuide.md)
 
 ---
 
@@ -250,7 +250,7 @@ Once enabled, you’ll have full access to enhanced controller features includin
 
 For more information on controller support, NPC management, and running essential tools, check out the following:
 
-- [Authoria Gameplay Guide](https://github.com/HerrSchtevie/Scrolls-of-Schtevie/wiki/Authoria-%E2%80%90-Requiem-Reforged-Gameplay-Guide)
+- [Authoria Gameplay Guide](https://github.com/Drheisen1/Authoria-Requiem-Reforged/blob/main/GameplayGuide.md)
   Explains key gameplay systems, progression, mechanics, and builds.  
 
 - [Rule 11 Video Guides](https://www.youtube.com/playlist?list=PLF-HXyx5H2BMhZjI4aq2aBsvNlsSdrWX_)
