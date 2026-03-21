@@ -11,11 +11,11 @@
 |:--:|:--:|:--:|
 | [View the Modlist](https://loadorderlibrary.com/lists/authoria-requiem-reforged-3) | [See Version History](https://github.com/Drheisen1/Authoria-Requiem-Reforged/blob/main/Changelog.md) | 
 
-## 📌 Introduction
+## Introduction
 
 Authoria - Requiem Reforged is a SFW Skyrim modlist built around Requiem, with full Seasons integration including Unfrozen. Centered on nature, freedom, and the ever-changing balance of the world, Authoria - Requiem Reforged delivers a visually rich and mechanically demanding experience where survival and indulgence coexist. With sweeping landscape and city overhauls, seasonal world balancing, and a carefully curated selection of content and gameplay expansions, the list transforms Skyrim into a living, breathing wilderness—beautiful in summer, brutal in winter, and unforgiving to the unprepared.
 
-## 📋 Features
+## Features
   
 - **Quest Mods:**  
   Authoria - Requiem Reforged includes a massive lineup of lore-rich, fully patched quests that expand Skyrim’s world with new factions, dungeons, and narratives. Major entries include:  
@@ -94,9 +94,9 @@ Authoria - Requiem Reforged is a SFW Skyrim modlist built around Requiem, with f
 | RAM        | 32GB DDR5-4800              |
 | Storage    | M.2 2TB SSD (PCIe Gen 4x4)  |
 
-### 📋 Recommended System Specs
+###  Recommended System Specs
 
-🎮 **System Requirements for Authoria - Requiem Reforged** 🎮
+ **System Requirements for Authoria - Requiem Reforged**
 
 | Component     | 🟡 Minimum (Playable)                                   | 🟢 Recommended (Ideal)                               |
 |---------------|---------------------------------------------------------|------------------------------------------------------|
