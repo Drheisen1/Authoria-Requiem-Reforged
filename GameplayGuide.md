@@ -22,6 +22,9 @@ Scroll the on the left panel of mo2, you will find a Customization separator fol
 
 All the customizations **MUST be made on a new save file**!
 
+<details>
+<summary><strong>Details on Each Seperator/strong></summary>
+
 **Controller Setup**:
 - enable every mod in this separator if you plan on playing with a controller.
 
@@ -55,6 +58,8 @@ All the customizations **MUST be made on a new save file**!
 - Hard mode settings -> Enable this to play on higher difficulty, this entails harder survival elements, more aggressive enemies, harder Dragons etc.
 
 IMPORTANT: You will be notified in game to pick your difficulty as well, your choice in game HAS to match your choice in mod organizer.
+
+</details>
 
 Changing anything in the customization tab is considered **NOT save safe**.
 
