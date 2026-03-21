@@ -58,7 +58,8 @@ IMPORTANT: You will be notified in game to pick your difficulty as well, your ch
 
 Changing anything in the customization tab is considered **NOT save safe**.
 
-Once you're done, set your [CPU affinity in mo2](https://www.nexusmods.com/skyrimspecialedition/mods/94636), make sure Authoria - Requiem Reforged is seleted in the drop down in mo2 and run the game.
+Once you're done,make sure **Authoria - Requiem Reforged** is seleted in the drop down in mo2 and run the game.
+
 ---
 
 ## 🧬 Character Creation & Progression
