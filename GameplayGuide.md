@@ -18,7 +18,7 @@ https://www.youtube.com/watch?v=fG7D8meR0cY
 Mods customization:
 Scroll the on the left panel of mo2, you will find a Customization separator followed by things you can customize in the modlist:
 
-![Customization Panel](https://raw.githubusercontent.com/Drheisen1/Authoria-Requiem-Reforged/main/Authoria_Seperators.png)
+![Customization Panel](https://raw.githubusercontent.com/Drheisen1/Authoria-Requiem-Reforged/main/Resources/Authoria_Seperators.png)
 
 All the customizations **MUST be made on a new save file**!
 
