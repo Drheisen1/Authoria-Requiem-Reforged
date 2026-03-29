@@ -1,8 +1,5 @@
 ## Authoria - Requiem Reforged Version 1.1.0
 
-<details>
-<summary><strong>Show / Hide full changelog</strong></summary>
-
 > Major Fixes.
 > Not savesafe.
 > Last major content addition before 2.0
