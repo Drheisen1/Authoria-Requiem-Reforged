@@ -189,7 +189,6 @@ MarkarthWorld|
 SkuldafnWorld|
 DeepwoodRedoubtWorld|
 JaphetsFollyWorld|
-LabyrinthianMazeWorld|
 DLC01FalmerValley|
 DLC1HunterHQWorld|
 DLC2SolstheimWorld|
@@ -197,7 +196,6 @@ PalePass|
 zCOBruiantWorld
 zAoMWitchWorld|
 WyrmstoothWorld|
-AXOffshoreIslandWorld|
 ```
 
 - Run xLODGen again, and select the worldspaces that are in `seasonsofskyrim.ini`, then from the **Seasons** dropdown select everything **except Default**, and press **Generate**.  
@@ -208,3 +206,42 @@ AXOffshoreIslandWorld|
 - Once it is done, it will say **"Lod Generation Done."** Close out of xLODGen, Don't forget to Disable **"xLODGen Resource - SSE Terrain Tamriel"** , and enable your Output.
 
 ## Part 5 - Running TexGen and DynDOLOD
+
+**IMPORTANT:** Dyndolod is extremely sensitive in seasons load orders, the following are steps to ensure dyndolod generation completes without errors near finishing:
+a) If you added mods, make sure none of them have deleted references, missing scripts, or references in the wrong worldspaces.
+b) Navigate to your wabbajack installation directory, and open the Tools folder, open the dyndolod folder, right click on it and pick properties, click on Compatability, and copy the following settings, then make sure you run mo2 as administrator
+
+
+
+c) before running texgen or dyndolod, turn off Real-Time protection inside Virus & threat protection in the Windows 11 settings
+d) most importantly, make sure the output of both texgen and dyndolod go to the root of the drive you are using, preferably avoiding the C drive, for example : D:/Dyndolod Output.
+
+**Estimated time:** 6 hours, highly depends on your grass density percentage.
+
+- if you reinstalled the lux patch hub, Remove the Bittercup tweaks and Enhancements Lux patch if it got installed.
+- If you are using witchy wilderness, Navigate to your wabbajack directory, open the tools folder, then dyndolod > Edit Scripts > Dyndolod > DynDOLOD_SSE.ini
+- Apply the following edits to the Dyndolod ini, then save and exit.
+
+
+
+- back in mo2, Pick **Textgen** from the dropdown menu of MO2 and run it, apply the following settings, and generate.
+
+
+
+- Once it's done, select "Exit Texgen", navigate to your output folder, and copy all the contents inside of it to your Texgen Output mod in mo2, then refresh mo2.
+
+- Pick **Dyndolod** from the dropdown menu of MO2 and run it, Press Advanced:
+
+
+
+- right click on the left top menu and press "Select all", then apply the following settings, you can play with grass density percentage if you want but beware that it will increase generation time and output size by a lot, once you are done press generate.
+
+- Once it's done, navigate to your output folder, and copy all the contents inside of it to your Dyndolod Output mod in mo2, then refresh mo2.
+
+
+## Part 6 - Flat Map Framework
+- Expand the last seperator on the right panel of mo2, and enable everymod in there, then sort them like the picture.
+
+
+
+- and that's it, you can enjoy sexy seasonal lods now.

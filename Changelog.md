@@ -1,5 +1,206 @@
+## Authoria - Requiem Reforged Version 1.5
+
+> MAJOR UPDATE
+---
+
+# Added
+
+- Meshes Optimization Project (Dawnstar and Solitude)
+- CFTO (carriages)
+- Sleep of the dead
+- COTN Winterhold
+- Legacy of the Dragonborn - NPC Overhaul by 1N (Auryen only)
+- Forsworn Consiperacy Quest Expansion
+- Vel'dun UI
+- Nature of the Wildlands
+- Metallurgy
+- Unslaad - Eleven labds voiced
+- Skyrim 3D Trees and Plants
+- Diverse Downed Logs for NOTWL3
+- JS Embalming Tools
+- Ancient Dwemer Metal
+- Faster HDT-SMP
+- a bunch of FYX mods.
+- White river Watch
+- Giant flame wall brightness Fix
+- Threads of the north
+- Heljarchen Creek
+- Snozz Bleakfalls barrow and tower
+- Robber's Gorge
+- Thieves guild requirements
+- Favor Quests Seperates
+- The Cursed Tribe - Quest Expansion
+- Thor Head and Beard (HDT)
+- Pandora Behavior Engine
+- Auto Skeleton Patcher
+- Vanaheimer - Norther Roads
+- Fair Rebalancing of Transit Tarriffs
+- At your own Pace - Main Quest
+- At your Own Pace - Misc
+- At your Own Pace - College of Winterhold
+- At your Own Pace - Thane
+- TB's - Better Chests
+- Rudification - Rudy Candles Expanded
+- tanningrack01 replacer
+- Mihail Meshes Optimization Project
+- Unique Jarl Throne Sitting Animation
+- ADXP MCO 1.6.0.6 Bug Fixes
+- ADXP Bug Fixes
+- New Creature Animation - Spider (No Spin)
+- Precision - Attack Collision Fixes
+- Smarter Conjuration Minions
+- Wheeler CTD Fix
+- Skyrim's Paraglider - ONE - Lorerim
+- Extended NPC Dialogues by JobiWanUK
+- Glorious Doors of Skyrim
+- Go to Bed
+- Whiterun Exterior Horse
+- Show Player In Inventory
+- YASTM
+- Crafting Pulls From COntainers
+- Auto Move NG
+- Windmill Replacer
+- Shaders of Solstheim
+---
+
+# Removed
+
+> Full audit of the load order, a lot of minor things made it out.
+
+- Volkihar Knight
+- The Alchemist's Vestment
+- Vestment of the Vigilant
+- Skyrim bandit epansion
+- Apaachii Sky Hair Male and Female
+- Fisherman Fish
+- JK's windhelm Outskirts
+- JK's Whiterun Outskirts
+- Blood and silver - Cidhna Mine Expanded
+- Medieval Markets
+- Racial Abilities - I4 Icons
+- Alternate Perspective Reborn - Sovngarde Edition
+- Requiem - Vigilant
+- Clefj's Winterhold
+- Winterhold Restored
+- Dragonborn reskin - Quickloot IE
+- Character menu - Untarnished UI
+- Love Potion
+- Cosplay pack gala
+- Ants Replacer (se-ae)
+- Ulvenwald and Patches.
+- HFs - Glazed Pottery
+- HFs - Whiterun Birdge Replacer
+- HFs - Chests
+- HDT-SMP Flex
+- Skyrim Souls
+- Ryn's Bleakfalls
+- Diverse Missive Boards
+- Skyrim Revoiced
+- Thieves guild for good guys
+- Nemesis Behavior Engine
+- Northern Roads Retexture
+- Dylbills Papyrus Functions
+- Dynamic Crafting Animations
+- Smooth Moveset
+- Beam Walking Assist
+- MCO - First Person Patch
+- MCO - ADXP Unarmed (Barehand) PowerAttack fix
+- Attack - MCO - ADXP 1st Person DW Attack Fix
+- Wheeler fixes and latin support.
+- Val Serano
+- Southfringe Crash Fix
+- Reqiuem Auto NPC patcher and Reqtificator Lite
+- Sweets and Such - Sunhelm
+- Vanity Mirror
+- Missives - Quest and Dialogue expansion
+- Sons of skyrim LOTD Patch by xtudo
+- Bishop Armor
+- Elle - Wayfarer Navi
+- Elle - Love Potion
+- Skyrim's Got Talent
+- Fire and Blood
+- Apocalypse - Requiem Magic Redone
+- modex
+- IWantWidgets
+- IWantStatusBars
+- IWant Frostfall Widgets
+- Phantom Horse
+---
+
+# Updated
+- SKY UI
+- Skypatcher
+- SPID
+- Unslaad
+- Mrf's Solitude - Interior
+- Followers sit on carriage
+
+---
+
+# Fixed
+- Fixed vigilant overly bright fire
+- Fixed vigilant messed up bridge in lamea worldspace.
+- Vigilants of stendarr in vigilant will wear requiem's vigilant of stendar armor now
+- fixed julianos shrine dubling magicka costs of spells.
+- Missives failing to spawn quests sometimes
+- Some minor dialogue issues and quest starters should be fixed
+- Fixed grand solitude FPS Drop.
+- Reduced spawns of some mihail seagulls to help with CPU usage
+- Fixed dragons disappearing in third person when camera gets close.
+- Fixed weapon getting stuck when unsheathing.
+- Fixed form-ids not working for worldspace placed references.
+- Animated Carriages clipping through bridges.
+- Fixed invisible campfire perk tree.
+- Fixed infinite map marker loop in ivarstead.
+- Merged some scripts that need merging, see "Authoria - Quest Fragment Patches"
+- Rebalanced all modded followers, and regisered them into requiem, they should be able to see locks now.
+- sunhelm cannabilsm now has the same drawbacks as requiem if it is enabled.
+- Updated requiem's apocalypse patch, this means some feature of magic redone might not work, another patch will be made in the future
+
+---
+# aTweaks
+
+> Custom tweaks that modify vanilla and/or requiem behavior.
+- CC Requiem patches were completely redone, NPCs were manually patched.
+- LOTD Patch was completely redone, there shouldn't be duplicate aartifacts now, remove integration of CC gear that is unobtainable, NPCs were manually patched.
+- VICN Quest Requiem patches were completely redone, NPCs are manually patched, bosses are not so easy anymore.
+- Tweaked S3D trees so it only replaces statics not covered by NOTWL3
+- Tweaked reqtificator to skip weapons, armor and actors that are already patched.
+- Modified navigator and removed conflicting cells
+- Modified wildlands renewal to touch dirtcliffs only.
+- Excluded some modded worldspaces from shadow of skyrim (currently vicn)
+- Excluded Oblivion worldspaces from frostfall
+- Added modded campfires to campfire heat sources.
+- Sven and Faendal are recruitable again.
+- Forwarded USMP Changes to drain spells, ghosts and undead are not affected by them now.
+- Vanilla Music now plays (last in order)
+- Need to steal 10 items total to start save the icerunner (AYOP Misc)
+- Lover's comfort buff, and the "Loved" buff from caught red handed - quest expansion grant stress immunity from stress and fear.
+- Patch sweet and such food for requiem - food and beverage redone, recipes locked behind gorumet perk in alchemy tree.
+- Crafting recipes are back, clothing pieces are exclusive to Ivy's crafting loom (Threads of the north), regular recipes are organized with COCKS thanks to Aaron
+- Thalmor investigator armor is made intentionally stronger, and is only available to craft after killing ancano
+- Ysmir armor has been made very strong, it is spread throughout the map and cant be crafted
+- custom SKSE plugin that changes weather during a dragon fight.
+- dragons and deadly dragons have been tweaked, they are more consistent now, flying is less often, encounter, resistance, and stats are all requiem based, the mcm for deadly dragons has been removed.
+- dragon weather changes moved to native SKSE plugin.
+- sun wont affect players now only if they are truly hooded, for players this means lowered hoods through Dynamic Lowered Hoods vamps will get burned from the sun.
+- Moved "Engaging Combat - Keep Combat Dynamic at Higher Levels" outside of hard mode, in case someone wants to enable it later in the game, or wants hardmode without it.
+- Moved frostfall widgets to native SKSE plugin (PrismaUI)
+- Added Widescreen support (21x9)
+- Chest armor distribution is gone and will make it back next update
+- Brawler gloves have a unique unarmed animation
+- Ammo Weight is now Toggleable through Requiem's MCM.
+- Septim weight is now Toggleable thorugh Requiem's MCM.
+- Markarth has no moss now in summer
+- Solitude winter assets has been replaced with optimized versions
+---
+</details>
+
+
 ## Authoria - Requiem Reforged Version 1.1.1.1
 
+<details>
+<summary><strong>Show / Hide full changelog</strong></summary>
 
 > Wabbajack Release
 ---
@@ -132,6 +333,7 @@
 - inn soaps and addons
 - Traveler's Armor Pack - Visually Upgradeable Outfit
 - Sweets and Such - Baking Expanded SE
+
 
 ---
 
