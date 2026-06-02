@@ -211,7 +211,7 @@ WyrmstoothWorld|
 a) If you added mods, make sure none of them have deleted references, missing scripts, or references in the wrong worldspaces.
 b) Navigate to your wabbajack installation directory, and open the Tools folder, open the dyndolod folder, right click on it and pick properties, click on Compatability, and copy the following settings, then make sure you run mo2 as administrator
 
-
+![Screenshot](https://raw.githubusercontent.com/Drheisen1/Authoria-Requiem-Reforged/main/Resources/Tool%20Guide/dyndolodproperties.png.png)
 
 c) before running texgen or dyndolod, turn off Real-Time protection inside Virus & threat protection in the Windows 11 settings
 d) most importantly, make sure the output of both texgen and dyndolod go to the root of the drive you are using, preferably avoiding the C drive, for example : D:/Dyndolod Output.
@@ -221,8 +221,8 @@ d) most importantly, make sure the output of both texgen and dyndolod go to the 
 - if you reinstalled the lux patch hub, Remove the Bittercup tweaks and Enhancements Lux patch if it got installed.
 - If you are using witchy wilderness, Navigate to your wabbajack directory, open the tools folder, then dyndolod > Edit Scripts > Dyndolod > DynDOLOD_SSE.ini
 - Apply the following edits to the Dyndolod ini, then save and exit.
-
-
+  
+![Screenshot](https://raw.githubusercontent.com/Drheisen1/Authoria-Requiem-Reforged/main/Resources/Tool%20Guide/Dyndolodini.png)
 
 - back in mo2, Pick **Textgen** from the dropdown menu of MO2 and run it, apply the following settings, and generate.
 
@@ -232,9 +232,11 @@ d) most importantly, make sure the output of both texgen and dyndolod go to the 
 
 - Pick **Dyndolod** from the dropdown menu of MO2 and run it, Press Advanced:
 
-
+![Screenshot](https://raw.githubusercontent.com/Drheisen1/Authoria-Requiem-Reforged/main/Resources/Tool%20Guide/DyndolodStart.png)
 
 - right click on the left top menu and press "Select all", then apply the following settings, you can play with grass density percentage if you want but beware that it will increase generation time and output size by a lot, once you are done press generate.
+
+![Screenshot](https://raw.githubusercontent.com/Drheisen1/Authoria-Requiem-Reforged/main/Resources/Tool%20Guide/DyndolodSettings.png)
 
 - Once it's done, navigate to your output folder, and copy all the contents inside of it to your Dyndolod Output mod in mo2, then refresh mo2.
 
@@ -242,6 +244,6 @@ d) most importantly, make sure the output of both texgen and dyndolod go to the 
 ## Part 6 - Flat Map Framework
 - Expand the last seperator on the right panel of mo2, and enable everymod in there, then sort them like the picture.
 
-
+![Screenshot](https://raw.githubusercontent.com/Drheisen1/Authoria-Requiem-Reforged/main/Resources/Tool%20Guide/loadorder.png)
 
 - and that's it, you can enjoy sexy seasonal lods now.
