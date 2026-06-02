@@ -209,11 +209,13 @@ WyrmstoothWorld|
 
 **IMPORTANT:** Dyndolod is extremely sensitive in seasons load orders, the following are steps to ensure dyndolod generation completes without errors near finishing:
 a) If you added mods, make sure none of them have deleted references, missing scripts, or references in the wrong worldspaces.
+
 b) Navigate to your wabbajack installation directory, and open the Tools folder, open the dyndolod folder, right click on it and pick properties, click on Compatability, and copy the following settings, then make sure you run mo2 as administrator
 
 ![Screenshot](https://raw.githubusercontent.com/Drheisen1/Authoria-Requiem-Reforged/main/Resources/Tool%20Guide/dyndolodproperties.png)
 
 c) before running texgen or dyndolod, turn off Real-Time protection inside Virus & threat protection in the Windows 11 settings
+
 d) most importantly, make sure the output of both texgen and dyndolod go to the root of the drive you are using, preferably avoiding the C drive, for example : D:/Dyndolod Output.
 
 **Estimated time:** 6 hours, highly depends on your grass density percentage.
