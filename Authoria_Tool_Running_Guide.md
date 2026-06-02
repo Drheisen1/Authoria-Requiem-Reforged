@@ -244,7 +244,7 @@ d) most importantly, make sure the output of both texgen and dyndolod go to the 
 
 
 ## Part 6 - Flat Map Framework
-- Expand the last seperator on the right panel of mo2, and enable everymod in there, then sort them like the picture.
+- Expand the last seperator on the left panel of mo2, and enable everymod in there, then sort them like the picture.
 
 ![Screenshot](https://raw.githubusercontent.com/Drheisen1/Authoria-Requiem-Reforged/main/Resources/Tool%20Guide/loadorder.png)
 
