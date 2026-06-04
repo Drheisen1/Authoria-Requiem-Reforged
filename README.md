@@ -1,7 +1,7 @@
 # Authoria - Requiem Reforged
 
 <p align="center">
-  <img src="https://github.com/user-attachments/assets/4e18200c-f59a-4a66-afe0-c39933bac819">     
+  <img src="https://raw.githubusercontent.com/Drheisen1/Authoria-Requiem-Reforged/main/Resources/Meridia%20Statue_Edited.png">     
 
 ---
 
@@ -13,7 +13,7 @@
 
 ## Introduction
 
-Authoria - Requiem Reforged is a SFW Skyrim modlist built around Requiem, with full Seasons integration including Unfrozen. Centered on nature, freedom, and the ever-changing balance of the world, Authoria - Requiem Reforged delivers a visually rich and mechanically demanding experience where survival and indulgence coexist. With sweeping landscape and city overhauls, seasonal world balancing, and a carefully curated selection of content and gameplay expansions, the list transforms Skyrim into a living, breathing wilderness—beautiful in summer, brutal in winter, and unforgiving to the unprepared.
+Authoria - Requiem Reforged is a SFW Skyrim modlist built around Requiem, with full Seasons integration including Unfrozen. Centered around nature, freedom, and the ever-changing balance of the world, Authoria - Requiem Reforged delivers a visually rich and mechanically demanding experience where survival and indulgence coexist. With sweeping landscape and city overhauls, seasonal world balancing, and a carefully curated selection of content and gameplay expansions, the list transforms Skyrim into a living, breathing wilderness—beautiful in summer, brutal in winter, and unforgiving to the unprepared.
 
 ## Features
   
@@ -22,7 +22,7 @@ Authoria - Requiem Reforged is a SFW Skyrim modlist built around Requiem, with f
   Legacy of the Dragonborn, DAc0da, Vigilant, Glenmoril, Unslaad, The Forgotten City, Wyrmstooth, Sirenroot, Olenveld, Ascend, Sleepwalking into a Nightmare — and many more.
 
 - **Combat:**  
-  Features For Honor, full MCO integration, and a suite of enemy balance and difficulty tweaks. The combat system supports a challenging but fair experience where any playstyle is viable—battlemage, stealth archer, heavy melee, dual wield, and more. 
+  Features For Honor, full MCO integration, and a suite of enemy balance and difficulty tweaks. The combat system supports a challenging but fair experience where any playstyle is viable and well balanced—battlemage, stealth archer, heavy melee, dual wield, and more. 
 
 - **City and World Overhauls:**  
   Each city overhaul has been selectively picked to result in the best possible visuals:
@@ -39,7 +39,6 @@ Authoria - Requiem Reforged is a SFW Skyrim modlist built around Requiem, with f
 - [Another Riverwood Bridge](https://www.nexusmods.com/skyrimspecialedition/mods/163078)
 
 ### Windhelm
-- [JK's Windhelm Outskirts](https://www.nexusmods.com/skyrimspecialedition/mods/86975)
 - [Skyking Windhelm Bridge Overhaul](https://www.nexusmods.com/skyrimspecialedition/mods/147846)
 - [Nordic Windhelm](https://www.nexusmods.com/skyrimspecialedition/mods/164803)
 
@@ -58,8 +57,7 @@ Authoria - Requiem Reforged is a SFW Skyrim modlist built around Requiem, with f
 - [Drengin's Blue Palace Terrace](https://www.nexusmods.com/skyrimspecialedition/mods/35180)
 
 ### Winterhold
-- [Winterhold Restored](https://www.nexusmods.com/skyrimspecialedition/mods/12811)
-- [ClefJ's Winterhold](https://www.nexusmods.com/skyrimspecialedition/mods/41409)
+- [COTN - Winterhold](https://www.nexusmods.com/skyrimspecialedition/mods/40088)
 - [JK's College of Winterhold](https://www.nexusmods.com/skyrimspecialedition/mods/65676)
 
 ### Falkreath
@@ -71,12 +69,6 @@ Authoria - Requiem Reforged is a SFW Skyrim modlist built around Requiem, with f
 
 ### Dawnstar
 - [COTN - Dawnstar](https://www.nexusmods.com/skyrimspecialedition/mods/28952)
-
-### Misc Locations
-- [Unmarked Locations AIO](https://www.nexusmods.com/skyrimspecialedition/mods/113660)
-- [Orc Stronghold AIO](https://www.nexusmods.com/skyrimspecialedition/mods/150246)
-- [Skyrim Bandit Expansion](https://www.nexusmods.com/skyrimspecialedition/mods/154352)
-- ...and many more
 
 </details>
 
@@ -220,14 +212,20 @@ Before diving into your playthrough, take a moment to configure the list to matc
 Controller support is fully integrated into Authoria — but all related mods are **disabled by default** so players can opt in manually. To enable controller support:
 
 1. Scroll to the **`Controller Support`** separator in MO2 (highlighted in blue).
-2. **Enable all of the following mods**:
-   - `Gamepad++`
-   - `Complete Controller Setup`
-   - `Authoria - Controller Configs`
+2. **Enable all the disabled mods in the seperator**:
 
   ![image](https://github.com/user-attachments/assets/c88e097c-b34c-415c-a39e-d00d28f15776)  
 
-Once enabled, you’ll have full access to enhanced controller features including radial wheels, custom stances, and a gamepad-friendly UI.
+- and that's it.
+
+## Ultrawide Support (Optional)
+
+Ultrawide is supported and integrated — but all related mods are **disabled by default** so players can opt in manually. To enable Ultrawide support:
+
+1. Scroll to the **`Widescreen 21x9`** separator in MO2 (highlighted in blue).
+2. **Enable all the disabled mods in the seperator**:
+
+- and that's it.
 
 ### 3. **Set the Executable and Launch the Game**
 
@@ -254,7 +252,7 @@ For more information on controller support, NPC management, and running essentia
 
 - [Rule 11 Video Guides](https://www.youtube.com/playlist?list=PLF-HXyx5H2BMhZjI4aq2aBsvNlsSdrWX_)
 
-> More guides will be made in the near fututre.
+- [Tool Running Guide (Seasons)](https://github.com/Drheisen1/Authoria-Requiem-Reforged/blob/main/Authoria_Tool_Running_Guide.md)
 
 ---
 
@@ -275,8 +273,6 @@ Thank you for respecting the work that went into Authoria - Requiem Reforged, an
 ---
 
 ##  Screenshots 
-![20FC061](https://github.com/user-attachments/assets/4ab35d9c-e2d8-4fb5-8558-06c4b2bd5233)
-![2048081](https://github.com/user-attachments/assets/7e887f46-3940-4eff-88ff-ffe7b874134e)
 
 ##  Links
 
