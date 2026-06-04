@@ -16,7 +16,7 @@ https://www.youtube.com/watch?v=fG7D8meR0cY
 
 ## Before you begin
 Mods customization:
-Scroll the on the left panel of mo2, you will find a Customization separator followed by things you can customize in the modlist:
+Scroll on the left panel of mo2, you will find a Customization separator followed by things you can customize in the modlist:
 
 ![Customization Panel](https://raw.githubusercontent.com/Drheisen1/Authoria-Requiem-Reforged/main/Resources/Authoria_Seperators.png)
 
@@ -27,9 +27,6 @@ All the customizations **MUST be made on a new save file**!
 
 **Controller Setup**:
 - enable every mod in this separator if you plan on playing with a controller.
-
-**Skyrim Souls RE**:
-- Disable everything in this separator if you want to bring back pausing of menus.
 
 **Slip of Slopes**:
 - Disable this to prevent ragdolling when falling from heights.
@@ -60,15 +57,12 @@ All the customizations **MUST be made on a new save file**!
 - 75% -> Recommended if playing ith >3 Followers.
 
 **Difficulty**:
-- Easy mode Settings -> Enable this mod to enable [Requiem Lite](https://www.nexusmods.com/skyrimspecialedition/mods/120272), this is VERY recommended if this is your first requiem playthrough.
-- Hard mode settings -> Enable this to play on higher difficulty, It enables [Engaging Combat - Keep Combat Dynamic at Higher Levels](https://www.nexusmods.com/skyrimspecialedition/mods/132625?tab=description) as well as other ini and mcm changes.
-
-
-IMPORTANT: You will be notified in game to pick your difficulty as well, your choice in game HAS to match your choice in mod organizer.
+- To play on Easy Mode, Enable both [Requiem lite](https://www.nexusmods.com/skyrimspecialedition/mods/120272), this is VERY recommended if this is your first requiem playthrough. This will impact survival elements (slower), combat (deal more damage, take less damage), the economy, and stamina costs.
+- [Engaging Combat - Keep Combat Dynamic at Higher Levels](https://www.nexusmods.com/skyrimspecialedition/mods/132625?tab=description) -> can be enabled/disabled at any time during or before your playthrough, its is recommended to pair with the hard mode option in game for the whole experience. This will impact survival, elements, combat, economy, and stamina costs.
 
 </details>
 
-Changing anything in the customization tab is considered **NOT save safe**.
+Changing anything in the customization tab (except the difficulty seperator) is considered **NOT save safe**.
 
 Once you're done,make sure **Authoria - Requiem Reforged** is seleted in the drop down in mo2 and run the game.
 
@@ -91,18 +85,11 @@ After selecting your race, you will be prompted with messages that will run you 
 
 Flow order:
 1. First welcome message
-2. **[SkySigns](https://www.nexusmods.com/skyrimspecialedition/mods/147884)** runs (pick your birthsign)
+2. **[Starting Choices](https://www.nexusmods.com/skyrimspecialedition/mods/62901)** runs 
 3. **[Biggie Traits](https://www.nexusmods.com/skyrimspecialedition/mods/136384)** runs (pick your traits)  
-4. **[Starting Choices](https://www.nexusmods.com/skyrimspecialedition/mods/62901)** runs  
+4. **[SkySigns](https://www.nexusmods.com/skyrimspecialedition/mods/147884)** runs  (pick your birthsign)
 5. Difficulty selection  
 6. Final message appears → movement enabled  
-
----
-
-### Starter Kits
-Starting Choices has been modified to contain mainly **[Starter Kits](https://www.nexusmods.com/skyrimspecialedition/mods/168445)**:  
-
-There are currently **8 Starter Kits** , with one of them being locked behind easy mode, the items given by the starter kit are displayed in the item's description.
 
 ---
 
@@ -110,7 +97,7 @@ There are currently **8 Starter Kits** , with one of them being locked behind ea
 Authoria uses Archon as it's Religion Framework 
 https://www.nexusmods.com/skyrimspecialedition/mods/160141?tab=description
 
-It's recommended to pick a deity before starting your playthrough and sticking with it.
+It's recommended to plan what deity you want before starting your playthrough and sticking with it.
 
 ---
 
@@ -125,22 +112,15 @@ Once you select your birthsign, you can only interchange it with the same group.
 2) [Sunhelm](https://www.nexusmods.com/skyrimspecialedition/mods/39414): you can tweak survival aspects in this mcm (Hunger rate, Thirst rate, and Fatigue rate).
 3) [Frostfall](https://www.nexusmods.com/skyrimspecialedition/mods/671): you can tweak Cold rate from this mcm.
 4) [Smoothcam](https://www.nexusmods.com/skyrimspecialedition/mods/41252): you can select your prefered smoothcam preset in the Presets tab.
-5) [TK Dodge](https://www.nexusmods.com/skyrimspecialedition/mods/56956): to assign your dodge key.
-6) [One Click Power Attack NG](https://www.nexusmods.com/skyrimspecialedition/mods/60878): to assign your power attack key.
-7) [Navigation Restrictions](https://www.nexusmods.com/skyrimspecialedition/mods/129086): to enable compass and map mechanics.
-8) [Sunhelm Auto Eat and Drink](https://www.nexusmods.com/skyrimspecialedition/mods/66772): self-explanatory
+5) [TK Dodge](https://www.nexusmods.com/skyrimspecialedition/mods/56956): to assign your dodge key, you can also disable the perk lock in the mcm.
+6) [Sunhelm Auto Eat and Drink](https://www.nexusmods.com/skyrimspecialedition/mods/66772): self-explanatory
+7) [At Your Own Pace - Thane](https://www.nexusmods.com/skyrimspecialedition/mods/52704): to decrease home prices.
+8) [Fast Travel Cost](https://www.nexusmods.com/skyrimspecialedition/mods/20200): to tweak fast travel cost.
+8) [Requiem] : can tweak damage dealt, and recieved from here, as well as toggle septim and/or quiver weight
 
----
-
-## Modded Armors and Weapons
-Modded armors and weapons are **NOT craftable**.
-
-Each armor has been integrated into the world. You will need to:
-- Buy them from merchants
-- Loot them from bandits
-- Find them in new chests found in dungeons
-
-A full list of modded armors/weapons and where they are can be found [here](https://docs.google.com/spreadsheets/d/1yJYGXcw9BTZMYhlfvNt4kRq1MNXQKaVK2gKdT68Ii6s/edit?usp=sharing)  
+## Notable SKSE-Menu-Framework to tweak:
+1) [Simple Power Attack](https://www.nexusmods.com/skyrimspecialedition/mods/175093): to assign your power attack key
+2) [Dual Wield Parryingf SKSE](https://www.nexusmods.com/skyrimspecialedition/mods/175387?tab=description): to assign your parrying key
 
 ---
 
@@ -148,7 +128,7 @@ A full list of modded armors/weapons and where they are can be found [here](http
 Combat has been completely overhauled with:
 - MCO
 - TK Dodge
-- Simple Timed Block
+- Elden Parry
 
 Notes:
 - To unlock dodging you need the corresponding perks in the Evasion or Heavy Armor perk tree (does not apply to easy mode).
@@ -187,7 +167,7 @@ Most of these can be explored simply by encountering them through normal gamepla
 - Many new quests will activate organically during exploration.
 - For guidance or spoilers, you can:
   - Check the installed mod list in MO2
-  - Look through the **“Quests”** category to see what’s been added
+  - Look through the **“Quests and Newlands”** category to see what’s been added
 
 <details>
  <summary><strong>List of Major Quests</strong></summary>
@@ -200,13 +180,12 @@ Wyrmstooth<br>
 Olenveld<br>
 The Forgotten City<br>
 Sirenroot<br>
-Sleepwalking Into a Nightmare<br>
 Siege at Icemoth<br>  
 Saints and Seducers Extended Cut<br>
 Penitus Oculatus
 </details>
 
-The following are tweaks that relate to gameplay:
+The following are quest tweaks that relate to gameplay:
 
 1) VICN mods’ starting requirements:
 - Dac0da -> Be level 30

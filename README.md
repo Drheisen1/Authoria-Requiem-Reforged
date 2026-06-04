@@ -19,7 +19,7 @@ Authoria - Requiem Reforged is a SFW Skyrim modlist built around Requiem, with f
   
 - **Quest Mods:**  
   Authoria - Requiem Reforged includes a massive lineup of lore-rich, fully patched quests that expand Skyrim’s world with new factions, dungeons, and narratives. Major entries include:  
-  Legacy of the Dragonborn, DAc0da, Vigilant, Glenmoril, Unslaad, The Forgotten City, Wyrmstooth, Sirenroot, Olenveld, Ascend, Sleepwalking into a Nightmare — and many more.
+  Legacy of the Dragonborn, DAc0da, Vigilant, Glenmoril, Unslaad, The Forgotten City, Wyrmstooth, Sirenroot, Olenveld, Ascend — and many more.
 
 - **Combat:**  
   Features For Honor, full MCO integration, and a suite of enemy balance and difficulty tweaks. The combat system supports a challenging but fair experience where any playstyle is viable and well balanced—battlemage, stealth archer, heavy melee, dual wield, and more. 
