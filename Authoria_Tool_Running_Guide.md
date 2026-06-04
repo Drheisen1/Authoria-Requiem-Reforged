@@ -208,6 +208,7 @@ WyrmstoothWorld|
 ## Part 5 - Running TexGen and DynDOLOD
 
 **IMPORTANT:** Dyndolod is extremely sensitive in seasons load orders, the following are steps to ensure dyndolod generation completes without errors near finishing:
+
 a) If you added mods, make sure none of them have deleted references, missing scripts, or references in the wrong worldspaces.
 
 b) Navigate to your wabbajack installation directory, and open the Tools folder, open the dyndolod folder, right click on it and pick properties, click on Compatability, and copy the following settings, then make sure you run mo2 as administrator
@@ -216,7 +217,9 @@ b) Navigate to your wabbajack installation directory, and open the Tools folder,
 
 c) before running texgen or dyndolod, turn off Real-Time protection inside Virus & threat protection in the Windows 11 settings
 
-d) most importantly, make sure the output of both texgen and dyndolod go to the root of the drive you are using, preferably avoiding the C drive, for example : D:/Dyndolod Output.
+d) Disable the mod Called **"Authoria - Seasons - Snowdrift Fix"** and keep it disabled through part 5
+
+e) most importantly, make sure the output of both texgen and dyndolod go to the root of the drive you are using, preferably avoiding the C drive, for example : D:/Dyndolod Output.
 
 **Estimated time:** 6 hours, highly depends on your grass density percentage.
 
@@ -244,6 +247,9 @@ d) most importantly, make sure the output of both texgen and dyndolod go to the 
 
 
 ## Part 6 - Flat Map Framework
+
+- Enable the "Authoria - Seasons - Snowdrift Fix" Mod
+
 - Expand the last seperator on the left panel of mo2, and enable everymod in there, then sort them like the picture.
 
 ![Screenshot](https://raw.githubusercontent.com/Drheisen1/Authoria-Requiem-Reforged/main/Resources/Tool%20Guide/loadorder.png)
