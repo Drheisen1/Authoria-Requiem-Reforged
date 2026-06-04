@@ -211,7 +211,7 @@ Before diving into your playthrough, take a moment to configure the list to matc
 
 Controller support is fully integrated into Authoria — but all related mods are **disabled by default** so players can opt in manually. To enable controller support:
 
-1. Scroll to the **`Controller Support`** separator in MO2 (highlighted in blue).
+1. Scroll to the **`Controller Support`** separator in MO2.
 2. **Enable all the disabled mods in the seperator**:
 
   ![image](https://github.com/user-attachments/assets/c88e097c-b34c-415c-a39e-d00d28f15776)  
@@ -222,7 +222,7 @@ Controller support is fully integrated into Authoria — but all related mods ar
 
 Ultrawide is supported and integrated — but all related mods are **disabled by default** so players can opt in manually. To enable Ultrawide support:
 
-1. Scroll to the **`Widescreen 21x9`** separator in MO2 (highlighted in blue).
+1. Scroll to the **`Widescreen 21x9`** separator in MO2.
 2. **Enable all the disabled mods in the seperator**:
 
 - and that's it.
