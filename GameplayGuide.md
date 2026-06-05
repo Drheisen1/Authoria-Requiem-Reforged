@@ -113,9 +113,8 @@ Once you select your birthsign, you can only interchange it with the same group.
 3) [Frostfall](https://www.nexusmods.com/skyrimspecialedition/mods/671): you can tweak Cold rate from this mcm.
 4) [Smoothcam](https://www.nexusmods.com/skyrimspecialedition/mods/41252): you can select your prefered smoothcam preset in the Presets tab.
 5) [TK Dodge](https://www.nexusmods.com/skyrimspecialedition/mods/56956): to assign your dodge key, you can also disable the perk lock in the mcm.
-6) [Sunhelm Auto Eat and Drink](https://www.nexusmods.com/skyrimspecialedition/mods/66772): self-explanatory
-7) [At Your Own Pace - Thane](https://www.nexusmods.com/skyrimspecialedition/mods/52704): to decrease home prices.
-8) [Fast Travel Cost](https://www.nexusmods.com/skyrimspecialedition/mods/20200): to tweak fast travel cost.
+6) [At Your Own Pace - Thane](https://www.nexusmods.com/skyrimspecialedition/mods/52704): to decrease home prices.
+7) [Fast Travel Cost](https://www.nexusmods.com/skyrimspecialedition/mods/20200): to tweak fast travel cost.
 8) [Requiem] : can tweak damage dealt, and recieved from here, as well as toggle septim and/or quiver weight
 
 ## Notable SKSE-Menu-Framework to tweak:
