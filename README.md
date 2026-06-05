@@ -289,4 +289,4 @@ Whether you're here for the lore, the visuals, the chaos, or the adult content â
 
 If you enjoyed the list, consider joining the [Discord](https://discord.gg/8ZCa7w8BZQ), sharing your screenshots, and helping others in the community. Your feedback, bug reports, and kind words help keep this project alive and growing.
 
-May Order guide you, Destined One.
+Now, Go Play Authoria!
