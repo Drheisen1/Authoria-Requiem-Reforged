@@ -285,7 +285,7 @@ Thank you for respecting the work that went into Authoria - Requiem Reforged, an
 
 Thank you for taking the time to install and experience **Authoria - Requiem Reforged**. This project is a passion-driven labor of love built on the shoulders of an incredible modding community.
 
-Whether you're here for the lore, the visuals, the chaos, or the adult content — we truly appreciate you choosing ARR as your journey through Skyrim.
+Whether you're here for the lore, the visuals, or the chaos — we truly appreciate you choosing ARR as your journey through Skyrim.
 
 If you enjoyed the list, consider joining the [Discord](https://discord.gg/8ZCa7w8BZQ), sharing your screenshots, and helping others in the community. Your feedback, bug reports, and kind words help keep this project alive and growing.
 
