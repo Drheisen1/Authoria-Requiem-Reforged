@@ -1,3 +1,42 @@
+## Authoria - Requiem Reforged Version 1.5.1
+
+> not Save Safe
+> this will be the last update in a while.
+---
+
+# Added
+- [BGSWaterCollision - CrashFix](https://www.nexusmods.com/skyrimspecialedition/mods/181562)
+- [Milfactory - College fo Winterhold](https://www.nexusmods.com/skyrimspecialedition/mods/181846?tab=description)
+- [Nihility Series - Serana Visual Overhaul](https://www.nexusmods.com/skyrimspecialedition/mods/136381)
+---
+
+# Removed
+- [True Blood Serana](https://www.nexusmods.com/skyrimspecialedition/mods/103713)
+- the Brelyna, Nirya, mirabelle and faralda replacers.
+---
+
+# Updated
+- [Modern Wait Menu](https://www.nexusmods.com/skyrimspecialedition/mods/117661?tab=description)
+- mfgfix NG
+---
+
+# Fixed
+- Starting choices initializaing twice before exiting helgen cave.
+- Some more script optimizations
+- Modern wait menu on Ultra Wide
+- Argonian and Orc faces
+- removed song loop in intro video
+- fixed kaidan home landscape
+
+---
+# aTweaks
+
+> Custom tweaks that modify vanilla and/or requiem behavior.
+
+---
+</details>
+
+
 ## Authoria - Requiem Reforged Version 1.5
 
 > MAJOR UPDATE
