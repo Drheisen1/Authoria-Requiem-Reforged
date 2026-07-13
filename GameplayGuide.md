@@ -57,7 +57,7 @@ All the customizations **MUST be made on a new save file**!
 - 75% -> Recommended if playing ith >3 Followers.
 
 **Difficulty**:
-- To play on Easy Mode, Enable both [Requiem lite](https://www.nexusmods.com/skyrimspecialedition/mods/120272), and Authoria - Easy Mode Settings, this is VERY recommended if this is your first requiem playthrough. This will impact survival elements (slower), combat (deal more damage, take less damage), the economy, and stamina costs.
+- To play on Easy Mode, Enable both [Requiem lite](https://www.nexusmods.com/skyrimspecialedition/mods/120272), and Authoria - Easy Mode Settings, this is VERY recommended if this is your first requiem playthrough. This will impact survival elements (slower), combat (deal more damage, take less damage), the economy, and stamina costs, then pick  the easy mode option in gaem when prompted.
 - [Engaging Combat - Keep Combat Dynamic at Higher Levels](https://www.nexusmods.com/skyrimspecialedition/mods/132625?tab=description) -> can be enabled/disabled at any time during or before your playthrough, its is recommended to pair with the hard mode option in game for the whole experience. This will impact survival, elements, combat, economy, and stamina costs.
 
 </details>
