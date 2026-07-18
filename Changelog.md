@@ -1,4 +1,301 @@
+## Authoria - Requiem Reforged Version 2.0.0
+
+> not Save Safe
+> Mainly filling gaps that improve the list's vision.
+> Important : Vanilla leveling is default now, and is the intended way to play the list, Static Skill Leveling can be enabled in the optional mods section, it requires a new game to works.
+> Other than two big Surprises on the next update, The list has officially entered Maintenance mode, dont expect any big changes. QOL changes, bug reports, feedback, and fixes are welcome and planed, thanks to everyone for their support and feedback!
+> Huge thanks to day for his UBE converter tool <3
+---
+
+# Added
+- Third Person First Person Aiming (Optional, Enabled by Default, Can Be Disabled in MCM)
+- Bloodrush - Dark Folk Combat Music
+- Spider SE
+- Milfactory - Jenassa Visual Overhaul 
+- Locational Damage AE (SKSE Plugin)
+- Race Blood Test
+- Gunslicer x Gekou Female Locomotion CATA
+- Sacrilege (tweaked)
+- Manbeast (tweaked)
+* Stances NG
+  * Bear Stance : Mainly For Honor Animations
+  * Hawk Stance : Mainly Elden rim
+  * Wolf Stance : Multiple sources
+  * some first person coverage for variations that are avaialble on nexus
+- Werewolf Transformation Timer - SkyUI Addon
+- Fuzz's Legally Intelligible Core Kit
+- Racemenu Enhancer
+- ShowRaceMenu - NG
+- Selling of Stacks or Singles
+- Why i came to skyrim
+- Smooth Moveset (Tweaked)
+- Through the Woods - Alternate Perspective Addon
+- Requiem - Jail Duration Fix
+* Wounds - Simplified
+  * this now controls all wounds mechanics, no custom tweaks, note : wound healers have been removed.
+* Highly Improved Male Body Overhaul -HIMBO-
+  * Slight seam from dirt and blood around the wrist on men, this will be fixed later
+- HIMBO V3 Bodyhair Overlays for Racemenu
+- Milfactory - Aranea Ienith
+- Honed Metal -NPC Crafting and Enchanting Services-
+- Drunk or drugged animations OAR
+* Some love for the Beast Races
+  * HDT SMP Fluffy Beast Race Tail Replacer Tweaks
+  * Dynamic Fur Morph (Tweaked)
+  * Fluffy Khajiit 3
+    * we tried to cover as much armors covering the fur as possible, if there are issues with it, report it in the discord.
+    * The nevernude underwear clips with the fur, this will not be fixed.
+  * Fluffy Half-Khajiit 3
+  * Enhanced Khajiit CBBE
+    * footprints are not digi feet like, this will likely not be fixed.
+  * Fluffy Enhanced Khajiit
+  * Beast Race Body paints SE
+  * K.C.C.E Khajiit Character Creation Extended
+  * Argonian Creation Extended
+  * Argonian Crests
+  * Aquatic Elegance - Argonian Koi Whiskers HDT-SMP
+  * FK's Diverse Racial Skeletons - Fem Argonian Edit
+  * Fluffy M'Rissi!
+  * Serval Khajiit RaceMenu Overlays
+  * Katie's Enhanced Khajiit Preset Pack
+  * Better Khajiit Male Fluffy Khajiit 3 Texture
+  * Camp Khajiit Patterns
+  * Khajiit-yllux Overlays - CBBE 3BA
+  * A lot of beast themed armors
+  * ECE Sliders Addon for Racemenu
+    * this will only work for OhmesRaht
+  * Beasts HHBB
+  > please share your cool presets!
+
+* New Gear:
+  * Obi - Traveler's Romper Outfit 3BA
+  * Arcane Mage Armor 3BA (Standalone)
+  * DDV - Hal's casual outfit
+  * Gilded Doublet - Ported to SSE
+  * Moon Monk's Robes
+  * VickusDickus' Khajiiti Apex Armory Reforged
+  * Stormhold Warrior Armor SSE - Port Plus
+  * Ancient Argonian Armor
+  * Midnight Mistress Armor Mashup - SMP 3BA
+  * Shanoa Armor
+  * Obi's Cimmerian 3BA
+  * Obi's Abyss Armor 3BA BHUNP UBE 4K
+  * Asura's Guard
+  * Khajiit Armory Rebalance and Intergration
+  * Tumbajamba's Snow Elven Arsenal
+  * Gryphonknight Regalia - Breton Noble Armor (Unique, Non-Craftable, Endgame)
+  * Obi's Hedge Knight Armor SMP -> replaces starting iron armor.
+  * Blood Horker Pirate
+
+- Pick Up Radius SKSE
+- Skeiro Combat S
+- Knockback SKSE
+
+* OSTIM Profile (Completely optional)
+  * Schlongs of Skyrim NG (Custom, DLL Updated to AE with latest commonlib)
+  * Ostim Standalone
+  * Dylbills Papyrus Functions
+  * Petite to Plenty - A CBPC Config for Realistic Collisions and Physics
+  * Mu Skeleton Editor
+  * Bone Limit Extender
+  * Ostim Standalone Sound Overhaul
+  * Ostim SA-Sound Replacer -Blowjob
+  * Billyy's animations for Ostim Standalone
+  * Lovemaking Compendium for OStim Standalone
+  * Wall Bang - An Ostim Animation
+  * Sole Purpose for OStim Standalone
+  * Anub's animations for Ostim Standalone
+  * Nibbles' animations for Ostim Standalone
+  * Leito's animations for Ostim Standalone
+  * Stage Flow for OStim Standalone -> disabled by default (in mcm), i found it bugs out expression on the last stage.
+  * PPA - Procedural Penis Animations
+  * OCum Ascended - Cum and Orgasm Mechanics for OStim
+  * OISeeYouMasturbating
+  * OStim NPCs - NPC Sex Lives Improved
+  * Ostim Resolutions (Solutions 2.0) Standalone - Alot of dialogue and shortcuts has been disabled.
+  * Amorous Adventures - Some are Disabled by Default, you can re-enable/disable them in the mcm.
+  * OComfort - OStim Lovers Comfort
+  * OStim NPCs - NPC Sex Lives Improved
+  * Patches for followers.
+
+- Ultimate Body Enhancer
+- Serana Cured Eyes Removal NG
+- Serana Multiform NG
+- UBE Serana - NPC Replacer
+- Milfactory - Ladies of the Plots - Delphine - Rikke - Elenwen Replacer
+- UBE Lydia - NPC Replacer
+
+- Auto Follower Stuck Sneaking Fix SKSE
+- Nordic Stonewalls
+- TISC - True Individual Shout Cooldown
+- Lucien Creation Club Patches
+- Flying Crows SSE
+- Additional Traits for Biggie Traits and Requiem add on
+- Skyrim Realistic Conquering AIO
+- Frostwalker
+- Everybody Hates Nazeem
+- Extended Hireling Dialogue Berland
+- It came from akavir
+
+* New Followers
+  * Ashe - Crystal Heart
+  * Heart of Ice - Astrid. Custom Voiced Follower
+  * Val Serano is Back.
+
+* New starts
+  * Adventurer's Start - An Alternate Perspective Addon
+
+* New Lands and Quests:
+  * The Gray Cowl of Nocturnal - 10th anniversary (no seasons)
+  * The Tools of Kagrenac
+  * Beyond Skyrim: Bruma ( nur für dich, bruder ;) )
+  * Moonpath to Elsewyr (No Seasons)
+
+
+* *Devotion, authored by whispa <3*
+  * Documentation : https://www.nexusmods.com/skyrimspecialedition/mods/185531?tab=articles
+  * Nexus Page: https://www.nexusmods.com/skyrimspecialedition/mods/185531?tab=description
+  endoooooooooooooooooooooooooooooooooooooorse!!!!
+
+- Decrease drop of high tier potions and filled soul gems
+
+- Ash Nomad - A Dunmer Bedroll and Tent Replacer - BOS Distribution and Campfire Addon
+- Blood on the Ice Redux SE
+- Manual Crossbow Reloading
+- Modding My Business (M.M.B) - Ivy Random Patch Collection
+---
+
+# Removed
+- Papyrus Missing property and Missing script patches - Not Needed anymore.
+- GLAM Jenassa and Irileth
+- The Tinraa Body
+- Jellyfish FP Dagger animation
+- Racemenu Rotation
+- Elden Parry
+- Vanguard - Bash Behaviours Updated
+- CC Gray Cowl
+- CC Sunder and Wraithguard
+- Skybound
+- Snowpoint
+- Embershard
+- White Riber Watch
+---
+
+# Updated
+- [Modern Wait Menu](https://www.nexusmods.com/skyrimspecialedition/mods/117661?tab=description)
+- mfgfix NG
+- The Frozen Heart - Quest Mod
+- DD - Sigrin Silver Fox armor by Vergi CBBE 3BA SMP
+- Disable Turn Animation NG
+- Skypatcher
+- Keyword Item Distributor
+- Faster HDT-SMP
+- True Directional Movement.
+- Dyndolod
+- Paarthurnax - Quest Expansion
+- Legacy of the Dragonborn SSE
+- Legacy of the Dragonborn Patches (Official)
+- SIRENROOT - Deluge of Deceit
+- Lucien
+- Aetherium Forge Destroys Items
+- Show Player in Inventory
+- Serana Dialogue Addon
+---
+
+# Fixed
+- Skjor Hands
+- Frostfall widgets not disappearing in HUD.
+- Orcish armor having stormcloak model.
+- Experimental fix for show player in inventory switch POVs
+- Milk jug missing texture in drinking animation
+- Dirt and blood using regular anims instead of malignis
+- Tweaked subsurface scattering and Shadow Quality
+- Fix CID skipping distributions
+- Fixed crafting Categories.
+- Removed some over the top thicc Obody presets
+- Fixed SMP Hair going static when equipping helmets
+- Troll dropping horse meat
+- Fixed infinite load screen after being jailed.
+- Bow bashing before unlocking Quickshot.
+---
+# aTweaks
+> Custom tweaks that modify vanilla and/or requiem behavior.
+
+- Wolf Targeting now focuses the Head instead of legs.
+- Sacrilege is deleveled and rebalanced to match requiem values
+- Manbeast is deleveled and rebalanced to match requiem values
+
+* Custom made form scratch (based on adamant) Hand to Hand skill tree.
+ * unarmed is leveled up through hitting enemies while unarmed (vanilla leveling), regardless if you have static skill enabled or not.
+
+* Reintegrated LOTD weapon rewards elsewhere, can be found by exploration.
+  * Thornblade -> found on Halldir
+  * Crimson Tide -> found on Movarth
+  * Gravedigger -> found on Lu'ah Al-Skaven
+  * Trident of the Cairn -> found on Arondil
+  * Eleidon's Ward -> found on Vahlok the Jailor
+  * Razak's Tuner -> found on Sulla Trebatius
+
+- Eating animation, Description fix, and an icon for torn flesh.
+- Tweaked some item weights and smleting/recipe yields.
+
+* Made falling over from drinking alcohol more forgiving.
+  * it takes 5 moderate drinks at least to count towards being drunk
+  * it takes 3 strong drinks at least to count towards being drunk
+  * it takes 2 Extreme drinks at least to count towards being drunk
+  * Added the grade of each drink next to it's name for easier identification
+  * on top of all this, current base health and a chance will be taken into account
+
+* Become a Bard + Bards Reborn + SgT Tweaks:
+  * You are now able to play an instrument by selecting it in the inventory (the generic power has been removed)
+  * Leveling up speech has been integrated into playing an instrument
+  * Some followers will react to you playing an instrument
+  * you can now move while playing an instrument
+  * You can select the song to play when you reach Skyrim Got Talent's max level
+  * SgT buffs and debuffs have been removed, use bard reborn's spellbooks
+  * Hotkey added to play an instrument without opening the inventory
+  * Gameplay loop should be as follows:
+    * you start as a low level bard
+    * you practice instruments by using them
+    * you can independantly learn spells using bard reborn's spellbooks, activating the instrument shows a menu of songs you learned (bypasses skill check)
+    * at max level -> you can pick what song to play through become a bard's menu
+  * you only need higher than 26 level in any instrument to pass the college performance tests.
+  * song book recipes are unlocked after reaching the skill level 50 on the corresponding instrument it teaches
+  * spell song recipes are unlock at skill level 86 of any instrument
+  * spyquest starts at mastery level 50 on any instrument
+
+* UBE Tweaks:
+  * Halfkhajiit Male, UBE Male, and Humanoid Female Vanilla races are disabled, meaning you cant pick them in racemenu.
+  * Tweaked OBODY preset selection to filter by race, so UBE races will only get UBE Bodies.
+  * Racemenu addons and headparts will only appear if the body is supported.
+* UBE lacks "realistic/grounded" presets, please share your presets on the bordello discord!
+
+* Sekiro Combat S tweaks:
+  * timed blocking is gated behind experienced blocking perk in the block perk tree.
+  * this will gain more modification in the future
+
+* wigs can be found in containers in the starting room, they will be distributed to certain/new merchants in the future (some are race specific).
+
+* Basic wenches have Basic sex dialogue in ostim profile.
+
+* Requiem Green Pact Tweaks:
+  * Eating plant based food does not grant benefits and clears current food benefits.
+  * the power to follow/reject the green pact does nothing and has been removed.
+
+* Honed Metal Tweaks:
+  * Increased Price, Locked Enchanting behind "Merchant" Speech Perk, Locked Rechrging behind "Haggling" Speech Perk.
+
+* I Highly recommend switching "bScrollingDoesntSwitchPOV" to true in EngineFixes.toml if you are playing with a bow and Using Third Person First Person Aiming.
+* Skyrim souls pauses menus during combat now, i highly recommend leaving it enabled!
+* UBE lacks "realistic/grounded" racemenu and bodyslide presets, please share your presets on the bordello discord!
+* NOTE: High poly head patcher is removed, make sure to pick the headpart you prefer in racemenu.
+* NOTE: UBE armors were converted using day's auto converter, it's a great tool that has it's limitations, armors will slowly be fixed manually.
+---
+
 ## Authoria - Requiem Reforged Version 1.5.1
+
+<details>
+<summary><strong>Show / Hide full changelog</strong></summary>
 
 > not Save Safe
 > this will be the last update in a while.
@@ -38,6 +335,9 @@
 
 
 ## Authoria - Requiem Reforged Version 1.5
+
+<details>
+<summary><strong>Show / Hide full changelog</strong></summary>
 
 > MAJOR UPDATE
 ---
