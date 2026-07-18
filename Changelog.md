@@ -13,7 +13,6 @@
 - Spider SE
 - Milfactory - Jenassa Visual Overhaul 
 - Locational Damage AE (SKSE Plugin)
-- Race Blood Test
 - Gunslicer x Gekou Female Locomotion CATA
 - Sacrilege (tweaked)
 - Manbeast (tweaked)
