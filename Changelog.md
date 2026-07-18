@@ -156,8 +156,6 @@
   * Nexus Page: https://www.nexusmods.com/skyrimspecialedition/mods/185531?tab=description
   endoooooooooooooooooooooooooooooooooooooorse!!!!
 
-- Decrease drop of high tier potions and filled soul gems
-
 - Ash Nomad - A Dunmer Bedroll and Tent Replacer - BOS Distribution and Campfire Addon
 - Blood on the Ice Redux SE
 - Manual Crossbow Reloading
@@ -283,6 +281,8 @@
 
 * Honed Metal Tweaks:
   * Increased Price, Locked Enchanting behind "Merchant" Speech Perk, Locked Rechrging behind "Haggling" Speech Perk.
+ 
+* Decrease drop of high tier potions and filled soul gems
 
 * I Highly recommend switching "bScrollingDoesntSwitchPOV" to true in EngineFixes.toml if you are playing with a bow and Using Third Person First Person Aiming.
 * Skyrim souls pauses menus during combat now, i highly recommend leaving it enabled!
