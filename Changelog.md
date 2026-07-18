@@ -1,4 +1,4 @@
-## Authoria - Requiem Reforged Version 2.0.0
+## Authoria - Requiem Reforged Version 2.1.0
 
 > not Save Safe
 > Mainly filling gaps that improve the list's vision.
