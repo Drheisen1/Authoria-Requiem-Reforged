@@ -212,7 +212,7 @@
 - Removed some over the top thicc Obody presets
 - Fixed SMP Hair going static when equipping helmets
 - Troll dropping horse meat
-- Fixed infinite load screen after being jailed.
+- Fixed infinite (kinda) load screen after being jailed.
 - Bow bashing before unlocking Quickshot.
 ---
 # aTweaks
