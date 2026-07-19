@@ -7,13 +7,16 @@ This guide is your comprehensive companion to the **Authoria - Requiem Reforged*
 ---
 
 ## Before you begin
-Mods customization:
-Scroll on the left panel of mo2, you will find a Customization separator followed by things you can customize in the modlist:
+Profile Selection: Select your preferred profile from the dropdown menu.
+
+<img width="738" height="123" alt="image" src="https://github.com/user-attachments/assets/911c94c4-1e84-449f-b745-73d7b4c1261f" />
+
+
+Customization:
+On the left panel of mo2, you will find a Customization separator followed by things you can customize in the modlist. All customizations **MUST be made on a new save file**!
 
 <img width="1041" height="423" alt="image" src="https://github.com/user-attachments/assets/8c8adb60-2a4a-4f76-9843-c96be1680dd1" />
 
-
-All the customizations **MUST be made on a new save file**!
 
 <details>
 <summary><strong>Details on Each Seperator</strong></summary>
@@ -57,7 +60,7 @@ All the customizations **MUST be made on a new save file**!
 
 Changing anything in the customization tab (except the difficulty separator) is considered **NOT save safe**.
 
-Once you're done, make sure **Authoria - Requiem Reforged** is seleted in the drop down in mo2 and run the game.
+Once you're done, make sure **Authoria - Requiem Reforged** is selected in the top right dropdown in mo2 and run the game.
 
 ---
 
