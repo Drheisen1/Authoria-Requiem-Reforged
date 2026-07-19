@@ -94,10 +94,9 @@ Flow order:
 ---
 
 ## Religion
-Authoria uses Archon as it's Religion Framework 
-https://www.nexusmods.com/skyrimspecialedition/mods/160141?tab=description
+Authoria uses Devotion as it's Religion Framework 
 
-It's recommended to plan what deity you want before starting your playthrough and sticking with it.
+https://www.nexusmods.com/skyrimspecialedition/mods/185531
 
 ---
 
