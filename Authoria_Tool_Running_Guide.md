@@ -195,7 +195,11 @@ DLC2SolstheimWorld|
 PalePass|
 zCOBruiantWorld
 zAoMWitchWorld|
+zAoMVigilantWorld|
 WyrmstoothWorld|
+AXGodsforsakenRockWorld|
+AXOffshoreIslandWorld|
+BSHeartland|
 ```
 
 - Run xLODGen again, and select the worldspaces that are in `seasonsofskyrim.ini`, then from the **Seasons** dropdown select everything **except Default**, and press **Generate**.  
