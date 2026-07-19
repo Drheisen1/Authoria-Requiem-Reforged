@@ -88,13 +88,19 @@ After selecting your race, you will be prompted with messages that will run you 
 > During this time, you will **not** be able to move, Please don't spam your keyboard.
 
 Flow order:
-1. Welcome and proceed message
-2. **[Starting Choices](https://www.nexusmods.com/skyrimspecialedition/mods/62901)** Pick your starting gear
-3. **[Biggie Traits](https://www.nexusmods.com/skyrimspecialedition/mods/136384)** Pick your traits
-4. **[SkySigns](https://www.nexusmods.com/skyrimspecialedition/mods/147884)** Pick your birthsign
-5. **[Devotion](https://www.nexusmods.com/skyrimspecialedition/mods/185531)** Each race will have a different start-up choice
-6. **Difficulty selection** If using Easy or Hard, ensure you have selected this under customization before starting your new character  
-7. Final message appears → movement enabled  
+1. First welcome message
+2. **[Starting Choices](https://www.nexusmods.com/skyrimspecialedition/mods/62901)** runs 
+3. **[Biggie Traits](https://www.nexusmods.com/skyrimspecialedition/mods/136384)** runs (pick your traits)  
+4. **[SkySigns](https://www.nexusmods.com/skyrimspecialedition/mods/147884)** runs  (pick your birthsign)
+5. Difficulty selection  
+6. Final message appears → movement enabled 
+
+---
+
+## Religion
+Authoria uses Devotion as it's Religion Framework 
+
+https://www.nexusmods.com/skyrimspecialedition/mods/185531
 
 ---
 
