@@ -13,13 +13,13 @@
 
 ## Introduction
 
-Authoria - Requiem Reforged is a SFW Skyrim modlist built around Requiem, with full Seasons integration including Unfrozen. Centered around nature, freedom, and the ever-changing balance of the world, Authoria - Requiem Reforged delivers a visually rich and mechanically demanding experience where survival and indulgence coexist. With sweeping landscape and city overhauls, seasonal world balancing, and a carefully curated selection of content and gameplay expansions, the list transforms Skyrim into a living, breathing wilderness—beautiful in summer, brutal in winter, and unforgiving to the unprepared.
+Authoria - Requiem Reforged is mainly a SFW Skyrim modlist (with an optional NSFW profile) built around Requiem, with full Seasons integration including Unfrozen. Centered around nature, freedom, and the ever-changing balance of the world, Authoria - Requiem Reforged delivers a visually rich and mechanically demanding experience where survival and indulgence coexist. With sweeping landscape and city overhauls, seasonal world balancing, and a carefully curated selection of content and gameplay expansions, the list transforms Skyrim into a living, breathing wilderness—beautiful in summer, brutal in winter, and unforgiving to the unprepared.
 
 ## Features
   
 - **Quest Mods:**  
   Authoria - Requiem Reforged includes a massive lineup of lore-rich, fully patched quests that expand Skyrim’s world with new factions, dungeons, and narratives. Major entries include:  
-  Legacy of the Dragonborn, DAc0da, Vigilant, Glenmoril, Unslaad, The Forgotten City, Wyrmstooth, Sirenroot, Olenveld, Ascend — and many more.
+  Legacy of the Dragonborn, Beyond Skyrim - Bruma, Tools of Kagrenac, Gray Cowl of Nocturnal, DAc0da, Vigilant, Glenmoril, Unslaad, The Forgotten City, Wyrmstooth, Sirenroot, Olenveld, Ascend — and many more.
 
 - **Combat:**  
   Features For Honor, full MCO integration, and a suite of enemy balance and difficulty tweaks. The combat system supports a challenging but fair experience where any playstyle is viable and well balanced—battlemage, stealth archer, heavy melee, dual wield, and more. 
@@ -98,7 +98,7 @@ Authoria - Requiem Reforged is a SFW Skyrim modlist built around Requiem, with f
 | **Storage**   | Internal SATA SSD                                       | NVMe M.2 SSD                                         |
 | **GPU**       | NVIDIA RTX 3000 series / AMD RX 6000 series             | NVIDIA RTX 4000 series / AMD RX 7000 XT              |
 | **VRAM**      | <16GB                                                   | 16GB                                                 |
-| **Disk Space**| ~202GB Download / ~345GB Installed / ~547GB Total       | ~202GB Download / ~345GB Installed / ~547GB Total    |
+| **Disk Space**| ~202GB Download / ~345GB Installed / ~700GB Total       | ~202GB Download / ~345GB Installed / ~700GB Total    |
 
 Before continuing, make sure these system components are installed — they are required for Wabbajack and Skyrim to function correctly:
 
