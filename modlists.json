@@ -14,9 +14,10 @@
       "Survival",
       "Legacy of the Dragonborn",
       "New Quests",
-      "SFW"
+      "SFW",
+      "NSFW"
     ],
-    "nsfw": false,
+    "nsfw": true,
     "utility_list": false,
     "image_contains_title": false,
     "DisplayVersionOnlyInInstallerView": false,
@@ -24,19 +25,19 @@
     "links": {
       "image": "https://raw.githubusercontent.com/Drheisen1/Authoria-Requiem-Reforged/main/Resources/wabbaimage_new.png",
       "readme": "https://github.com/Drheisen1/Authoria-Requiem-Reforged/blob/main/README.md",
-      "download": "https://authored-files.wabbajack.org/Authoria%20-%20Requiem%20Reforged.wabbajack_025e191a-f4af-42cc-9fb4-50ef256ba58d",
+      "download": "https://authored-files.wabbajack.org/Authoria - Requiem Reforged.wabbajack_025e191a-f4af-42cc-9fb4-50ef256ba58d",
       "machineURL": "AuthoriaRequiemReforged",
       "discordURL": "https://discord.gg/themoddingbordello",
       "websiteURL": "https://www.nexusmods.com/skyrimspecialedition/mods/170235"
     },
     "download_metadata": {
-      "Hash": "KAT7rMlQ1Pw=",
-      "Size": 2407647513,
-      "NumberOfArchives": 3236,
-      "SizeOfArchives": 229121273038,
-      "NumberOfInstalledFiles": 542394,
-      "SizeOfInstalledFiles": 413890697673,
-      "TotalSize": 643011970711
+      "Hash": "80PHv+XSgNc=",
+      "Size": 2032050054,
+      "NumberOfArchives": 3756,
+      "SizeOfArchives": 278416690811,
+      "NumberOfInstalledFiles": 707113,
+      "SizeOfInstalledFiles": 535410289808,
+      "TotalSize": 813826980619
     },
     "version": "1.5",
     "dateCreated": "1970-01-01T00:00:00Z",
