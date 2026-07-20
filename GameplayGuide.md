@@ -6,21 +6,17 @@ This guide is your comprehensive companion to the **Authoria - Requiem Reforged*
 - Extra controller keybinds for combo inputs and wheeler menu can be viewed in the Complete Controller Setup MCM Menu.
 ---
 
-## Gameplay
-Authoria - Requiem Reforged uses **Requiem** as its core gameplay overhaul.
-
-If you are new to Requiem, watch this video first:  
-https://www.youtube.com/watch?v=fG7D8meR0cY
-
----
-
 ## Before you begin
-Mods customization:
-Scroll on the left panel of mo2, you will find a Customization separator followed by things you can customize in the modlist:
+Profile Selection: Select your preferred profile from the dropdown menu.
 
-![Customization Panel](https://raw.githubusercontent.com/Drheisen1/Authoria-Requiem-Reforged/main/Resources/Authoria_Seperators.png)
+<img width="738" height="123" alt="image" src="https://github.com/user-attachments/assets/911c94c4-1e84-449f-b745-73d7b4c1261f" />
 
-All the customizations **MUST be made on a new save file**!
+
+Customization:
+On the left panel of mo2, you will find a Customization separator followed by things you can customize in the modlist. All customizations **MUST be made on a new save file**!
+
+<img width="1041" height="423" alt="image" src="https://github.com/user-attachments/assets/8c8adb60-2a4a-4f76-9843-c96be1680dd1" />
+
 
 <details>
 <summary><strong>Details on Each Seperator</strong></summary>
@@ -47,8 +43,8 @@ All the customizations **MUST be made on a new save file**!
 **Reshade**:
 - Enable everything in this seperator if you want to use Reshade.
 
-**Vanilla Skill Leveling**:
-- Enable the mod inside this seperator to use vanilla Skill leveling instead of static skill leveling.
+**Static Leveling**:
+- Vanilla skill levelling is on by default. Enable the mod inside this seperator to use static skill leveling instead of vanilla skill leveling.
 
 **Weaker Followers**:
 - Nerfs the damage output from followers, recommended if you plan to play with multiple modded followers.
@@ -62,9 +58,17 @@ All the customizations **MUST be made on a new save file**!
 
 </details>
 
-Changing anything in the customization tab (except the difficulty seperator) is considered **NOT save safe**.
+Changing anything in the customization tab (except the difficulty separator) is considered **NOT save safe**.
 
-Once you're done,make sure **Authoria - Requiem Reforged** is seleted in the drop down in mo2 and run the game.
+Once you're done, make sure **Authoria - Requiem Reforged** is selected in the top right dropdown in mo2 and run the game.
+
+---
+
+## Gameplay
+Authoria - Requiem Reforged uses **Requiem** as its core gameplay overhaul.
+
+If you are new to Requiem, watch this video first:  
+https://www.youtube.com/watch?v=fG7D8meR0cY
 
 ---
 
@@ -89,7 +93,7 @@ Flow order:
 3. **[Biggie Traits](https://www.nexusmods.com/skyrimspecialedition/mods/136384)** runs (pick your traits)  
 4. **[SkySigns](https://www.nexusmods.com/skyrimspecialedition/mods/147884)** runs  (pick your birthsign)
 5. Difficulty selection  
-6. Final message appears → movement enabled  
+6. Final message appears → movement enabled 
 
 ---
 
