@@ -79,7 +79,7 @@ https://www.youtube.com/watch?v=fG7D8meR0cY
 
 ### Race Selection
 In addition to Requiem, Authoria uses **Requiem - Races Redone**. Please check its details on its [Nexus page](https://www.nexusmods.com/skyrimspecialedition/articles/6669)    
-
+- If you are playing an Ohmes Raht (Half Khajiit), make sure to change **Face Part** in the customization menu to High Poly Head.
 ---
 
 ### Initialization (Starting Room Flow)
@@ -92,14 +92,15 @@ Flow order:
 2. **[Starting Choices](https://www.nexusmods.com/skyrimspecialedition/mods/62901)** runs 
 3. **[Biggie Traits](https://www.nexusmods.com/skyrimspecialedition/mods/136384)** runs (pick your traits)  
 4. **[SkySigns](https://www.nexusmods.com/skyrimspecialedition/mods/147884)** runs  (pick your birthsign)
-5. Difficulty selection  
-6. Final message appears → movement enabled 
+5. Difficulty selection
+6. **[Devotion](https://www.nexusmods.com/skyrimspecialedition/mods/185531)** runs  (Each race is custom, please read mod articles for more guidance)
+7. Final message appears → movement enabled
+8. **Ostim profile only:** Open the MCM menu, Go into MCM Recorder, click on "Authoria_Ostim" and exit back to the game, then press on "Run Recording". A message will pop up, then you're ready to play.
 
 ---
 
 ## Religion
 Authoria uses Devotion as it's Religion Framework 
-
 https://www.nexusmods.com/skyrimspecialedition/mods/185531
 
 ---
@@ -118,7 +119,12 @@ Once you select your birthsign, you can only interchange it with the same group.
 5) [TK Dodge](https://www.nexusmods.com/skyrimspecialedition/mods/56956): to assign your dodge key, you can also disable the perk lock in the mcm.
 6) [At Your Own Pace - Thane](https://www.nexusmods.com/skyrimspecialedition/mods/52704): to decrease home prices.
 7) [Fast Travel Cost](https://www.nexusmods.com/skyrimspecialedition/mods/20200): to tweak fast travel cost.
-8) [Requiem] : can tweak damage dealt, and recieved from here, as well as toggle septim and/or quiver weight
+8) [Requiem] : can tweak damage dealt, and recieved from here, as well as toggle septim and/or quiver weight.
+
+**Ostim Only**
+1) Stage Flow for OStim Standalone -> disabled by default (in mcm), i found it bugs out expression on the last stage.
+2) Ostim Resolutions (Solutions 2.0) Standalone - Alot of dialogue and shortcuts has been disabled.
+3) Amorous Adventures - Some are Disabled by Default, you can re-enable/disable them in the mcm.
 
 ## Notable SKSE-Menu-Framework to tweak:
 1) [Simple Power Attack](https://www.nexusmods.com/skyrimspecialedition/mods/175093): to assign your power attack key
@@ -130,17 +136,25 @@ Once you select your birthsign, you can only interchange it with the same group.
 Combat has been completely overhauled with:
 - MCO
 - TK Dodge
-- Elden Parry
+- Sekiro Combat S
+- Stances NG
 
-Notes:
-- To unlock dodging you need the corresponding perks in the Evasion or Heavy Armor perk tree (does not apply to easy mode).
+<details>
+<summary><strong>Tweaked Combat</strong></summary>
+**Unarmed:** Custom made form scratch (based on adamant) Hand to Hand skill tree.
+ * Unarmed is leveled up through hitting enemies while unarmed (vanilla leveling), regardless if you have static skill enabled or not.
+**Sekiro Combat S tweaks:**
+* timed blocking is gated behind experienced blocking perk in the block perk tree.
+* this will gain more modification in the future
+
+</details>
 
 ---
 
 ## OBody and Character Appearance
 - Once you have completed character setup, press **O** (the key under backspace) and select a preset of your choice from the menu that appears.
   - You may change presets as much as you like.
-  - If your clothing/armor fails to resize correctly, re-equipping it should solve it.
+  - If your clothing/armor fails to resize correctly, re-equipping should solve it.
 
 - You can change body shapes for NPCs in the same way:
   - Target them at close range and press **O**
@@ -148,22 +162,25 @@ Notes:
 
 ---
 
-## Leveling and Experience System
-Vanilla leveling has been **replaced** with:
-- **[Experience](https://www.nexusmods.com/skyrimspecialedition/mods/17751)** (XP gained from exploration, combat, and quests)
-- **[Static Skill Leveling](https://www.nexusmods.com/skyrimspecialedition/mods/89940)** (skill points spent manually at level-up)
+## Leveling and Perks
+Vanilla leveling has been **enhanced** with:
+- **[Experience](https://www.nexusmods.com/skyrimspecialedition/mods/17751)**: EXP gained from exploration, combat, and quests, but not from skills
 
-Optional:
-- You can enable **"Authoria - Enable Vanilla Skill Levening"** in MO2 to disable static skill leveling  
-  - No extra steps needed  
-  - Requires a new save  
+
+**Perks**
+* Honed Metal Tweaks:
+  * Increased Price, Locked Enchanting behind "Merchant" Speech Perk, Locked Rechrging behind "Haggling" Speech Perk.
+* Unarmed:
+  * Custom made from scratch (based on adamant) Hand to Hand skill tree.
+  * Unarmed is leveled up through hitting enemies while unarmed (vanilla leveling), regardless if you have static skill enabled or not.
+* To unlock dodging you need the corresponding perks in the Evasion or Heavy Armor perk tree (does not apply to easy mode).
 
 ---
 
 ## Questing
-This list includes expansions of many vanilla quests as well as quite a few new ones.
+This list includes vanilla quest expansions as well as quite a few new ones.
 
-Most of these can be explored simply by encountering them through normal gameplay, or you can check the quest list in **Mod Organizer** to see if there's something you want to make a point of seeking out.
+Most of these can be explored simply by encountering them through normal gameplay, or you can check the [Modlist Grimoire here](https://modlistgrimoire.com/modlists/authoria-requiem-reforged)
 
 ### General Advice
 - Many new quests will activate organically during exploration.
