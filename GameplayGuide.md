@@ -141,11 +141,13 @@ Combat has been completely overhauled with:
 
 <details>
 <summary><strong>Tweaked Combat</strong></summary>
-**Unarmed:** Custom made form scratch (based on adamant) Hand to Hand skill tree.
- * Unarmed is leveled up through hitting enemies while unarmed (vanilla leveling), regardless if you have static skill enabled or not.
-**Sekiro Combat S tweaks:**
-* timed blocking is gated behind experienced blocking perk in the block perk tree.
-* this will gain more modification in the future
+  
+- Unarmed: Custom made form scratch (based on adamant) Hand to Hand skill tree.
+    - Unarmed is leveled up through hitting enemies while unarmed (vanilla leveling), regardless if you have static skill enabled or not.
+- Sekiro Combat S tweaks:
+  - timed blocking is gated behind experienced blocking perk in the block perk tree.
+  - this will gain more modification in the future
+- Stances are rotated through the X button.
 
 </details>
 
@@ -168,6 +170,7 @@ Vanilla leveling has been **enhanced** with:
 
 
 **Perks**
+
 * Honed Metal Tweaks:
   * Increased Price, Locked Enchanting behind "Merchant" Speech Perk, Locked Rechrging behind "Haggling" Speech Perk.
 * Unarmed:
