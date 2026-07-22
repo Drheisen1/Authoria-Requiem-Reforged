@@ -25,21 +25,21 @@
     "links": {
       "image": "https://raw.githubusercontent.com/Drheisen1/Authoria-Requiem-Reforged/main/Resources/wabbaimage_new.png",
       "readme": "https://github.com/Drheisen1/Authoria-Requiem-Reforged/blob/main/README.md",
-      "download": "https://authored-files.wabbajack.org/Authoria - Requiem Reforged.wabbajack_64479709-f526-4213-acd4-7de6d8c551e7",
+      "download": "https://authored-files.wabbajack.org/Authoria - Requiem Reforged.wabbajack_4dbde717-0fe4-4fcf-9f6b-e84203c7e7cf",
       "machineURL": "AuthoriaRequiemReforged",
       "discordURL": "https://discord.gg/themoddingbordello",
       "websiteURL": "https://www.nexusmods.com/skyrimspecialedition/mods/170235"
     },
     "download_metadata": {
-      "Hash": "80PHv+XSgNc=",
-      "Size": 2032050054,
-      "NumberOfArchives": 3756,
-      "SizeOfArchives": 278416690811,
-      "NumberOfInstalledFiles": 707113,
-      "SizeOfInstalledFiles": 535410289808,
-      "TotalSize": 813826980619
+      "Hash": "4+CoBY9JtT0=",
+      "Size": 2097768894,
+      "NumberOfArchives": 3764,
+      "SizeOfArchives": 280804869648,
+      "NumberOfInstalledFiles": 721719,
+      "SizeOfInstalledFiles": 541009992955,
+      "TotalSize": 821814862603
     },
-    "version": "2.1",
+    "version": "2.1.1",
     "dateCreated": "1970-01-01T00:00:00Z",
     "dateUpdated": "2025-08-31T19:21:26.8815607Z",
     "repositoryName": "Authoria-Requiem-Reforged"
