@@ -274,6 +274,20 @@ Thank you for respecting the work that went into Authoria - Requiem Reforged, an
 
 ##  Screenshots 
 
+<details>
+<summary>Click to expand</summary>
+
+![Whiterun Marketplace](https://i.postimg.cc/zG72GzXw/Whiterun-Marketplace.webp)
+![Whiterun Winter](https://i.postimg.cc/RC8BvTbJ/Whiterun-Winter.webp)
+![Riverwood Exterior](https://i.postimg.cc/bv8PKNFX/Riverwood-Exterior.webp)
+![Riverwood Origin](https://i.postimg.cc/Ss1p2LSP/Riverwood-Origin.webp)
+![Horizon](https://i.postimg.cc/Wpf2hVtF/Horizon.webp)
+![Night Cozy](https://i.postimg.cc/bw18C2gh/Night-Cozy.webp)
+![Ark BFB](https://i.postimg.cc/288ZfrMz/Ark-BFB.webp)
+![Ark Combat](https://i.postimg.cc/02WJkh13/Ark-Combat.webp)
+
+</details>
+
 ##  Links
 
 - [Wabbajack](https://www.wabbajack.org/)
