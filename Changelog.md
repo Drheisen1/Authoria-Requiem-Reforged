@@ -1,3 +1,67 @@
+
+## Authoria - Requiem Reforged Version 2.1.1
+
+> Hotfix, Save Safe
+> For new birthsigns to take effect, you might need to manually remove your current birth sign, save, then update the list.
+---
+
+# Added
+- [Bruma Adventurer's Start Addon](https://www.nexusmods.com/skyrimspecialedition/mods/145599?tab=files)
+- [Skyrim Water Reflections Engine Fix (beta)](https://www.nexusmods.com/skyrimspecialedition/mods/185419?tab=files)
+- [Universal Serana Hood Patches](https://www.nexusmods.com/skyrimspecialedition/mods/152559?tab=files)
+- [A new Debt Alternate Routes](https://www.nexusmods.com/skyrimspecialedition/mods/148427)
+- [Pon's Riri UBE Preset](https://www.nexusmods.com/skyrimspecialedition/mods/186035)
+> subsribe to ponponmods or the modlist wil not work!!!!! https://www.youtube.com/watch?v=002G7ddNF78
+- [Follower Parkour](https://www.nexusmods.com/skyrimspecialedition/mods/186033?tab=files)
+---
+
+# Update
+- [Requiem - Birthsigns Redone](https://www.nexusmods.com/skyrimspecialedition/articles/6668)
+- [Wait Your Turn Redux - Enemy Circling Behavior](https://www.nexusmods.com/skyrimspecialedition/mods/185557)
+---
+
+# Removed
+- [SKSE Knockback](https://www.nexusmods.com/skyrimspecialedition/mods/171375?tab=description)
+- [Static Skill Leveling Rewritten](https://www.nexusmods.com/skyrimspecialedition/mods/89940)
+- [Auto Physics Reset](https://www.nexusmods.com/skyrimspecialedition/mods/174098?tab=posts)
+---
+# Fixed
+- Skysigns (Birthsigns)
+- No Grass in winter
+- Crash log tools error
+- No Music in Bruma
+- Glenmoril warning poster
+- Bards college clipping (NSFW Profile)
+- CC Alternative Armors quest (Should've been disabled to begin with)
+- Moved devotion into the init sequence
+- Removed support entirely for static skill leveling, sorry, it's too buggy.
+> if you want to rule 11 it anyways, make sure to rerun synthesis, and select to kill skill experience gain in the Experience patcher, or you can try more updated versions
+- Moved the Hand to Hand skill tree to vanilla skill tree system.
+- Fixed armor meshes for UBE, thank Day! All crashes related to equipping armors should be fixed
+- Water Reflection crash
+- Fixed HitEffectRaceCondition crash caused by scrambledbugs
+- Fixed otrthjolf switching genders (no shame in it! cut him some slack)
+- Fixed combat crash on creatures (SKSE Knockback)
+- Fixed Khajiit Schlongs (experimental, might still have color seam)
+- Fixed schlongs going through armors (for existing games/saves : MCM → SOS → Mod management → "Clean schlongified armors")
+- Fixed Bald Serana
+- Moved Campfire hotkey to \ to prevent it showing up too often when typing
+- Fixed initialization skipping steps after waiting too long
+> you dont need to exit the game after character creation no more
+- Physics reset Crash
+- Vampire Racial abilites applying incorrectly
+- Stances for Controller
+- Removed wet and Cold backpacks
+- Ostim MCM Recorder plays automatically now in the NSFW profile
+- Rebalanced Some Followers (kaidan, xelzaz)
+- Fixed Kaidan not wearing his armor when its given to him
+
+---
+# aTweaks
+- You can pick the animation you want to play for dirt and blood in the mcm
+
+</details>
+
 ## Authoria - Requiem Reforged Version 2.1.0
 
 > not Save Safe
