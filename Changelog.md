@@ -1,3 +1,14 @@
+## Authoria - Requiem Reforged Version 2.1.2
+
+> 2nd Hotfix, Save Safe
+---
+# Fixed
+
+- Custom Skills mesnu failing to load, oops.
+---
+
+</details>
+
 
 ## Authoria - Requiem Reforged Version 2.1.1
 
