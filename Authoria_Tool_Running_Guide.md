@@ -45,15 +45,15 @@ This guide covers:
     - If the armor is made for Himbo, make sure to select the "HIMBO Zero for OBody" Preset before bulding.
     ![Screenshot](https://raw.githubusercontent.com/Drheisen1/Authoria-Requiem-Reforged/main/Resources/Tool%20Guide/BodySlide3.png)
 
-    - Click on Batch Build, and select **only** the armors that are for the HIMBO male body, then Press "Build" , if it errors, try again, if it still errors, double check your output paths.
+  - Click on Batch Build, and select **only** the armors that are for the HIMBO male body, then Press "Build" , if it errors, try again, if it still errors, double check your output paths.
     ![Screenshot](https://raw.githubusercontent.com/Drheisen1/Authoria-Requiem-Reforged/main/Resources/Tool%20Guide/Bodyslide4.png)
 
-    - If the armor is made for UBE/3BA, make sure to select the "- Zeroed Sliders -" Preset before bulding, then repeat the same steps.
+  - If the armor is made for UBE/3BA, make sure to select the "- Zeroed Sliders -" Preset before bulding, then repeat the same steps.
     ![Screenshot](https://raw.githubusercontent.com/Drheisen1/Authoria-Requiem-Reforged/main/Resources/Tool%20Guide/Bodyslide5.png)
 
-    - Rinse and Repeat, once you are done, exit Bodyslide, Refresh mo2, and ensure your bodyslide output wins all conflicts.
+  - Rinse and Repeat, once you are done, exit Bodyslide, Refresh mo2, and ensure your bodyslide output wins all conflicts.
 
-    - You dont need to rerun Parallaxgen, or any other tools after building outfits in bodyslide.
+  - You dont need to rerun Parallaxgen, or any other tools after building outfits in bodyslide.
  
   4) Bonus, you can make your khajiits more fury here!
     - Search for DFM_ and select the body (3BA vs HIMBO) based on what you are playing.
