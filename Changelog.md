@@ -13,13 +13,14 @@
 - [Racemenu Enhancer](https://www.nexusmods.com/skyrimspecialedition/mods/182536?tab=description)
 - [Racemenu Overlay Fixes](https://www.nexusmods.com/skyrimspecialedition/mods/138586?tab=files)
 - [Follower Parkour](https://www.nexusmods.com/skyrimspecialedition/mods/186033?tab=files)
+- ENB Bianries
+- Reshade Binaries
 
 # Removed
 - [First Person Inertia](https://www.nexusmods.com/skyrimspecialedition/mods/167883?tab=description)
 - [Frostwalker - SKSE Plugin](https://www.nexusmods.com/skyrimspecialedition/mods/184628?tab=description)
 - [Shame of Skyrim](https://www.nexusmods.com/skyrimspecialedition/mods/96804)
 - [Modern Lighting Ovehraul v2](https://www.nexusmods.com/skyrimspecialedition/mods/160748)
-- [ENB Anti-Aliasing](https://www.nexusmods.com/skyrimspecialedition/mods/130669?tab=posts)
 - [Skyrim Water Reflections Engine Fix (beta)](https://www.nexusmods.com/skyrimspecialedition/mods/185419)
 - A bunch of obody presets that came with the list.
 
