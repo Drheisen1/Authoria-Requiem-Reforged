@@ -98,8 +98,8 @@ Flow order:
 2. **[Starting Choices](https://www.nexusmods.com/skyrimspecialedition/mods/62901)** runs 
 3. **[Biggie Traits](https://www.nexusmods.com/skyrimspecialedition/mods/136384)** runs (pick your traits)  
 4. **[SkySigns](https://www.nexusmods.com/skyrimspecialedition/mods/147884)** runs  (pick your birthsign)
-5. Difficulty selection
-6. **[Devotion](https://www.nexusmods.com/skyrimspecialedition/mods/185531)** runs  (Each race is custom, please read mod articles for more guidance)
+5. **[Devotion](https://www.nexusmods.com/skyrimspecialedition/mods/185531)** runs  (Each race is custom, please read mod articles for more guidance)
+6. Difficulty selection
 7. Final message appears → movement enabled
 8. **Ostim profile only:** Open the MCM menu, Go into MCM Recorder, click on "Authoria_Ostim" and exit back to the game, then press on "Run Recording". A message will pop up, then you're ready to play.
 
