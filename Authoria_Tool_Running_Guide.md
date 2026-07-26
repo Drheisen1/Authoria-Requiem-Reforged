@@ -43,7 +43,7 @@ This guide covers:
 
   3) Search for the outfit you want to build, in this example, i am building [ELLE] Lastriem, always ensure the two boxes at the bottom left are ticked.
     - If the armor is made for Himbo, make sure to select the "HIMBO Zero for OBody" Preset before bulding.
-    ![Screenshot](https://raw.githubusercontent.com/Drheisen1/Authoria-Requiem-Reforged/main/Resources/Tool%20Guide/Bodyslide3.png)
+    ![Screenshot](https://raw.githubusercontent.com/Drheisen1/Authoria-Requiem-Reforged/main/Resources/Tool%20Guide/BodySlide3.png)
 
     - Click on Batch Build, and select **only** the armors that are for the HIMBO male body, then Press "Build" , if it errors, try again, if it still errors, double check your output paths.
     ![Screenshot](https://raw.githubusercontent.com/Drheisen1/Authoria-Requiem-Reforged/main/Resources/Tool%20Guide/Bodyslide4.png)
