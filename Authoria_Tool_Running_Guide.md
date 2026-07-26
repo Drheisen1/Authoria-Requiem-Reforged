@@ -36,25 +36,25 @@ This guide covers:
 ### Running Bodyslide:
   > It is highly recommended to create a new output dedicated to your bodyslides.
   1) Click the drop down menu in mo2, select Bodyslide, and hit run.
-      *SCREENSHOT*
+      ![Screenshot](https://raw.githubusercontent.com/Drheisen1/Authoria-Requiem-Reforged/main/Resources/Tool%20Guide/Bodyslide1.png)
 
   2) Click the Settings Button at the bottom right of the tool, expand the "Advanced Section", and point the Output Patch to your dedicated output mod, then hit Ok:
-      *SCREENSHOT*
+      ![Screenshot](https://raw.githubusercontent.com/Drheisen1/Authoria-Requiem-Reforged/main/Resources/Tool%20Guide/Bodyslide2.png)
 
   3) Search for the outfit you want to build, in this example, i am building [ELLE] Lastriem, always ensure the two boxes at the bottom left are ticked.
     - If the armor is made for Himbo, make sure to select the "HIMBO Zero for OBody" Preset before bulding.
-    *SCREENSHOT*
+    ![Screenshot](https://raw.githubusercontent.com/Drheisen1/Authoria-Requiem-Reforged/main/Resources/Tool%20Guide/Bodyslide3.png)
 
     - Click on Batch Build, and select **only** the armors that are for the HIMBO male body, then Press "Build" , if it errors, try again, if it still errors, double check your output paths.
-    *SCREENSHOT*
+    ![Screenshot](https://raw.githubusercontent.com/Drheisen1/Authoria-Requiem-Reforged/main/Resources/Tool%20Guide/Bodyslide4.png)
 
     - If the armor is made for UBE/3BA, make sure to select the "- Zeroed Sliders -" Preset before bulding, then repeat the same steps.
-    *SCREENSHOT*
+    ![Screenshot](https://raw.githubusercontent.com/Drheisen1/Authoria-Requiem-Reforged/main/Resources/Tool%20Guide/Bodyslide5.png)
 
     - Rinse and Repeat, once you are done, exit Bodyslide, Refresh mo2, and ensure your bodyslide output wins all conflicts.
 
     - You dont need to rerun Parallaxgen, or any other tools after building outfits in bodyslide.
-
+ 
   4) Bonus, you can make your khajiits more fury here!
     - Search for DFM_ and select the body (3BA vs HIMBO) based on what you are playing.
     - Select the - Zeroed Sliders - or HIMBO Zero for OBody based on your choice 
@@ -324,7 +324,7 @@ e) most importantly, make sure the output of both texgen and dyndolod go to the 
 
 - back in mo2, Pick **Textgen** from the dropdown menu of MO2 and run it, apply the following settings, and generate.
 
-
+![Screenshot](https://raw.githubusercontent.com/Drheisen1/Authoria-Requiem-Reforged/main/Resources/Tool%20Guide/texgensettings.png)
 
 - Once it's done, select "Exit Texgen", navigate to your output folder, and copy all the contents inside of it to your Texgen Output mod in mo2, then refresh mo2.
 
