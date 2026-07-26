@@ -101,7 +101,6 @@ Flow order:
 5. **[Devotion](https://www.nexusmods.com/skyrimspecialedition/mods/185531)** runs  (Each race is custom, please read mod articles for more guidance)
 6. Difficulty selection
 7. Final message appears → movement enabled
-8. **Ostim profile only:** Open the MCM menu, Go into MCM Recorder, click on "Authoria_Ostim" and exit back to the game, then press on "Run Recording". A message will pop up, then you're ready to play.
 
 ---
 
