@@ -25,26 +25,23 @@ On the left panel of mo2, you will find a Customization separator followed by th
 - enable every mod in this separator if you plan on playing with a controller.
 
 **Slip of Slopes**:
-- Disable this to prevent ragdolling when falling from heights.
+- Enable if you want, personal preference.
 
 **Racemenu Presets**:
 - Add the presets you want to use here.
 
 **Outfit Distribution Customization**:
-- Authoria - Bodyslide Output - Vanilla -> Enable this if you want all clothing to use vanilla models.
+- Authoria - Bodyslide Output - Vanilla -> Enable this if you want all clothing to use vanilla models (for NPCs, this does not contain UBE meshes).
 - Authoria - Custom Outfit Distribution -> Disable this to disable outfit distribution to NPCs (NOTE: This will disable ALL modded armor integration into the game, you probably won't find any modded armor pieces)
 
 **NeverNude**:
 - Disable the mods in here if you are planning on adding NSFW to the list.
 
 **ENB Presets**:
-- Pick your Preferable ENB Preset, Make sure to disable Cabbage ENB then clear overwrite, more options will be added in the future.
+- Pick your Preferable ENB Preset, Make sure to disable Cabbage ENB then clear overwrite.
 
 **Reshade**:
 - Enable everything in this seperator if you want to use Reshade.
-
-**Static Leveling**:
-- Vanilla skill levelling is on by default. Enable the mod inside this seperator to use static skill leveling instead of vanilla skill leveling.
 
 **Weaker Followers**:
 - Nerfs the damage output from followers, recommended if you plan to play with multiple modded followers.
@@ -53,8 +50,15 @@ On the left panel of mo2, you will find a Customization separator followed by th
 - 75% -> Recommended if playing ith >3 Followers.
 
 **Difficulty**:
-- To play on Easy Mode, Enable both [Requiem lite](https://www.nexusmods.com/skyrimspecialedition/mods/120272), and Authoria - Easy Mode Settings, this is VERY recommended if this is your first requiem playthrough. This will impact survival elements (slower), combat (deal more damage, take less damage), the economy, and stamina costs, then pick  the easy mode option in gaem when prompted.
-- [Engaging Combat - Keep Combat Dynamic at Higher Levels](https://www.nexusmods.com/skyrimspecialedition/mods/132625?tab=description) -> can be enabled/disabled at any time during or before your playthrough, its is recommended to pair with the hard mode option in game for the whole experience. This will impact survival, elements, combat, economy, and stamina costs.
+- To play on Easy Mode *this is VERY recommended if this is your first requiem playthrough* :
+  1) Enable both [Requiem lite](https://www.nexusmods.com/skyrimspecialedition/mods/120272), and Authoria - Easy Mode Settings.
+  2) Once in Game, Pick the "Easy" Options when you are prompted.
+  3) Open the MCM menu, search for "Requiem Lite" and enable it.
+      - This will impact survival elements (slower), combat (deal more damage, take less damage), the economy, and stamina costs.
+- [Engaging Combat - Keep Combat Dynamic at Higher Levels](https://www.nexusmods.com/skyrimspecialedition/mods/132625?tab=description) 
+  - can be enabled/disabled at any time during or before your playthrough.
+  - is recommended to pair with the hard mode option in game for the whole experience, but it is independant of what difficulty you chose at the beginning of the game.
+  - Will impact survival, elements, combat, economy, and stamina costs.
 
 </details>
 
@@ -79,7 +83,9 @@ https://www.youtube.com/watch?v=fG7D8meR0cY
 
 ### Race Selection
 In addition to Requiem, Authoria uses **Requiem - Races Redone**. Please check its details on its [Nexus page](https://www.nexusmods.com/skyrimspecialedition/articles/6669)    
-- If you are playing an Ohmes Raht (Half Khajiit), make sure to change **Face Part** in the customization menu to High Poly Head.
+- If you are playing any race other than UBE:
+  - make sure to change **Face Part** in the customization menu to High Poly Head for Ohmes-Raht ,Male Humanoid Races, and Argonians.
+  - Khajiits use **Enhanced Khajiit's** facepart, not High Poly Head.
 ---
 
 ### Initialization (Starting Room Flow)
@@ -142,12 +148,12 @@ Combat has been completely overhauled with:
 <details>
 <summary><strong>Tweaked Combat</strong></summary>
   
-- Unarmed: Custom made form scratch (based on adamant) Hand to Hand skill tree.
+- Unarmed: Custom made from scratch (based on adamant) Hand to Hand skill tree.
     - Unarmed is leveled up through hitting enemies while unarmed (vanilla leveling), regardless if you have static skill enabled or not.
 - Sekiro Combat S tweaks:
   - timed blocking is gated behind experienced blocking perk in the block perk tree.
   - this will gain more modification in the future
-- Stances are rotated through the X button.
+- Stances are rotated through the X button on controller.
 
 </details>
 
@@ -194,6 +200,7 @@ Most of these can be explored simply by encountering them through normal gamepla
 <details>
  <summary><strong>List of Major Quests</strong></summary>
 Legacy of the Dragonborn<br> 
+Beyond Skyrim - Bruma<br>  
 Dac0da<br> 
 Vigilant<br>
 Unslaad<br>
@@ -204,7 +211,9 @@ The Forgotten City<br>
 Sirenroot<br>
 Siege at Icemoth<br>  
 Saints and Seducers Extended Cut<br>
-Penitus Oculatus
+Tools of Kagrenac<br> 
+The Gray Cowl of Nocturnal - 10th Anniversary Edition<br>
+Moonpath to Elsewyr<br>  
 </details>
 
 The following are quest tweaks that relate to gameplay:
