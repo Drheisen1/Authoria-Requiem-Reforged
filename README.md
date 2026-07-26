@@ -7,7 +7,7 @@
 
 ### Community
 
-| [Join our Discord](https://discord.gg/themoddingbordello) | [View on Nexus Mods](https://www.nexusmods.com/skyrimspecialedition/mods/170235) | [View Changelog](https://github.com/HerrSchtevie/Scrolls-of-Schtevie/wiki/Authoria-%E2%80%90-Requiem-Reforged-Changelog) |
+| [Join our Discord](https://discord.gg/J6VkyeXDUv) | [View on Nexus Mods](https://www.nexusmods.com/skyrimspecialedition/mods/170235) | [View Changelog](https://github.com/Drheisen1/Authoria-Requiem-Reforged/blob/main/Changelog.md) |
 |:--:|:--:|:--:|
 | [Modlist Load Order](https://modlistgrimoire.com/modlists/authoria-requiem-reforged) | [See Version History](https://github.com/Drheisen1/Authoria-Requiem-Reforged/blob/main/Changelog.md) | 
 
@@ -176,7 +176,7 @@ Before you begin, make sure you meet the following **hard requirements**:
    >  *Optional:* [Watch Biggie’s Wabbajack Install Guide](https://www.youtube.com/watch?v=nApuOZWp12c&ab_channel=biggie_boss)
 
 7. **While Wabbajack is running:**
-   - Join the [Discord server](https://discord.gg/8ZCa7w8BZQ) and ask any questions you might have.
+   - Join the [Discord server](https://discord.gg/J6VkyeXDUv) and ask any questions you might have.
    - Review the [Gameplay Guide](https://github.com/Drheisen1/Authoria-Requiem-Reforged/blob/main/GameplayGuide.md)
 
 ---
@@ -203,7 +203,7 @@ Before diving into your playthrough, take a moment to configure the list to matc
 ### Performance Tuning (Optional)
 
 * We encourage users to run **VRAMr** unless you have at least 16 GB of VRAM. If you have 10 GB of VRAM or less, we consider it a functional *necessity*. 
-* Instructions for both tools and additional performance improvements can be found in the Tome section of our Discord.
+* Instructions for both tools and additional performance improvements can be found in the [Tool Running Guide](https://github.com/Drheisen1/Authoria-Requiem-Reforged/blob/main/Authoria_Tool_Running_Guide.md).
 
 ---
 
@@ -291,7 +291,7 @@ Thank you for respecting the work that went into Authoria - Requiem Reforged, an
 ##  Links
 
 - [Wabbajack](https://www.wabbajack.org/)
-- [Discord](https://discord.gg/8ZCa7w8BZQ)
+- [Discord](https://discord.gg/J6VkyeXDUv)
 
 ---
 
@@ -301,6 +301,6 @@ Thank you for taking the time to install and experience **Authoria - Requiem Ref
 
 Whether you're here for the lore, the visuals, or the chaos — we truly appreciate you choosing ARR as your journey through Skyrim.
 
-If you enjoyed the list, consider joining the [Discord](https://discord.gg/8ZCa7w8BZQ), sharing your screenshots, and helping others in the community. Your feedback, bug reports, and kind words help keep this project alive and growing.
+If you enjoyed the list, consider joining the [Discord](https://discord.gg/J6VkyeXDUv), sharing your screenshots, and helping others in the community. Your feedback, bug reports, and kind words help keep this project alive and growing.
 
 Now, Go Play Authoria!

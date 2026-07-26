@@ -432,7 +432,7 @@
   * Halfkhajiit Male, UBE Male, and Humanoid Female Vanilla races are disabled, meaning you cant pick them in racemenu.
   * Tweaked OBODY preset selection to filter by race, so UBE races will only get UBE Bodies.
   * Racemenu addons and headparts will only appear if the body is supported.
-* UBE lacks "realistic/grounded" presets, please share your presets on the bordello discord!
+* UBE lacks "realistic/grounded" presets, please share your presets on our Discord!
 
 * Sekiro Combat S tweaks:
   * timed blocking is gated behind experienced blocking perk in the block perk tree.
@@ -453,7 +453,7 @@
 
 * I Highly recommend switching "bScrollingDoesntSwitchPOV" to true in EngineFixes.toml if you are playing with a bow and Using Third Person First Person Aiming.
 * Skyrim souls pauses menus during combat now, i highly recommend leaving it enabled!
-* UBE lacks "realistic/grounded" racemenu and bodyslide presets, please share your presets on the bordello discord!
+* UBE lacks "realistic/grounded" racemenu and bodyslide presets, please share your presets on our Discord!
 * NOTE: High poly head patcher is removed, make sure to pick the headpart you prefer in racemenu.
 * NOTE: UBE armors were converted using day's auto converter, it's a great tool that has it's limitations, armors will slowly be fixed manually.
 ---
