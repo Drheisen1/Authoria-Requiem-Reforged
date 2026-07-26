@@ -1,16 +1,105 @@
+## Authoria - Requiem Reforged Version 2.5
+> Final ~kinda~Hotfix. This one is NOT save safe, but i can confidently say, all the newly introduced bugs are fully fiiiixed (except a handful of ube meshes), there will be no updates for a while, thanks to everyone for their reports, suggestions, and feedback, we tried to take everything into account.
+> Sorry for the hiccups, back to baseline now.
+
+# Added
+- [Simple Inn Bath for New Lands (SPID) - Bruma](https://www.nexusmods.com/skyrimspecialedition/mods/104314?tab=files)
+- [Missives - Worldspace Additions](https://www.nexusmods.com/skyrimspecialedition/mods/26788?tab=files)
+- [Phantasmal Chest from LOTD - Skyrim Souls RE - Compatibility Patch](https://www.nexusmods.com/skyrimspecialedition/mods/173523?tab=files)
+
+# Updated
+- [Legacy of the Dragonborn - Storage FormList Patches - rerun](https://www.nexusmods.com/skyrimspecialedition/mods/74810?tab=description)
+- [LOD Model Library for DynDOLOD](https://www.nexusmods.com/skyrimspecialedition/mods/87521)
+- [Racemenu Enhancer](https://www.nexusmods.com/skyrimspecialedition/mods/182536?tab=description)
+- [Racemenu Overlay Fixes](https://www.nexusmods.com/skyrimspecialedition/mods/138586?tab=files)
+- [Follower Parkour](https://www.nexusmods.com/skyrimspecialedition/mods/186033?tab=files)
+
+# Removed
+- [First Person Inertia](https://www.nexusmods.com/skyrimspecialedition/mods/167883?tab=description)
+- [Frostwalker - SKSE Plugin](https://www.nexusmods.com/skyrimspecialedition/mods/184628?tab=description)
+- [Shame of Skyrim](https://www.nexusmods.com/skyrimspecialedition/mods/96804)
+- [Modern Lighting Ovehraul v2](https://www.nexusmods.com/skyrimspecialedition/mods/160748)
+- [ENB Anti-Aliasing](https://www.nexusmods.com/skyrimspecialedition/mods/130669?tab=posts)
+- [Skyrim Water Reflections Engine Fix (beta)](https://www.nexusmods.com/skyrimspecialedition/mods/185419)
+- A bunch of obody presets that came with the list.
+
+# Fixed
+- firstly, this hotfix is a HUGE performance improvement over the previous versions.
+- Dialogue topic order getting messed up because of xedit (Hireling bug and other)
+- Dylbilys Functions Crash
+- Seasonal Grass
+- Missing Textures on Children Clothes
+- CR04 (Hired Muscle) picking disabled carriage drivers as targets
+- Missives picking people in locked areas of talos' tease.
+- Increased object and actor load in slightly.
+- Excluded Danica from wet and cold's gear distribution (naked danica bug)
+- SPID Death item crash
+- FPS Drop during combat
+- Disabled movement in menus
+- Disabled Bruma's Iron Falchion (Textures not provided)
+- Fixed Floating Knapsacks in Dawnstar Exterior
+- Fixed Floating Equipment in Warmaidens (Except the belt, that one i cant even select it in ck)
+- Fixed Floating items at Talos Shrine
+- Fixed floating rocks in wolf skull cave
+- Fixed Hard mode MCM Recording
+- Fixed Auri's Outfit
+- Fixed animation looping when sheathing onehanded weapons with a shield.
+- Fixed various back directional power attack behavior.
+- Fixed FPS drop in first person (Drive dependant, caused by heavy logging)
+- Fixed Various issues and crashes with obody.
+- Disabled dodge in place to prevent crashing on horse, and crashing after immidietly opening a menu after dodging
+- Paraglider quest nor progressing and Excluded the paragilding NPC from quickloot
+- Fixed wigs getting removed from actors and player when bathing.
+- Fixed kaidan not having a schlong in NSFW profile.
+- Fixed Kaidan not reacting to Amren and Carlotta's quests.
+- Extremely negative skill value and debuffs
+- Fixed wench placement in Winterhold Inn
+- Racemenu overlays not applying without dressing and undressing.
+- Fixed Obi's hedge armor in 1st person (uses iron armor 1st person model now)
+
+
+* About the UBE conversions:
+  * The [tool running guide](https://github.com/Drheisen1/Authoria-Requiem-Reforged/blob/main/Authoria_Tool_Running_Guide.md) has been updated, check it for a full guide on how to run the tool, it ships with the list now
+  * Alot of armors should be fixed, Some armors are not perfect, manual fixing on the armors will depend on how bad the issue is, priority is given to armors that crash the game or armors that are seriously messed up.
+    * for example: common clothes at the start of the game -> i see no reason to waste time converting it, as the player switches armors after he starts 99% of the time.
+    * please keep that in mind when reporting issues with armors.
+    * not all armors have morphs, Infantry armor, Sons of Skyrim armors, Velothi armors are not mesh converted, they can be used still ofcourse.
+  * running the tool now skips armors that are already generated and patches only things that you add
+  * if you crash because of equipping an armor, you can easily fix it on your side, go to tools\CBBE to UBE\races_only.json , and add the armor to the races_only list, then rerun the tool (see guide) it will not take long.
+  * do not report any clipping on UBE armors, we are aware of all the worst ones now and will manually convert them, for now, you can just live with it ;)
+
+
+# aTweaks
+- Argonians and Khajiit (Feline and Beast Stomach) really dont get negative from some raw food now (poisoning)
+- Decreased Inn bath to 35 gold instead of 100.
+- Added soaps to inn bath chest.
+- Extended duration of blackmarket (dragonborn DLC)
+- Wound potions are sure to appear in merchant and apothecary stores now.
+- Optimized Sekiro Combat and disabled it for unarmed
+- Tweaked Blue water cave to be more forgiving (Astrid)
+
+</details>
+
+
 ## Authoria - Requiem Reforged Version 2.1.2
+
+<details>
+<summary><strong>Show / Hide full changelog</strong></summary>
 
 > 2nd Hotfix, Save Safe
 ---
 # Fixed
 
-- Custom Skills mesnu failing to load, oops.
+- Custom Skills menu failing to load, oops.
 ---
 
 </details>
 
 
 ## Authoria - Requiem Reforged Version 2.1.1
+
+<details>
+<summary><strong>Show / Hide full changelog</strong></summary>
 
 > Hotfix, Save Safe
 > For new birthsigns to take effect, you might need to manually remove your current birth sign, save, then update the list.
@@ -74,6 +163,9 @@
 </details>
 
 ## Authoria - Requiem Reforged Version 2.1.0
+
+<details>
+<summary><strong>Show / Hide full changelog</strong></summary>
 
 > not Save Safe
 > Mainly filling gaps that improve the list's vision.
@@ -365,6 +457,8 @@
 * NOTE: High poly head patcher is removed, make sure to pick the headpart you prefer in racemenu.
 * NOTE: UBE armors were converted using day's auto converter, it's a great tool that has it's limitations, armors will slowly be fixed manually.
 ---
+
+</details>
 
 ## Authoria - Requiem Reforged Version 1.5.1
 

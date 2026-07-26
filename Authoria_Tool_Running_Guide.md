@@ -1,26 +1,115 @@
 # Authoria - Requiem Reforged — Tool Running Guide
 
-This guide will walk you through how to run LOD tools for **Authoria - Requiem Reforged** in case you modified the list and need to generate LODs again.
+This guide will walk you through how to run the tools for **Authoria - Requiem Reforged** in case you modified the list and need to regenerate their outputs.
 
 This guide covers:
+- Bodyslide and Conversions
+- Pandora
+- Reqtificator
+- Synthesis
+- NPC Plugin Chooser Tool
+- LOD Tools (ParallaxGen, Grass Cache, xLODGen, TexGen, DynDOLOD)
+
+## Index
+- [Bodyslide and Conversions](#bodyslide-and-conversions)
+- [Pandora](#pandora)
+- [Reqtificator](#reqtificator)
+- [Synthesis](#synthesis)
+- [NPC Plugin Chooser Tool](#npc-plugin-chooser-tool)
+- [LOD Tools](#lod-tools)
+  - [When do I need to rerun these tools?](#when-do-i-need-to-rerun-these-tools)
+  - [Disclaimer](#disclaimer)
+  - [Part 1) Preparation](#part-1-preparation)
+  - [Part 2) Running ParallaxGen](#part-2-running-parallaxgen)
+  - [Part 3) Running Grass Cache](#part-3---running-grass-cache)
+  - [Part 4) Running xLODGen](#part-4---running-xlodgen)
+  - [Part 5) Running TexGen and DynDOLOD](#part-5---running-texgen-and-dyndolod)
+  - [Part 6) Flat Map Framework](#part-6---flat-map-framework)
+
+## Bodyslide and Conversions
+
+### When do I need to rerun these tools?
+  - Run Bodyslide if you added Armors that support 3BA, HIMBO, or UBE to the list
+  - You should build meshes in bodyslide **before** running the UBE Converter Tool
+  - If the armor mod you added ships with **zeroed** prebuilt meshes, then you dont need to build the meshes again with bodyslide.
+
+### Running Bodyslide:
+  > It is highly recommended to create a new output dedicated to your bodyslides.
+  1) Click the drop down menu in mo2, select Bodyslide, and hit run.
+      *SCREENSHOT*
+
+  2) Click the Settings Button at the bottom right of the tool, expand the "Advanced Section", and point the Output Patch to your dedicated output mod, then hit Ok:
+      *SCREENSHOT*
+
+  3) Search for the outfit you want to build, in this example, i am building [ELLE] Lastriem, always ensure the two boxes at the bottom left are ticked.
+    - If the armor is made for Himbo, make sure to select the "HIMBO Zero for OBody" Preset before bulding.
+    *SCREENSHOT*
+
+    - Click on Batch Build, and select **only** the armors that are for the HIMBO male body, then Press "Build" , if it errors, try again, if it still errors, double check your output paths.
+    *SCREENSHOT*
+
+    - If the armor is made for UBE/3BA, make sure to select the "- Zeroed Sliders -" Preset before bulding, then repeat the same steps.
+    *SCREENSHOT*
+
+    - Rinse and Repeat, once you are done, exit Bodyslide, Refresh mo2, and ensure your bodyslide output wins all conflicts.
+
+    - You dont need to rerun Parallaxgen, or any other tools after building outfits in bodyslide.
+
+  4) Bonus, you can make your khajiits more fury here!
+    - Search for DFM_ and select the body (3BA vs HIMBO) based on what you are playing.
+    - Select the - Zeroed Sliders - or HIMBO Zero for OBody based on your choice 
+    - Open the Preview window and play with the "FM_" Sliders until you find what suits you 
+      - **IMPORTANT** any FM_ Slider you change must match for Low Weights and High Weights
+    - Once you are satisifed, Press "Build"
+    - Exit Bodyslide, Refresh MO2, and make sure you output overwrites everything.
+
+  
+### Day's UBE Converter:
+  - After running the converter you dont need to rerun any other tool
+  - I Usually run this as the very last step before compilation
+  - Only run this tool if you added an armorset that doe not have UBE support, otherwise, you should use a proper UBE conversion and build it in bodyslide.
+
+  1) Close mo2
+  2) Navigate to you Modlist Installation Directory, and go to tools\CBBE to UBE
+  3) Open the defaults.json
+    - Here you can change the profile if you made a new one, and you can also change the output mod name if you don't want it to generate into the same one the list comes in, and also change the output esp name, you can leave all these as they are, you dont need to change them.
+    - Note: if you didn't make a new profile, you dont need to change anything here, even if you are playing on the main profile.
+    - Once you are done, **Save and Exit**
+  4) Run "Authoria-DaysTool.exe"
+  5) Copy and Paste the path to your mo2 instance, in my case "D:\Wabbajack\Authoria-dev" this is the path that contains ModOrganizer.exe
+  6) Press enter, wait till it's done, then Open mo2, enable your mod output if you created a new one for this, as well as the resulting ESP, the esp can be placed anywhere in the load order
+  - You don't need to rerun any tools after using the UBE Converter.
+
+## Pandora
+
+### When do I need to rerun these tools?
+  - Rerun pandora after you add new animations or behavior files
+  - The nexus page of a mod usually says if it requires pandora/nemesis to be rerun
+
+
+
+## Reqtificator
+
+*(To be written.)*
+
+## Synthesis
+
+*(To be written.)*
+
+## NPC Plugin Chooser Tool
+
+*(To be written.)*
+
+## LOD Tools
+
+This section walks you through generating LODs again after modifying the list. It covers:
 - ParallaxGen
 - Grass Cache
 - xLODGen
 - TexGen
 - DynDOLOD
 
-Any other tools not covered by this guide will be handled in separate, simpler guides.
-
-## Index
-- [When do I need to rerun these tools?](#when-do-i-need-to-rerun-these-tools)
-- [Disclaimer](#disclaimer)
-- [Part 1) Preparation](#part-1-preparation)
-- [Part 2) Running ParallaxGen](#part-2-running-parallaxgen)
-- [Part 3) Running Grass Cache](#part-3---running-grass-cache)
-- [Part 4) Running xLODGen](#part-4---running-xlodgen)
-- [Part 5) Running TexGen and DynDOLOD](#part-5---running-texgen-and-dyndolod)
-
-## When do I need to rerun these tools?
+### When do I need to rerun these tools?
 
 - When adding mods that replace vanilla meshes and textures, ParallaxGen will most likely need to be rerun. To make sure, you can check the mod you added for conflicts. If it is losing conflicts with the ParallaxGen output, then you will need to rerun ParallaxGen.
 
@@ -28,13 +117,13 @@ Any other tools not covered by this guide will be handled in separate, simpler g
 
 - When adding mods that edit the worldspace in Tamriel, you will have to check this in xEdit. In that case, you will need to rerun ParallaxGen, Grass Cache, xLODGen, and DynDOLOD.
 
-## Disclaimer
+### Disclaimer
 
 Running tools for Authoria is very different from the usual process. This is because the list contains **Seasons of Skyrim**, so expect this entire process to take at least two full days to complete.
 
 Almost 30–40% of the list's size comes from the outputs. They total around **160 GB**, so plan accordingly.
 
-## Part 1) Preparation
+### Part 1) Preparation
 
 - You should already have a duplicated profile created, with empty mods for the outputs that correspond to each tool. If you do not have enough space to support having two outputs, feel free to delete the contents of the current outputs and replace them.
 
@@ -48,7 +137,7 @@ Almost 30–40% of the list's size comes from the outputs. They total around **1
 
 ![Screenshot](https://raw.githubusercontent.com/Drheisen1/Authoria-Requiem-Reforged/main/Resources/Tool%20Guide/Screenshot%202026-04-04%20005810.png)
 
-## Part 2) Running ParallaxGen
+### Part 2) Running ParallaxGen
 
 **Estimated time:** 10–15 minutes
 
@@ -75,7 +164,7 @@ Almost 30–40% of the list's size comes from the outputs. They total around **1
 ![Screenshot](https://raw.githubusercontent.com/Drheisen1/Authoria-Requiem-Reforged/main/Resources/Tool%20Guide/Screenshot%202026-04-04%20011441.png)
 ![Screenshot](https://raw.githubusercontent.com/Drheisen1/Authoria-Requiem-Reforged/main/Resources/Tool%20Guide/Screenshot%202026-04-04%20011528.png)
 
-## Part 3 - Running Grass Cache
+### Part 3 - Running Grass Cache
 
 **Estimated time:** 9–15 hours
 
@@ -146,7 +235,7 @@ From the author of **No Grass in Objects**:
 
 - Once you are done, re-enable and re-sort all the mods that you previously disabled, then disable **No Grass in Objects** and enable **Grass Cache Helper NG**.
 
-## Part 4 - Running xLODGen
+### Part 4 - Running xLODGen
 
 **Estimated time:** 4 hours
 
@@ -209,7 +298,7 @@ BSHeartland|
 
 - Once it is done, it will say **"Lod Generation Done."** Close out of xLODGen, Don't forget to Disable **"xLODGen Resource - SSE Terrain Tamriel"** , and enable your Output.
 
-## Part 5 - Running TexGen and DynDOLOD
+### Part 5 - Running TexGen and DynDOLOD
 
 **IMPORTANT:** Dyndolod is extremely sensitive in seasons load orders, the following are steps to ensure dyndolod generation completes without errors near finishing:
 
@@ -250,7 +339,7 @@ e) most importantly, make sure the output of both texgen and dyndolod go to the 
 - Once it's done, navigate to your output folder, and copy all the contents inside of it to your Dyndolod Output mod in mo2, then refresh mo2.
 
 
-## Part 6 - Flat Map Framework
+### Part 6 - Flat Map Framework
 
 - Enable the "Authoria - Seasons - Snowdrift Fix" Mod
 
