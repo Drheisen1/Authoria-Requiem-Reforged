@@ -13,6 +13,8 @@
 - [Racemenu Enhancer](https://www.nexusmods.com/skyrimspecialedition/mods/182536?tab=description)
 - [Racemenu Overlay Fixes](https://www.nexusmods.com/skyrimspecialedition/mods/138586?tab=files)
 - [Follower Parkour](https://www.nexusmods.com/skyrimspecialedition/mods/186033?tab=files)
+- [Devotion](https://www.nexusmods.com/skyrimspecialedition/mods/185531?tab=description)
+    - Endorse!
 - ENB Bianries
 - Reshade Binaries
 
@@ -22,6 +24,7 @@
 - [Shame of Skyrim](https://www.nexusmods.com/skyrimspecialedition/mods/96804)
 - [Modern Lighting Ovehraul v2](https://www.nexusmods.com/skyrimspecialedition/mods/160748)
 - [Skyrim Water Reflections Engine Fix (beta)](https://www.nexusmods.com/skyrimspecialedition/mods/185419)
+- [Manual Crossbow Reloading - SKSE](https://www.nexusmods.com/skyrimspecialedition/mods/185238)
 - A bunch of obody presets that came with the list.
 
 # Fixed
@@ -57,11 +60,13 @@
 - Fixed wench placement in Winterhold Inn
 - Racemenu overlays not applying without dressing and undressing.
 - Fixed Obi's hedge armor in 1st person (uses iron armor 1st person model now)
-
+- Converted all facepaints to UBE.
+  - They were batch converted in blender, some may not be perfect, the majority are good but the remaining ones will not be fixed, they'll just be removed.
+- Attmept to fix up khajiits schlong color, this is the best i could do with my limited blender skills, if a modeler wants to step up he is welcome to, please dont report this.
 
 * About the UBE conversions:
   * The [tool running guide](https://github.com/Drheisen1/Authoria-Requiem-Reforged/blob/main/Authoria_Tool_Running_Guide.md) has been updated, check it for a full guide on how to run the tool, it ships with the list now
-  * Alot of armors should be fixed, Some armors are not perfect, manual fixing on the armors will depend on how bad the issue is, priority is given to armors that crash the game or armors that are seriously messed up.
+  * Alot of armors should be fixed already, Some armors are not perfect, manual fixing on the armors will depend on how bad the issue is, priority is given to armors that crash the game or armors that are seriously messed up.
     * for example: common clothes at the start of the game -> i see no reason to waste time converting it, as the player switches armors after he starts 99% of the time.
     * please keep that in mind when reporting issues with armors.
     * not all armors have morphs, Infantry armor, Sons of Skyrim armors, Velothi armors are not mesh converted, they can be used still ofcourse.
