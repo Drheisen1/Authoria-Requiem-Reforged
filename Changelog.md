@@ -1,4 +1,24 @@
-## Authoria - Requiem Reforged Version 2.5
+## Authoria - Requiem Reforged Version 2.5.2
+> Forced for Perms, no fixes, if you are on 2.5.1, don't Update, this is not save safe.
+
+# Added
+- [The New Gentleman](https://www.nexusmods.com/skyrimspecialedition/mods/104215)
+- [Senua's Warpaint for Racemenu - UBE CotR](https://www.nexusmods.com/skyrimspecialedition/mods/169788)
+- [LDD - Detail Makeup - UBE](https://www.nexusmods.com/skyrimspecialedition/mods/149480)
+
+# Removed
+- Schlongs of Skyrim
+- Ultimate Body Enhancer - Senuas Warpaints
+- Ultimate Body Enhancer - HIMBO Hair Racemenu
+- Ultimate Body Enhancer - LDD Detail Makeup HPH
+- Ultimate Body Enhancer - Obis Warpaints
+- Ultimate Body Enhancer - Rutah's Warpaint
+- Ultimate Body Enhancer - Miggyluv Overlays
+- Ultimate Body Enhancer - Havoks Lipstick Overlays
+
+</details>
+
+## Authoria - Requiem Reforged Version 2.5.1
 > Final ~kinda~Hotfix. This one is NOT save safe, but i can confidently say, all the newly introduced bugs are fully fiiiixed (except a handful of ube meshes), there will be no updates for a while, thanks to everyone for their reports, suggestions, and feedback, we tried to take everything into account.
 > Sorry for the hiccups, back to baseline now.
 
