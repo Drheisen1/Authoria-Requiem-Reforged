@@ -156,8 +156,6 @@ This guide covers:
 
 4. Wait for it to finish. It should show a success message once it's done — press **OK** and you are done.
 
-   ![Screenshot](https://raw.githubusercontent.com/Drheisen1/Authoria-Requiem-Reforged/main/Resources/Tool%20Guide/Reqtificator4.png)
-
 5. Re-enable the plugins below the Reqtificator until you reach `Authoria - Output - NPC Appearances.esp`. Keep it **and everything below it** disabled, then continue with the next section.
 
 ---
