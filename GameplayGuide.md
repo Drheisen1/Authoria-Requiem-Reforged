@@ -96,11 +96,83 @@ After selecting your race, you will be prompted with messages that will run you 
 Flow order:
 1. First welcome message
 2. **[Starting Choices](https://www.nexusmods.com/skyrimspecialedition/mods/62901)** runs 
-3. **[Biggie Traits](https://www.nexusmods.com/skyrimspecialedition/mods/136384)** runs (pick your traits)  
+3. **[Biggie Traits](https://www.nexusmods.com/skyrimspecialedition/mods/136384)** runs (pick your traits)
+   <details>
+   <summary><strong>Custom Trait List (click to expand)</strong></summary>
+
+   > Please note that these traits have been customized specifically for this modlist. Several options have been rebalanced, tweaked, or removed entirely to ensure tight integration with the list's overall difficulty and progression mechanics.
+   >
+   > Browse the custom trait list to plan your build:
+
+   **Au Naturel**: Embrace your divine gifts! Start with +100 health, magicka, and stamina. For each piece of armor or clothing you wear, you lose 40 from each attribute (up to a maximum loss of -160 with four pieces equipped). Additionally, you gain +1 to health, magicka, and stamina per level for each empty armor slot (head, chest, hands, and feet).
+
+   **Bane of the Wicked**: You are an enemy to all things abhorrent. Deal 20% more damage to undead, daedra, and werewolves. However, do 10% less damage to other beings.
+
+   **Bulwark**: When standing still, you gain 200 armor rating and reflect 10% physical damage. You drain 1 additional stamina per second while sprinting and 0.25 when running.
+
+   **Defiler**: The only use you have for the living is to resurrect them in death. Deal 20% more damage to playable races. However, do 10% less damage to other beings.
+
+   **Dovah Tinvaak**: You are fluent in Dragon speech and as such can shout 30% more often, at 30% reduced effectiveness.
+
+   **Fast Shot**: You'd rather shoot fast than shoot hard. Bows draw 30% faster, crossbows reload 30% faster. However, bows and crossbows deal 30% less damage.
+
+   **Giantkin**: Descended from the mighty giants; you gain 10% magic resistance and damage with blunt weapons, however you cannot read skill books, or use scrolls and staves.
+
+   **Hoarder**: You love carrying stuff around, even if it's junk. Gain +100 carryweight. Selling prices are 50% worse.
+
+   **HomeOwner**: You've secured a place to call your own, choosing one of Skyrim's fine homes to settle in. However, comfort comes at a cost: each week, you must make a mortgage payment based on the home's value.
+
+   **Introvert**: You thrive in solitude but falter in the crowd. When facing three or fewer enemies, you deal 15% more damage, whether with weapons or Destruction magic. Against four or more, your nerves get the better of you, and you deal 10% less.
+
+   **Jack of All Spells**: But master of none. Novice, Apprentice, and Adept spells are 20% stronger or longer lasting, Expert and Master spells are 20% weaker or shorter.
+
+   **King of Worms**: You've gained hidden insight into necromantic arts. You can have 1 additional summon or undead thrall. However, the duration of summon and resurrecting spells is reduced by 50%.
+
+   **Light Foot**: You've never felt comfortable in footwear. When not wearing boots/shoes, your movement is muffled, you move 5% faster, and suffer half fall damage. When wearing boots/shoes, you move 10% slower.
+
+   **Nosferatu**: You're an ugly sight and live in the sewers. -50 speech, no health, magicka, or stamina regen outdoors. Eating skeever meat gives you a 10% speed boost and restores 5 health, magicka, and stamina per second for 30 seconds.
+
+   **Unbound Hands**: Handwear constricts you. Spells are 15% stronger and unarmed attacks do +30 more damage when not wearing gloves/gauntlets. However, they suffer the opposite effect when wearing gloves/gauntlets.
+
+   **Witcher**: Potions and poisons you craft are 20% more effective, and consuming raw ingredients grants double the effect. However, you can only benefit from up to FOUR active potion effects at a time.
+
+   **Addict**: You've developed some bad habits. Skooma and alcohol benefits last 2x as long, and you can craft skooma at a cooking pot. When not under the effects of alcohol or skooma, you have a 25% chance to get staggered when hit.
+
+   **Merchant**: A life of commerce has sharpened your tongue and filled your coinpurse, but left little room for marital discipline. Buying and selling prices are 30% better. Additionally, gain 100 gold per day. However, your weapon damage and spell effectiveness are reduced by 10%.
+
+   **Nocturnal's Whisper**: Nocturnal watched from the shadows as your fingers work in silence. Lockpicks never break in your hands, but every lock resists with unnatural cunning, becoming 75% harder to open.
+
+   **Survivor of Helgen**: You emerged from Helgen wreathed in flame, marked by fire that was never meant to spare you. Some would call it divine purpose, others a cruel jest. You gain 25% fire resistance. However, the shadow of the World-Eater still clings to you; you deal 20% less damage to dragons and take 20% more from their wrath. When the sky is torn and time itself broken, even this scar may begin to fade.
+
+   **Executioner's Rhythm**: Destruction flows through you with terrifying ease, but such power never comes without a price. You deal 100% more damage. However, you take 200% more damage.
+
+   **Botanist**: You study the flora of Tamriel with unmatched care. Gain +1 extra ingredient when harvesting and learn all alchemical effects upon tasting. However, your time in the wilds has dulled your caution, thus damage from wild animals is increased by 75%.
+
+   **Forsaken by Magnus**: Born beneath a fractured star, you are cut off from the flow of magicka but carry a hollow that draws in power. You have a 20% chance to absorb enemy spells. However, you do not regenerate magicka passively.
+
+   **Boethiah's Precision**: You strike with brutal force, following up each blow with a finishing swing. Power attacks deal 30% more damage, but cost 75% more stamina.
+
+   **Wayfarer**: Pilgrimage of the 7,000 steps has tempered your body and will. Your knowledge and pace to traverse Skyrim is unmatched, granting 33% increased movement speed outside of combat. However, in shunning the easy path, you cannot fast travel.
+
+   **Hawkeye**: You are a master with the bow, loosing arrows with unerring precision even amidst chaos. Your shots strike harder, dealing 30% more damage. However, subtlety is not your strength, causing sneak attacks with bows to deal 50% less damage.
+
+   **Moon Worshipper**: Beneath the gaze of Masser and Secunda, your arcane strength flourishes. Spells gain 15% potency at night, rising to 30% from midnight to 1am. However, dawn brings decline, weakening your spells by 25% under the sun's glare.
+
+   **Fasting**: Through rigorous fasting, you've forsaken the comforts of food in pursuit of spiritual clarity and physical lightness. Your body moves freely and your mind sharpens. You gain +50 carry weight. Additionally, regenerate 1 stamina per second. However, food offers no benefits.
+
+   **Necromancer**: You have bartered with death, trading vitality for dominion over the unseen. Necrotic power answers your sacrifice. For every 200 base Magicka, you may command one additional summoned minion, up to 600 base Magicka. You also gain +5 Magicka on every level up. However, your starting health begins 50 lower and restoration spells have no effect on you.
+
+   **Undying Rage**: When grievously wounded, your resolve hardens and you become more difficult to harm, but your strength wanes with your lifeblood. As your health diminishes, you suffer and inflict less damage: at 90% health, you deal and receive 90% damage; and so on. However, the closer you are to death, your attacks and spells become proportionally weakened.
+
+   **Lone Wolf**: Solitude is strength; to depend on the presence of the crowd is weakness. Deal 15% more damage when alone, but deal 15% less damage when in a group.
+
+   **Thornmail**: Your body becomes armor and weapon: each strike you endure cuts into your foes, but the weave that empowers you leaves you vulnerable. Gain +100 HP and +5 HP per level up, reflect 100% of physical damage taken, but receive 30% more magical and 50% more physical damage.
+
+   </details>
 4. **[SkySigns](https://www.nexusmods.com/skyrimspecialedition/mods/147884)** runs  (pick your birthsign)
 5. **[Devotion](https://www.nexusmods.com/skyrimspecialedition/mods/185531)** runs  (Each race is custom, please read mod articles for more guidance)
-6. Difficulty selection
-7. Final message appears → movement enabled
+6. Difficulty selection.
+7. Final message appears → movement enabled.
 
 ---
 
