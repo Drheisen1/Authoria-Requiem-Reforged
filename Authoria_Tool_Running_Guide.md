@@ -85,12 +85,40 @@ This guide covers:
 ### When do I need to rerun these tools?
   - Rerun pandora after you add new animations or behavior files
   - The nexus page of a mod usually says if it requires pandora/nemesis to be rerun
+  - Disable the output that comes with the modlist if you are using a different one
 
+  1) From the dropdown of mo2, pick and run Pandora
+    *Insert picture*
+  2) Go to the settings tab by pressing the gear icon
+
+  3) Set the Paths
+      - Set the Skyrim Data Path to : %ModlistPath%/Stock Game -> and select SkyrimSE.exe
+      - Set the Output Folder to the mod output you want it to go in:
+        - if you created a new output folder: %ModlistPath%/mods/YourPandoraOutput
+        - if you are reusing the output that comes with the list: %ModlistPath%/mods/Authoria - Pandora Output
+        - if you are reusing the output that comes with the list on the NSFW Profile: %ModlistPath%/mods/Authoria - Pandora Output - NSFW
+    *Insert picture*
+  3) Go back to the main page by clicking on the butterfly, and click on the check bock on the top left to select everything, then hit the "Run/Play" Button
+    *Insert picture*
+  4) wait for it to finish, then exit, make sure the output mod is enabled, then refresh mo2.
 
 
 ## Reqtificator
 
-*(To be written.)*
+### When do I need to rerun these tools?
+  - Rerun reqtificator after adding anything that modifies NPCs, Containers, Leveled Lists, Weapons, Armors, even Doors, as a good rule of thumb, always rerun reqtificator after modifying the list.
+  - Rerunning reqtificator is NOT save safe
+    - if you ignore this point, expect all guards to turn into vampires and other madness.
+  - you should rerun NPC Plugin chooser and synthesis if you rerun reqtificator. Parallaxgen, xLODGen, Texgen and Dyndolod do not need to be rerun however.
+  
+  1) on the right panel of mo2 (Plugins List) Disable all the plugins that are below "Requiem for the Indifferent.esp"
+    *Insert picture*
+  2) Pick "Reqtificator" from the dropdown menu of mo2 and run it.
+    *Insert picture*
+  3) Tick ONLY "Automatically merge actor visuals", then click "Patch"
+    *Insert picture* 
+  4) wait for it to finish, it should show a success message once it's done, press ok and you are done.
+    *Insert picture*
 
 ## Synthesis
 
