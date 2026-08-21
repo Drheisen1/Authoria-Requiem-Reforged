@@ -126,6 +126,7 @@ Before you begin, make sure you meet the following **hard requirements**:
 ---
 
 ### Installation Steps
+*Preamble - until our SKSE dependencies update for version 1.7.99, you will need to downgrade prior to the Wabbajack install. [Reliquary Downgrader](https://www.nexusmods.com/site/mods/2188?tab=description)
 
 1. **Download Wabbajack**  
    Get the latest version of Wabbajack from [https://www.wabbajack.org/](https://www.wabbajack.org/)
