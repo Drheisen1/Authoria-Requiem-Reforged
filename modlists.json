@@ -1,5 +1,5 @@
 [
-    {
+  {
     "title": "Authoria - Requiem Reforged",
     "description": "Authoria - Requiem Reforged is an immersive, survival-focused modlist blending Requiem-style progression into a demanding experience. With overhauled visuals, seasonal survival systems, dynamic encounters, and deliberate, weighty gameplay, Authoria reshapes Skyrim into an untamed world ruled by nature and consequence. Through grounded immersion, carefully paced progression, it delivers a relentless yet deeply atmospheric journey.",
     "author": "Heisen&Jbish&Aaron",
@@ -31,17 +31,17 @@
       "websiteURL": "https://www.nexusmods.com/skyrimspecialedition/mods/170235"
     },
     "download_metadata": {
-      "Hash": "rXhrzRRGzRI=",
-      "Size": 3033169824,
-      "NumberOfArchives": 3503,
-      "SizeOfArchives": 267673039262,
-      "NumberOfInstalledFiles": 762022,
-      "SizeOfInstalledFiles": 537568955434,
-      "TotalSize": 805241994696
+      "Hash": "xaR9PsBNi0I=",
+      "Size": 3061593098,
+      "NumberOfArchives": 3504,
+      "SizeOfArchives": 269633224952,
+      "NumberOfInstalledFiles": 770155,
+      "SizeOfInstalledFiles": 545870497572,
+      "TotalSize": 815503722524
     },
     "version": "2.9.9",
     "dateCreated": "1970-01-01T00:00:00Z",
-    "dateUpdated": "2025-08-31T19:21:26.8815607Z",
+    "dateUpdated": "2026-09-14T12:33:45.0000000Z",
     "repositoryName": "Authoria-Requiem-Reforged"
   }
 ]
