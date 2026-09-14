@@ -263,7 +263,6 @@
 - Disabled Honed Metal Enchanting services, its only for smithing now, increased costs for smithing through NPCs.
 - List now comes with Crafting Pulls resources from containers pre configured, it automatically registers Chests with the base editor ID "PlayerHouseChest", as well as LOTD chests.
 - Excluded Modded Followers and Miraak and Some modded NPCs from Wet and Cold, removed earmuffs.
-- Nerfed bleak falls barrow boss, he is a generic dragon priest now.
 - Full rebalance of Unarmed Skill Tree (Nerf).
 - Slowed Down Leveling by ~50%
 - Any armor piece that doesnt take the traditional slots cant be enchanted anymore.
