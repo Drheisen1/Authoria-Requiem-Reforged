@@ -3,8 +3,6 @@
 > The Main Profile is removed, NSFW is the only profile now, keep in mind that it is made even less intrusive now, this will help a lot in tracking down bugs and issues in the future.
 > Only two modes now, easy and normal.
 > This is the last version with MCO, it will be removed with the next update, BFCO will not be added, bugs associated with these mods are too much to ignore, and we believe that a bugfree consistent experience is better than some fancy moves, this version will remain on nexus but is unsupported afetr the update.
-> for now, you will need to run the UBE converter manually, the output is empty, its easy to run, just make sure to exclude armors that are already excluded.
-
 # Added
 - Dyn FNIS AA functions
 - Dynamic Inventory Icon Injector
