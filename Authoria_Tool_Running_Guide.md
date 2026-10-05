@@ -17,8 +17,8 @@ This guide covers:
   - [Running BodySlide](#running-bodyslide)
   - [Day's UBE Converter](#days-ube-converter)
 - [Pandora](#pandora)
-- [Reqtificator](#reqtificator)
 - [NPC Plugin Chooser Tool](#npc-plugin-chooser-tool)
+- [Reqtificator](#reqtificator)
 - [Synthesis](#synthesis)
 - [LOD Tools](#lod-tools)
   - [When do I need to rerun these tools?](#when-do-i-need-to-rerun-these-tools-1)
@@ -70,31 +70,22 @@ This guide covers:
 
    > **Note:** You don't need to rerun ParallaxGen, or any other tool, after building outfits in BodySlide.
 
-4. **Bonus:** you can make your Khajiits more furry here!
-
-   - Search for `DFM_` and select the body (**3BA** vs **HIMBO**) based on what you are playing.
-   - Select the **"- Zeroed Sliders -"** or **"HIMBO Zero for OBody"** preset based on your choice.
-   - Open the **Preview** window and play with the `FM_` sliders until you find what suits you.
-     - **IMPORTANT:** any `FM_` slider you change must match between **Low Weights** and **High Weights**.
-   - Once you are satisfied, press **Build**.
-   - Exit BodySlide, refresh MO2, and make sure your output overwrites everything.
-
 ### Day's UBE Converter
 
 - After running the converter, you don't need to rerun any other tool.
 - I usually run this as the very last step before compilation.
 - Only run this tool if you added an armor set that does **not** have UBE support. Otherwise, you should use a proper UBE conversion and build it in BodySlide.
+-  Est. time: ~40-60 minutes.
 
 1. Close MO2.
 2. Navigate to your modlist installation directory, and go to `tools\CBBE to UBE`.
-3. Open `defaults.json`.
-   - Here you can change the profile if you made a new one. You can also change the output mod name if you don't want it to generate into the same one the list comes with, and change the output ESP name. You can leave all of these as they are — you don't need to change them.
-   - **Note:** if you didn't make a new profile, you don't need to change anything here, even if you are playing on the main profile.
-   - Once you are done, **save and exit**.
-4. Run `Authoria-DaysTool.exe`.
-5. Copy and paste the path to your MO2 instance — in my case `D:\Wabbajack\Authoria-dev`. This is the path that contains `ModOrganizer.exe`.
-6. Press Enter and wait until it's done. Then open MO2, enable your output mod if you created a new one for this, as well as the resulting ESP. The ESP can be placed anywhere in the load order.
-
+3. Run `CBBEtoUBE.exe`.
+5. Copy and paste the path to your MO2 Output Mod.
+6. Run the tool
+   
+> You can configure settings based on your use case, by default it only converts meshes.
+  > Enable texture conversion to convert things like racemenu overlays, the tool will take longer to run.
+  > You can also convert one/a handful of mods if you added just some armor mods.
 > **Note:** You don't need to rerun any tools after using the UBE Converter.
 
 ---
@@ -115,7 +106,7 @@ This guide covers:
 
    ![Screenshot](https://raw.githubusercontent.com/Drheisen1/Authoria-Requiem-Reforged/main/Resources/Tool%20Guide/Pandora2.png)
 
-3. Set the paths:
+3. Set the paths (Ignore this step if the paths are already setup):
 
    - Set the **Skyrim Data Path** to `%ModlistPath%/Stock Game` and select `SkyrimSE.exe`.
    - Set the **Output Folder** to the mod output you want it to go in:
@@ -133,6 +124,51 @@ This guide covers:
 
 ---
 
+## NPC Plugin Chooser Tool
+
+### When do I need to rerun this tool?
+
+- Rerun this when you want to change the appearance of NPCs, or before rerunning the Reqtificator.
+- You need to rerun reqtificator and synthesis outputs after running this tool.
+
+First, you need to understand how Authoria splits the handling of NPC appearances:
+
+- **a) Named NPCs** — these are NPCs that have one specific replacer for them. For example: *Ysolda DF Edit NO SkyPatcher* — this NPC replacer overhauls just Ysolda. For this reason, the mod is enabled, and Ysolda does **not** have a selection in NPC Plugin Chooser 2. This is to avoid copying her assets into the output and to manage disk space.
+  - The same applies to *True Sons of Skyrim Refined*, *Men of Skyrim Refined*, and some other NPC replacer packs. If something does not need a selection, it is handled through classic conflict resolution and winning conflicts in MO2's VFS.
+- **b) Generic NPCs with multiple possible selections** — most female NPCs that can have multiple selections are disabled and have a selection set through NPC Plugin Chooser 2.
+- **c) Face swaps** — NPC Plugin Chooser 2 has a feature to swap the appearance of an NPC with another NPC. This is used heavily in Authoria.
+
+If you still don't understand, just follow these steps — they should walk you through adding an NPC replacer to the list, without any conflict resolution and with a simple tool rerun.
+
+### 1) Adding a new replacer to the list
+1a. Disable all the plugins below `Authoria - Output - NPC Appearances.esp`
+1b. Download and install the replacer into MO2, then **disable it**. For this example, I will go with [this](https://www.nexusmods.com/skyrimspecialedition/mods/50649?tab=files) Sybille Stentor replacer.
+2. Select **NPC Plugin Chooser 2** from the dropdown menu of MO2 and run it.
+3. Go to the **Settings** tab and ensure the file paths are set correctly. You can also change the output path here — **DO NOT** change the plugin output name.
+
+   ![Screenshot](https://raw.githubusercontent.com/Drheisen1/Authoria-Requiem-Reforged/main/Resources/Tool%20Guide/NPCPluginChooser1.png)
+
+4. Go to the **Mods** tab and press **Refresh All** — this might take some time.
+
+   ![Screenshot](https://raw.githubusercontent.com/Drheisen1/Authoria-Requiem-Reforged/main/Resources/Tool%20Guide/NPCPluginChooser2.png)
+
+5. Go to the **NPCs** tab, and click on **Import Selection**.
+
+   ![Screenshot](https://raw.githubusercontent.com/Drheisen1/Authoria-Requiem-Reforged/main/Resources/Tool%20Guide/NPCPluginChooser3.png)
+
+6. Navigate to `%ModlistInstallation%\tools\NPC Plugin Chooser 2-1-6\NPC Merge Profile` and select `Authoria - MyMoreExpandedNpcChoices - Aaron.json`. Press **Yes** to confirm, then **OK**. (At the time of writing this, there are 429 selections.)
+    > As of 2.9.9 you will get some errors when you import the selection, just ignore them.
+8. Search for the NPC you want to replace — in my case it's Sybille — and make your selection. (You can make multiple selections from here.)
+
+   ![Screenshot](https://raw.githubusercontent.com/Drheisen1/Authoria-Requiem-Reforged/main/Resources/Tool%20Guide/NPCPluginChooser4.png)
+
+9. Once you are done, go to the **Run** tab and press **Run Patch Generation**. It shouldn't patch more than the NPCs you selected.
+10. Close the tool and refresh MO2. Enable your output if you made a new one.
+11. Ensure the `Authoria - Output - NPC Appearances.esp` plugin is enabled, but don't enable anything under it yet.
+12. Run Reqtificator, and Synthesis.
+    
+---
+
 ## Reqtificator
 
 ### When do I need to rerun this tool?
@@ -140,7 +176,7 @@ This guide covers:
 - Rerun the Reqtificator after adding anything that modifies NPCs, containers, leveled lists, weapons, armors — even doors. As a good rule of thumb, **always rerun the Reqtificator after modifying the list**.
 - Rerunning the Reqtificator is **NOT save safe**.
   - If you ignore this point, expect all guards to turn into vampires and other madness.
-- You should rerun NPC Plugin Chooser and Synthesis if you rerun the Reqtificator. ParallaxGen, xLODGen, TexGen, and DynDOLOD do **not** need to be rerun, however.
+- You should rerun Synthesis if you rerun the Reqtificator. ParallaxGen, xLODGen, TexGen, and DynDOLOD do **not** need to be rerun, however.
 
 1. On the right panel of MO2 (the plugins list), disable all the plugins that are **below** `Requiem for the Indifferent.esp`.
 
@@ -156,55 +192,7 @@ This guide covers:
 
 4. Wait for it to finish. It should show a success message once it's done — press **OK** and you are done.
 
-5. Re-enable the plugins below the Reqtificator until you reach `Authoria - Output - NPC Appearances.esp`. Keep it **and everything below it** disabled, then continue with the next section.
-
----
-
-## NPC Plugin Chooser Tool
-
-### When do I need to rerun this tool?
-
-- Rerun this when you want to change the appearance of NPCs, or after rerunning the Reqtificator.
-
-First, you need to understand how Authoria splits the handling of NPC appearances:
-
-- **a) Named NPCs** — these are NPCs that have one specific replacer for them. For example: *Ysolda DF Edit NO SkyPatcher* — this NPC replacer overhauls just Ysolda. For this reason, the mod is enabled, and Ysolda does **not** have a selection in NPC Plugin Chooser 2. This is to avoid copying her assets into the output and to manage disk space.
-  - The same applies to *True Sons of Skyrim Refined*, *Men of Skyrim Refined*, and some other NPC replacer packs. If something does not need a selection, it is handled through classic conflict resolution and winning conflicts in MO2's VFS.
-- **b) Generic NPCs with multiple possible selections** — most female NPCs that can have multiple selections are disabled and have a selection set through NPC Plugin Chooser 2.
-- **c) Face swaps** — NPC Plugin Chooser 2 has a feature to swap the appearance of an NPC with another NPC. This is used heavily in Authoria.
-
-If you still don't understand, just follow these steps — they should walk you through adding an NPC replacer to the list, without any conflict resolution and with a simple tool rerun.
-
-### 1) Adding a new replacer to the list
-
-1. Download and install the replacer into MO2, then **disable it**. For this example, I will go with [this](https://www.nexusmods.com/skyrimspecialedition/mods/50649?tab=files) Sybille Stentor replacer.
-2. Select **NPC Plugin Chooser 2** from the dropdown menu of MO2 and run it.
-3. Go to the **Settings** tab and ensure the file paths are set correctly. You can also change the output path here — **DO NOT** change the plugin output name.
-
-   ![Screenshot](https://raw.githubusercontent.com/Drheisen1/Authoria-Requiem-Reforged/main/Resources/Tool%20Guide/NPCPluginChooser1.png)
-
-4. Go to the **Mods** tab and press **Refresh All** — this might take some time.
-
-   ![Screenshot](https://raw.githubusercontent.com/Drheisen1/Authoria-Requiem-Reforged/main/Resources/Tool%20Guide/NPCPluginChooser2.png)
-
-5. Go to the **NPCs** tab, and click on **Import Selection**.
-
-   ![Screenshot](https://raw.githubusercontent.com/Drheisen1/Authoria-Requiem-Reforged/main/Resources/Tool%20Guide/NPCPluginChooser3.png)
-
-6. Navigate to `%ModlistInstallation%\tools\NPC Plugin Chooser 2-1-6\NPC Merge Profile` and select `Authoria - MyMoreExpandedNpcChoices - Aaron.json`. Press **Yes** to confirm, then **OK**. (At the time of writing this, there are 429 selections.)
-7. Search for the NPC you want to replace — in my case it's Sybille — and make your selection. (You can make multiple selections from here.)
-
-   ![Screenshot](https://raw.githubusercontent.com/Drheisen1/Authoria-Requiem-Reforged/main/Resources/Tool%20Guide/NPCPluginChooser4.png)
-
-8. Once you are done, go to the **Run** tab and press **Run Patch Generation**. It shouldn't patch more than the NPCs you selected.
-9. Close the tool and refresh MO2. Enable your output if you made a new one.
-10. Enable the plugin, but don't enable anything under it yet.
-
-### 2) Rerunning the tool after rerunning the Reqtificator
-
-- Follow the exact same steps as above — just don't change the selections after importing the choices JSON.
-
-You can find more info about NPC Plugin Chooser 2 here: <https://github.com/Piranha91/NPC-Plugin-Chooser-2>
+5. Re-enable the plugins below the Reqtificator until you reach `Authoria - Output - Sythesis*.esp`. Keep it **and everything below it** disabled, then continue with the next section.
 
 ---
 
@@ -213,15 +201,17 @@ You can find more info about NPC Plugin Chooser 2 here: <https://github.com/Pira
 ### When do I need to rerun this tool?
 
 - As a good rule of thumb, rerun Synthesis after **any** modification to the load order.
-- Synthesis requires .NET runtimes.
+- Synthesis requires the latest .NET runtimes.
+- as of 2.9.9 we suspect that the experience patcher applies outdated ini options, it is marginal though and shouldnt affect gameplay too much.
 
-1. From the dropdown menu of MO2, select and run **Synthesis**.
+1. Navigate to tools/sythesis, and run synthesis outside of mo2, it doesnt matter if mo2 remains open.
 2. Wait for all the patchers to load. If one of them errors, click on it and switch it (on **both** rows) from **"Profile"** to **"Match"**. Wait for it to successfully load, then change it back to **"Profile"**.
-3. Hit the big **Run** button.
+3. Close out of synthesis, then from the dropdown menu of MO2, select and run **Synthesis**.
+4. Hit the big **Run** button.
 
    ![Screenshot](https://raw.githubusercontent.com/Drheisen1/Authoria-Requiem-Reforged/main/Resources/Tool%20Guide/Synthesis1.png)
 
-4. Wait for it to finish. If it errors as soon as you run it, close Synthesis and run each patcher group separately.
+5. Wait for it to finish. If it errors as soon as you run it, close Synthesis and run each patcher group separately.
 5. Enable the Synthesis output plugins, then enable all the remaining plugins in MO2 — or continue with the guide below if you want to run LODs.
 
 ---
