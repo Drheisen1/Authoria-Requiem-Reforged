@@ -456,9 +456,7 @@ xLODGen has to be run **two times** — once for the default worldspaces with no
 
 ### Part 6: Flat Map Framework
 
-1. Enable the **"Authoria - Seasons - Snowdrift Fix"** mod.
-
-2. Expand the last separator on the left panel of MO2, enable every mod in there, then sort them like the picture.
+1. Expand the last separator on the left panel of MO2, enable every mod in there, then sort them like the picture.
 
    ![Screenshot](https://raw.githubusercontent.com/Drheisen1/Authoria-Requiem-Reforged/main/Resources/Tool%20Guide/loadorder.png)
 
