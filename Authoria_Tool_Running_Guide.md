@@ -430,8 +430,6 @@ xLODGen has to be run **two times** — once for the default worldspaces with no
 >
 > c) Before running TexGen or DynDOLOD, turn off **Real-Time Protection** inside Virus & threat protection in the Windows 11 settings.
 >
-> d) Disable the mod called **"Authoria - Seasons - Snowdrift Fix"** and keep it disabled throughout Part 5.
->
 > e) Most importantly, make sure the output of both TexGen and DynDOLOD goes to the **root of the drive** you are using, preferably avoiding the C drive — for example: `D:/Dyndolod Output`.
 
 1. If you reinstalled the Lux patch hub, remove the **Bittercup Tweaks and Enhancements Lux patch** if it got installed.
