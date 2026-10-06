@@ -19,7 +19,7 @@ Authoria - Requiem Reforged is mainly an NSFW Skyrim modlist built around Requie
   
 - **Quest Mods:**  
   Authoria - Requiem Reforged includes a massive lineup of lore-rich, fully patched quests that expand Skyrim’s world with new factions, dungeons, and narratives. Major entries include:  
-  Legacy of the Dragonborn, Beyond Skyrim - Bruma, Tools of Kagrenac, Gray Cowl of Nocturnal, DAc0da, Vigilant, Glenmoril, Unslaad, The Forgotten City, Wyrmstooth, Sirenroot, Olenveld, Ascend — and many more.
+  Legacy of the Dragonborn, Beyond Skyrim - Bruma, Tools of Kagrenac, Gray Cowl of Nocturnal, DAc0da, Vigilant, Glenmoril, Unslaad, Wyrmstooth, Sirenroot, Olenveld, Ascend — and many more.
 
 - **Combat:**  
   Features For Honor, full MCO integration, and a suite of enemy balance and difficulty tweaks. The combat system supports a challenging but fair experience where any playstyle is viable and well balanced—battlemage, stealth archer, heavy melee, dual wield, and more. 
