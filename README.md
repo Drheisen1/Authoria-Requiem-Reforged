@@ -139,10 +139,6 @@ Before you begin, make sure you meet the following **hard requirements**:
    - Reinstall **Skyrim Anniversary Edition** via Steam.
    - **Launch Skyrim AE once through Steam** to allow all Creation Club content to download.  
      Do **not** change any settings or start a game — just reach the main menu, download the Creation Kit content via the popup, then close it.
-   - Install the **Skyrim Special Edition Creation Kit** from the *Software* section in your Steam Library.  
-      Make sure it’s installed on the **same drive** as Skyrim AE.  
-      **Do not install the regular Skyrim Creation Kit** — it is not compatible and will not work with this modlist.
-   - **Launch the Creation Kit once** to initialize its content, allow it to complete downloading, then close it.  
 
 3. **Create folders and Defender exceptions**
    - In Windows, create a `\modlists` directory and a `\downloaded mods` directory if you do not already have them. They do not need to be on the same drive, but each needs to be on a drive with adequate available storage capacity. You do not have to use those exact names.
