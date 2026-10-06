@@ -44,8 +44,6 @@ On the left panel of mo2, you will find a Customization separator followed by th
       - This will impact survival elements (slower), combat (deal more damage, take less damage), the economy, and stamina costs.
 - [Engaging Combat - Keep Combat Dynamic at Higher Levels](https://www.nexusmods.com/skyrimspecialedition/mods/132625?tab=description) 
   - can be enabled/disabled at any time during or before your playthrough.
-  - is recommended to pair with the hard mode option in game for the whole experience, but it is independant of what difficulty you chose at the beginning of the game.
-  - Will impact survival, elements, combat, economy, and stamina costs.
 
 </details>
 
