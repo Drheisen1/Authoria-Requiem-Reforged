@@ -580,7 +580,7 @@ At many inns, [Wait Carriage in Inns](https://www.nexusmods.com/skyrimspecialedi
 
 With [Auto Move](https://www.nexusmods.com/skyrimspecialedition/mods/42845), place a marker on your map and press **Right Ctrl** to have your character move toward it hands-free. This is travel through the world, so remain attentive to enemies, terrain, and exposure.
 
-[Skyrim's Paraglider](https://www.nexusmods.com/skyrimspecialedition/mods/53256) and [Paraglider - ONE](https://www.nexusmods.com/skyrimspecialedition/mods/134795) let you glide from high places after acquiring the paraglider. Authoria uses the introduction in which a person falls near **Falkreath**. Read his journal for the lead.
+[Paraglider - ONE](https://www.nexusmods.com/skyrimspecialedition/mods/134795) let you glide from high places after acquiring the paraglider. Authoria uses the introduction in which a person falls near **Falkreath**. Read his journal for the lead.
 
 <details>
 <summary><strong>Spoilers: paraglider location and use</strong></summary>
