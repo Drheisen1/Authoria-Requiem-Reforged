@@ -432,8 +432,6 @@ The table below gives **one example location** for each book, confirmed for Auth
 | Draconic Blacksmithing | **The Compendium of Draconic Armor** | On a table in **Sky Haven Temple**, reached during *Alduin's Wall*. |
 | Daedric Smithing | **Daedric Craftsmanship** | In a Master-locked chest at the **Shrine of Mehrunes Dagon**, reached during *Pieces of the Past*. |
 
-**Advanced Blacksmithing, Legendary Blacksmithing, and Stalhrim Smithing** have no corresponding book requirement in the reference; they are therefore omitted from the book table.
-
 </details>
 
 #### Crafting clothing with looms
