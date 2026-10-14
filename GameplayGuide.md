@@ -605,8 +605,7 @@ These are **quest start requirements**, not recommended levels for winning the f
 | Quest | When its usual start becomes available in Authoria |
 | --- | --- |
 | *Missing in Action* | Level **15**; the Whiterun argument scene is delayed. |
-| *Boethiah's Calling*, *The Break of Dawn*, *The Cursed Tribe*, *The Only Cure*, *The House of Horrors*, and *Deathbrand* | Level **20**, plus the quest's usual trigger and any additional conditions described below. |
-| *The Whispering Door* | Level **20**, unchanged from vanilla; ask about the rumors described below. |
+| *Boethiah's Calling*, *The Break of Dawn*, *The Cursed Tribe*, *The Only Cure*, *The House of Horrors*, *The Whispering Door* and *Deathbrand* | Level **20**, plus the quest's usual trigger and any additional conditions described below. |
 | *Discerning the Transmundane* | Level **20** for the independent start, with its usual quest-stage requirement. The main quest can also lead you to Septimus. |
 | *A Daedra's Best Friend* | Level **25** before Barbas's quest begins. |
 | *Dawnguard* | Level **30** before guards begin mentioning the Dawnguard. |
