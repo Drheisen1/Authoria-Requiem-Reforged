@@ -344,13 +344,6 @@ Falion's ritual ultimately fails, so **do not plan on it curing your character**
 
 You can become a werewolf through the **Companions** questline.
 
-<details>
-<summary><strong>Spoilers: Companions transformation</strong></summary>
-
-The Companions route involves a beast-blood ritual.
-
-</details>
-
 Requiem's werewolf system remains in place in Authoria without notable custom changes. Lycanthropy provides benefits even in human form, including extra health, stamina, and carrying capacity, while increasing spell costs and making poison more dangerous. Beast form is a strong melee option, but its poison weakness is more severe. Plan around that vulnerability rather than treating transformation as an answer to every fight.
 
 ## 3. Survival and crafting
