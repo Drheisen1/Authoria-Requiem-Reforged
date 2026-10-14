@@ -941,13 +941,6 @@ The four VICN stories form Authoria's late-game arc. **DAc0da → Vigilant → G
 
 - **[DAc0da](https://www.nexusmods.com/skyrimspecialedition/mods/134405):** At **level 30 or higher**, the next location change triggers its opening. Follow the new lead in **Solitude**, including **Lokir** and the lighthouse.
 
-  <details>
-  <summary><strong>Spoilers: DAc0da opening and destination</strong></summary>
-
-  The opening includes the Numidium's appearance. The adventure takes you inside the construct and sets up the later VICN stories.
-
-  </details>
-
 - **[Vigilant](https://www.nexusmods.com/skyrimspecialedition/mods/11849):** At **level 30**, finish DAc0da. See the exact prerequisite below. On the next location change, **Altano and Orlando** appear at the **Windpeak Inn in Dawnstar**; speak with Altano to join the Vigil of Stendarr.
 
   <details>
@@ -958,13 +951,6 @@ The four VICN stories form Authoria's late-game arc. **DAc0da → Vigilant → G
   </details>
 
 - **[Glenmoril](https://www.nexusmods.com/skyrimspecialedition/mods/32998):** At **level 40 or higher**, the next location change triggers its opening quest. Its first objective is to speak to **Brandt in Lalanoah's House**.
-
-  <details>
-  <summary><strong>Spoilers: Glenmoril story direction</strong></summary>
-
-  The opening is quieter than the dark witch-hunter story that follows.
-
-  </details>
 
 - **[Unslaad](https://www.nexusmods.com/skyrimspecialedition/mods/11789):** When you **level up to 40 or higher**, the doll appears on a ledge **behind the High Hrothgar courtyard gates**. Activate it to enter the first act of Authoria's current VICN finale.
 
