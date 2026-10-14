@@ -1,9 +1,6 @@
 # Authoria - Requiem Reforged — Gameplay Guide
 
 Welcome to **Authoria - Requiem Reforged**, built on **Requiem 6.0.2**. Start with setup, then use the grouped reference sections as questions arise.
-
-**Spoiler policy:** Quest starts and basic directions stay visible. Outcomes, hidden item locations, artifact carriers, major story turns, and detailed progression are inside closed panels marked **Spoilers**. Open them only when you want those details. Linked mod pages and walkthroughs may contain further spoilers.
-
 ## Contents
 
 - [1. Set up and start your game](#1-set-up-and-start-your-game)
@@ -40,7 +37,7 @@ Follow this route for a new character:
 1. Read [Understanding Requiem](#understanding-requiem), then choose a general build.
 2. Choose your [customizations and difficulty](#customization-and-launch) in MO2, then launch.
 3. Finish [character initialization](#creating-your-character), spend your three starting perks, and choose a start.
-4. Review the [essential controls](#essential-controls); other settings are optional.
+4. Review [first-session settings and controls](#first-session-settings-and-controls); settings changes are optional.
 5. Choose your [saving routine](#saving-and-loading), including profile setup if using SSSO3.
 6. Prepare [food](#food-in-authoria), water, rest, warm gear, and a route to shelter before travelling farther. Look for [early jobs](#early-game-jobs-and-bounties) and check each destination before accepting.
 
@@ -66,6 +63,8 @@ In **Mod Organizer 2 (MO2)**, look for the **Customization** separator in the le
 | ENB Presets | Choose your preferred ENB preset. When switching away from Cabbage ENB, disable Cabbage ENB and clear MO2's Overwrite folder. |
 | ReShade | Enable everything in this group if you want to use ReShade. |
 | Weaker Followers | Reduce follower damage if you plan to use multiple modded followers. See the recommendations below. |
+| Authoria - Slower Leveling | Enable for slower early leveling. Off by default; choose before starting a new game. Find it under **Slower Levelling** in MO2's User Customization area. See [Leveling and perks](#leveling-and-perks) for details. |
+| Crafting pulls resources from containers | Enable for shared crafting storage. Already preconfigured. **Warning: this can be heavy on performance.** |
 
 Recommended follower damage reductions:
 
@@ -136,17 +135,9 @@ You can also speak to the innkeeper and rent the best room, but that route can b
 
 ### First-session settings and controls
 
+Press **F11** at any time to view keybinds.
+
 **Authoria's MCM and SKSE Menu Framework settings are already configured.** Adjusting them is completely optional; use the options below only if you want to personalize your experience.
-
-#### Essential controls
-
-| Key or menu | Purpose |
-| --- | --- |
-| **F11** | View the keybinds. |
-| **Complete Controller Setup MCM** | View additional controller combinations and Wheeler menu controls. |
-| **F3** | Open SKSE Menu Framework settings, including power attack and dual-wield parry controls. |
-| **O** | Open OBody to choose a body preset. |
-| **Backslash (`\`)** | Save through SSSO3, once it is enabled. On the intended keyboard layout, this is the key above Enter. |
 
 #### Useful MCM settings
 
@@ -218,7 +209,7 @@ Source: [SSSO3 author's setup instructions](https://www.nexusmods.com/skyrimspec
 
 Once SSSO3 is enabled, press **Backslash (`\`)** to request a manual save. This is the button above Enter on the intended keyboard layout.
 
-Use SSSO3 for ongoing save management once enabled; its author advises against mixing it with the base game's save system. [SSSO3 documentation](https://www.nexusmods.com/skyrimspecialedition/mods/122343)
+Use SSSO3 for ongoing save management once enabled; its author advises against mixing it with the base game's save system. 
 
 #### If you choose not to use SSSO3
 
@@ -297,6 +288,8 @@ Authoria's current leveling balance makes the first character levels arrive soon
 
 For a focused character, the usual perk thresholds of **25, 50, 75, and 100** become reachable at roughly character levels **6, 20, 34, and 48**. These are landmarks, not minimums for every race or skill.
 
+**Optional: slower leveling.** If you want a slower pace, enable **Authoria - Slower Leveling** in the **Slower Levelling** section of MO2's User Customization area (off by default). Choose before you start a new game. Character levels then take about **40% more XP** than the default (roughly +50% early, +30% late), close to the pace of ARR 2.5.2. Skill practice slows down to match. The skill cap still follows your character level, so the perk landmarks above stay the same; each level just takes longer to reach.
+
 If a skill stops improving despite continued use, check whether it has reached your current cap. Training cannot raise it further until your character levels up. Play quests, explore, or practice another useful skill instead of grinding the capped one.
 
 **Skill books:** Authoria's shipped skill-book rules, based on [Reading Is Good](https://www.nexusmods.com/skyrimspecialedition/mods/42026), replace the usual instant **+1 skill level** with a permanent **4% bonus to that skill's XP gain** for each distinct book, up to five books or **20%** per skill. Reading remains worthwhile even when a skill is capped.
@@ -332,13 +325,6 @@ Several perks have multiple ranks. This table describes their purpose without us
 #### Playing a vampire
 
 Requiem makes vampirism a powerful but demanding choice. You can contract **Sanguinare Vampiris** while fighting vampires; if it is not cured during its incubation period, it develops into vampirism after roughly three in-game days. The Dawnguard questline offers another route to becoming a **Vampire Lord**. Check your active effects after a vampire fight if you did not intend to turn.
-
-<details>
-<summary><strong>Spoilers: Dawnguard transformation route</strong></summary>
-
-The Dawnguard transformation route is through **Harkon or Serana**.
-
-</details>
 
 Vampires gain supernatural abilities but must manage feeding and hostile environments. In Requiem, sunlight drains attributes over time, and holy ground such as temples suppresses vampire powers and causes harm. Authoria lets **hooded vampires** avoid the sun's effects. A hooded vampire enemy can still be dangerous in daylight. Authoria's vampire enemies are strong **mid- to late-game encounters**; do not approach a lair as an early-game bandit camp.
 
@@ -390,7 +376,7 @@ Authoria uses [SunHelm](https://www.nexusmods.com/skyrimspecialedition/mods/3941
 
 With [Simple Hunting Overhaul](https://www.nexusmods.com/skyrimspecialedition/mods/95943), taking the **pelt** from a dead animal skins it. If you want to carry the whole animal instead, target its body and press **Shift+Q**; Authoria's [Carry Your Carcasses](https://www.nexusmods.com/skyrimspecialedition/mods/62628) setup lets you take it with you for later processing or sale. Choose before looting the pelt if you want the intact carcass.
 
-Fishing uses three complementary mods. [Simple Fishing Overhaul](https://www.nexusmods.com/skyrimspecialedition/mods/103440) improves first- and third-person fishing and replaces repetitive fishing-quest dialogue; its optional bait requirement can be managed in its MCM. [Immersive Fishing](https://www.nexusmods.com/skyrimspecialedition/mods/115249) adds casting and catch animations showing the rod and catch in your character's hands. [Fancy Fishing](https://www.nexusmods.com/skyrimspecialedition/mods/89352) adds convenience settings and a catch minigame, which **Authoria enables by default**. Check its MCM to change the fishing challenge.
+Fishing uses three complementary mods. [Simple Fishing Overhaul](https://www.nexusmods.com/skyrimspecialedition/mods/103440) improves first- and third-person fishing and replaces repetitive fishing-quest dialogue; its optional bait requirement can be managed in its MCM. [Fancy Fishing](https://www.nexusmods.com/skyrimspecialedition/mods/89352) adds convenience settings and a catch minigame, which **Authoria enables by default**. Check its MCM to change the fishing challenge.
 
 #### Wounds
 
@@ -412,7 +398,7 @@ Authoria includes **[Requiem - Reading Teaches Smithing Perks](https://www.nexus
 
 **Daedric armor can only be crafted at night**, even after you learn Daedric Smithing. If the recipe is missing during the day, try the forge again at night.
 
-The table below gives **one example location** for each book, confirmed for Authoria. Some books can also be bought from merchants or found elsewhere. Reference: [Requiem-based smithing book locations](https://wiki.wildlandermod.com/13Community/Smithing-Book-Locations/).
+The table below gives **one example location** for each book, confirmed for Authoria. Some books can also be bought from merchants or found elsewhere.
 
 <details>
 <summary><strong>Spoilers: smithing books and where to find them</strong></summary>
@@ -473,7 +459,7 @@ The timing is demanding: a successful timed block has a **0.1-second window**. T
 
 Authoria includes [Bow Rapid Combo V3](https://www.nexusmods.com/skyrimspecialedition/mods/89308), which adds faster bow attacks and a charged **Power Shot**. Its rapid shot uses the **bow-bash input**. In Authoria, this quick-shot ability unlocks with the **Quick Shot** perk; the charged ability unlocks with the **Power Shot** perk. If an action does not work, check that you have its perk before changing controls.
 
-For Power Shot, keep charging until the visual effect appears, then release. The mod's white effect marks a critical shot; charging to the red effect makes that critical hit stronger. Bow melee attacks with daggers are disabled.
+For Power Shot, keep charging until the visual effect appears, then release. The mod's white effect marks a critical shot; charging to the red effect makes that critical hit stronger. **Bow melee attacks with daggers are disabled.**
 
 #### Switching stances
 
@@ -609,34 +595,31 @@ For manageable work before major questlines, check the noticeboards from [Missiv
 
 - **The Golden Claw:** Ask Lucan Valerius at the Riverwood Trader about the stolen claw. The shop is visibly [in disarray after the robbery](https://www.nexusmods.com/skyrimspecialedition/mods/63631); you can offer to help clean it.
 
-<details>
-<summary><strong>Spoilers: The Golden Claw choices and rewards</strong></summary>
+  - <details>
+    <summary><strong>Spoilers: The Golden Claw choices and rewards</strong></summary>
 
-Once you recover the claw, you can [return it and later buy it from Lucan](https://www.nexusmods.com/skyrimspecialedition/mods/24689), or [lie and keep it](https://www.nexusmods.com/skyrimspecialedition/mods/50581), giving up Lucan's reward and goodwill.
+    Once you recover the claw, you can [return it and later buy it from Lucan](https://www.nexusmods.com/skyrimspecialedition/mods/24689), or [lie and keep it](https://www.nexusmods.com/skyrimspecialedition/mods/50581), giving up Lucan's reward and goodwill.
 
-</details>
+    </details>
 
 - **Local favors:** Speak directly to residents to ask for work; several favors **no longer start just because you enter an area**. [Small favors have separate journal entries](https://www.nexusmods.com/skyrimspecialedition/mods/73903), so accepting one need not crowd out another. [More miscellaneous jobs count as favors](https://www.nexusmods.com/skyrimspecialedition/mods/121610) when you are helping people toward a hold's thaneship.
-- **In My Time of Need:** Follow the Redguards' search in Whiterun and speak to Saadia at the Bannered Mare.
-
-<details>
-<summary><strong>Spoilers: In My Time of Need evidence</strong></summary>
-
-If you confront Kematu, [a note on him](https://www.nexusmods.com/skyrimspecialedition/mods/29095) offers another piece of evidence for your decision; the quest otherwise follows its familiar route.
-
-</details>
 
 #### Start gates that may surprise you
 
 These are **quest start requirements**, not recommended levels for winning the fights. Several Daedric quests still need their usual book, rumor, visitor, or location trigger after you reach the level.
 
+**In My Time of Need:** Finish the main quest **Dragon Rising** before this quest becomes available. The Alik'r world encounter has no conditions and can occur before the quest unlocks.
+
 | Quest | When its usual start becomes available in Authoria |
 | --- | --- |
 | *Missing in Action* | Level **15**; the Whiterun argument scene is delayed. |
-| *Boethiah's Calling*, *The Break of Dawn*, *The Cursed Tribe*, *The Only Cure*, *The House of Horrors*, and *Deathbrand* | Level **20**. |
-| *Discerning the Transmundane* | Level **20** for its independent start; the main quest can also lead you to Septimus. |
+| *Boethiah's Calling*, *The Break of Dawn*, *The Cursed Tribe*, *The Only Cure*, *The House of Horrors*, and *Deathbrand* | Level **20**, plus the quest's usual trigger and any additional conditions described below. |
+| *The Whispering Door* | Level **20**, unchanged from vanilla; ask about the rumors described below. |
+| *Discerning the Transmundane* | Level **20** for the independent start, with its usual quest-stage requirement. The main quest can also lead you to Septimus. |
 | *A Daedra's Best Friend* | Level **25** before Barbas's quest begins. |
 | *Dawnguard* | Level **30** before guards begin mentioning the Dawnguard. |
+| *The Gray Cowl of Nocturnal* | Level **15**; theft or pickpocketing can trigger the quest. |
+| Certain jarl or steward bounties | Level **20** or **30**, depending on the bounty quest; ask the jarl or steward for work. |
 
 *Dragonborn* can also be started by going to **Solstheim**. *The Ebony Warrior* starts at **level 50**, with alternate completion-based triggers below.
 
@@ -645,228 +628,228 @@ These are **quest start requirements**, not recommended levels for winning the f
 
 | Quest | Completion-based start requirements |
 | --- | --- |
-| *Dragonborn* | Finish *Dragonslayer* before the cultists seek you out in Skyrim; going to Solstheim is another route. |
+| *Dragonborn* (cultist ambush) | Requires the usual progress in *The Throat of the World* (quest stage 160 or later), plus either completion of *Dragonslayer* or already being on Solstheim. |
 | *The Ebony Warrior* | Level **50**, **or** complete *Dragonslayer*, Dawnguard's *Kindred Judgment*, or *At the Summit of Apocrypha*. |
 
 </details>
 
-*The Whispering Door* still has its usual level **20** start. The entries below explain the added choices for several of these quests.
+The entries below explain the added choices for several of these quests.
 
 #### Factions, main quest, and civil war
 
 - **College of Winterhold:** Ask Faralda at the bridge to join.
 
-<details>
-<summary><strong>Spoilers: College quest progression</strong></summary>
+  - <details>
+    <summary><strong>Spoilers: College quest progression</strong></summary>
 
-After *First Lessons*, [seven short lessons from the College's teachers](https://www.nexusmods.com/skyrimspecialedition/mods/66666) come before *Under Saarthal*. They can be completed in any order, so the main College story is not stuck when Tolfdir does not immediately send you to the excavation.
+    After *First Lessons*, [seven short lessons from the College's teachers](https://www.nexusmods.com/skyrimspecialedition/mods/66666) come before *Under Saarthal*. They can be completed in any order, so the main College story is not stuck when Tolfdir does not immediately send you to the excavation.
 
-</details>
+    </details>
 
 - **Thieves Guild:** Find Brynjolf in Riften's marketplace. [He no longer recruits every newcomer on sight](https://www.nexusmods.com/skyrimspecialedition/mods/33256). Check the mod's MCM for the requirements to start *A Chance Arrangement*.
 
-<details>
-<summary><strong>Spoilers: Thieves Guild progression and main-quest workaround</strong></summary>
+  - <details>
+    <summary><strong>Spoilers: Thieves Guild progression and main-quest workaround</strong></summary>
 
-Later, complete **10 jobs** for Delvin or Vex before *Dampened Spirits* and **20 jobs** before *Scoundrel's Folly*. If the main quest sends you to Riften for *A Cornered Rat* before you qualify for Brynjolf's help, ask **Keerava at the Bee and Barb** instead. [Val Serano](https://www.nexusmods.com/skyrimspecialedition/mods/103669) adds dialogue and alternate choices during the guild story, particularly around the Nightingales and Skeleton Key; take him along if you want to see those scenes.
+    Later, *Dampened Spirits* and *Scoundrel's Folly* require radiant jobs for Delvin or Vex. Check the mod's MCM for the job requirements; failing the earlier guild quest can double the requirement for *Dampened Spirits*. If the main quest sends you to Riften for *A Cornered Rat* before you qualify for Brynjolf's help, ask **Keerava at the Bee and Barb** instead. [Val Serano](https://www.nexusmods.com/skyrimspecialedition/mods/103669) adds dialogue and alternate choices during the guild story, particularly around the Nightingales and Skeleton Key; take him along if you want to see those scenes.
 
-</details>
+    </details>
 
 - **Dark Brotherhood or Penitus Oculatus:** The rumor about a boy performing the Black Sacrament leads to Aventus Aretino in Windhelm and *Innocence Lost*.
 
-<details>
-<summary><strong>Spoilers: Dark Brotherhood choices and Penitus Oculatus recruitment</strong></summary>
+  - <details>
+    <summary><strong>Spoilers: Dark Brotherhood choices and Penitus Oculatus recruitment</strong></summary>
 
-At Honorhall Orphanage in Riften, you can [investigate Grelod and have her arrested](https://www.nexusmods.com/skyrimspecialedition/mods/80974) rather than kill her, but that route closes the normal way into the Dark Brotherhood. If you instead begin the Brotherhood story and choose to destroy it, [speak to Commander Maro](https://www.nexusmods.com/skyrimspecialedition/mods/21061) afterward to join the Penitus Oculatus; complete *The Jagged Crown* first if his follow-up is unavailable.
+    At Honorhall Orphanage in Riften, you can [investigate Grelod and have her arrested](https://www.nexusmods.com/skyrimspecialedition/mods/80974) rather than kill her, but that route closes the normal way into the Dark Brotherhood. If you instead begin the Brotherhood story and choose to destroy it, [speak to Commander Maro](https://www.nexusmods.com/skyrimspecialedition/mods/21061) afterward to join the Penitus Oculatus; complete *The Jagged Crown* first if his follow-up is unavailable.
 
-</details>
+    </details>
 
 - **Diplomatic Immunity:** Wait for the main quest to send you to the Thalmor Embassy. Attacking it early can disrupt the main quest.
 
-<details>
-<summary><strong>Spoilers: Diplomatic Immunity alternate route</strong></summary>
+  - <details>
+    <summary><strong>Spoilers: Diplomatic Immunity alternate route</strong></summary>
 
-You can [assault it](https://www.nexusmods.com/skyrimspecialedition/mods/104936) instead of entering through the party.
+    You can [assault it](https://www.nexusmods.com/skyrimspecialedition/mods/104936) instead of entering through the party.
 
-</details>
+    </details>
 
 - **Paarthurnax:** Main-quest choices are described below.
 
-<details>
-<summary><strong>Spoilers: main-quest decision</strong></summary>
+  - <details>
+    <summary><strong>Spoilers: main-quest decision</strong></summary>
 
-Later in the main quest, the Blades ask you to kill him. [Additional dialogue and choices](https://www.nexusmods.com/skyrimspecialedition/mods/51711) let you refuse and still work with the Blades, so you do not have to decide immediately from the vanilla quest prompt.
+    Later in the main quest, the Blades ask you to kill him. [Additional dialogue and choices](https://www.nexusmods.com/skyrimspecialedition/mods/51711) let you refuse and still work with the Blades, so you do not have to decide immediately from the vanilla quest prompt.
 
-</details>
+    </details>
 
 - **The Jagged Crown and the Skyforge:** The Civil War leads you to the crown through your chosen faction.
 
-<details>
-<summary><strong>Spoilers: Civil War outcome and Skyforge additions</strong></summary>
+  - <details>
+    <summary><strong>Spoilers: Civil War outcome and Skyforge additions</strong></summary>
 
-[Ulfric or Elisif later wears it](https://www.nexusmods.com/skyrimspecialedition/mods/28962). Joining the Companions at Jorrvaskr introduces the Skyforge, where [Eorlund and the Companions have more related dialogue and crafting details](https://www.nexusmods.com/skyrimspecialedition/mods/144420).
+    [Ulfric or Elisif later wears it](https://www.nexusmods.com/skyrimspecialedition/mods/28962). Joining the Companions at Jorrvaskr introduces the Skyforge, where [Eorlund and the Companions have more related dialogue and crafting details](https://www.nexusmods.com/skyrimspecialedition/mods/144420).
 
-</details>
+    </details>
 
 - **Companions initiation:** Join at **Jorrvaskr**.
 
-<details>
-<summary><strong>Spoilers: Companions initiation step</strong></summary>
+  - <details>
+    <summary><strong>Spoilers: Companions initiation step</strong></summary>
 
-When *Take Up Arms* sends you to Vilkas, the sparring step is optional in Authoria. Speak with **Kodlak or Vilkas** to continue if you do not want to spar.
+    When *Take Up Arms* sends you to Vilkas, the sparring step is optional in Authoria. Speak with **Kodlak or Vilkas** to continue if you do not want to spar.
 
-</details>
+    </details>
 
 - **Dragons in the open world:** Encounter timing depends on main-quest progress.
 
-<details>
-<summary><strong>Spoilers: random dragon encounter timing</strong></summary>
+  - <details>
+    <summary><strong>Spoilers: random dragon encounter timing</strong></summary>
 
-Requiem delays random dragon encounters until after the main quest's *A Blade in the Dark*. Choosing an alternate start and postponing the main quest therefore also postpones those encounters.
+    Random dragon encounters and location-based dragon attacks become available after the main quest's *A Blade in the Dark* and stop late in *Dragonslayer*. Location-based attacks do not retain vanilla's level-10 minimum. Choosing an alternate start and postponing the main quest therefore also postpones these encounters.
 
-</details>
+    </details>
 
 #### Daedric quests and the Saints and Seducers
 
 - **Saints and Seducers:** This is a longer Shivering Isles story in place of the Creation Club's short quest. To [start the expanded version](https://www.nexusmods.com/skyrimspecialedition/mods/72772), reach level **20**, finish *The Mind of Madness*, then sleep for **six in-game hours** or leave and re-enter Solitude. The original Creation Club start is not the reliable guide here.
 - **The Whispering Door:** From **level 20**, ask Hulda at the Bannered Mare about rumors in Dragonsreach, then speak with Balgruuf's son Nelkir.
 
-<details>
-<summary><strong>Spoilers: The Whispering Door choices</strong></summary>
+  - <details>
+    <summary><strong>Spoilers: The Whispering Door choices</strong></summary>
 
-[Expanded conversations](https://www.nexusmods.com/skyrimspecialedition/mods/76606) let you involve Balgruuf and decide what to do with the Ebony Blade instead of simply taking it.
+    [Expanded conversations](https://www.nexusmods.com/skyrimspecialedition/mods/76606) let you involve Balgruuf and decide what to do with the Ebony Blade instead of simply taking it.
 
-</details>
+    </details>
 
 - **The Cursed Tribe:** Largashbur, southwest of Riften, no longer provides a simple automatic start. Once you are at least **level 20** and are an Orc or have earned **Blood-Kin** status, [ask the chief of another Orc stronghold](https://www.nexusmods.com/skyrimspecialedition/mods/171220) about Largashbur, read the letter, and go there.
 
-<details>
-<summary><strong>Spoilers: The Cursed Tribe alternate solution</strong></summary>
+  - <details>
+    <summary><strong>Spoilers: The Cursed Tribe alternate solution</strong></summary>
 
-Knowing *Bane of the Undead* opens an alternate way to lift Yamarz's curse.
+    Knowing *Bane of the Undead* opens an alternate way to lift Yamarz's curse.
 
-</details>
+    </details>
 
 - **The Only Cure:** From **level 20**, find Kesh at the Shrine of Peryite near Bthardamz, northeast of Markarth.
 
-<details>
-<summary><strong>Spoilers: The Only Cure investigation and choices</strong></summary>
+  - <details>
+    <summary><strong>Spoilers: The Only Cure investigation and choices</strong></summary>
 
-[His journal and new choices](https://www.nexusmods.com/skyrimspecialedition/mods/57683) allow you to investigate the plague and deal with it without pledging yourself to Peryite.
+    [His journal and new choices](https://www.nexusmods.com/skyrimspecialedition/mods/57683) allow you to investigate the plague and deal with it without pledging yourself to Peryite.
 
-</details>
+    </details>
 
 - **The House of Horrors:** Requiem delays this quest until **level 20**. Then speak with Vigilant Tyranus outside Markarth's Abandoned House.
 
-<details>
-<summary><strong>Spoilers: The House of Horrors alternate route</strong></summary>
+  - <details>
+    <summary><strong>Spoilers: The House of Horrors alternate route</strong></summary>
 
-The [expanded quest](https://www.nexusmods.com/skyrimspecialedition/mods/57285) gives you a route to resist Molag Bal rather than follow his orders.
+    The [expanded quest](https://www.nexusmods.com/skyrimspecialedition/mods/57285) gives you a route to resist Molag Bal rather than follow his orders.
 
-</details>
+    </details>
 
 - **The Taste of Death:** Brother Verulus at Markarth's Hall of the Dead leads into the investigation.
 
-<details>
-<summary><strong>Spoilers: The Taste of Death choices</strong></summary>
+  - <details>
+    <summary><strong>Spoilers: The Taste of Death choices</strong></summary>
 
-[Additional choices](https://www.nexusmods.com/skyrimspecialedition/mods/123173) let you turn against Eola and the cult instead of completing Namira's ritual.
+    [Additional choices](https://www.nexusmods.com/skyrimspecialedition/mods/123173) let you turn against Eola and the cult instead of completing Namira's ritual.
 
-</details>
+    </details>
 
 - **Discerning the Transmundane:** Its independent start is delayed until **level 20**. Find Septimus Signus at his outpost north of the College, or follow the main quest there.
 
-<details>
-<summary><strong>Spoilers: Discerning the Transmundane later objective</strong></summary>
+  - <details>
+    <summary><strong>Spoilers: Discerning the Transmundane later objective</strong></summary>
 
-If your character is an Altmer, Bosmer, Dunmer, or Orc, you can [use the Essence Extractor on yourself](https://www.nexusmods.com/skyrimspecialedition/mods/69861) when Septimus asks for that race's blood.
+    If your character is an Altmer, Bosmer, Dunmer, or Orc, you can [use the Essence Extractor on yourself](https://www.nexusmods.com/skyrimspecialedition/mods/69861) when Septimus asks for that race's blood.
 
-</details>
+    </details>
 
 #### City and wilderness quests
 
 - **Markarth — The Forsworn Conspiracy:** Enter the city and watch the market: [Weylin starts farther from his victim](https://www.nexusmods.com/skyrimspecialedition/mods/108015), giving you a better chance to stop the attack. Investigate after Eltrys contacts you.
 
-<details>
-<summary><strong>Spoilers: The Forsworn Conspiracy story turns and consequences</strong></summary>
+  - <details>
+    <summary><strong>Spoilers: The Forsworn Conspiracy story turns and consequences</strong></summary>
 
-The [expanded conspiracy](https://www.nexusmods.com/skyrimspecialedition/mods/161913) offers ways to protect Eltrys, avoid the framed prison sentence, and make different choices about Madanach. **Killing Thongvor can block the Stormcloaks questline**, so consider that choice before committing.
+    The [expanded conspiracy](https://www.nexusmods.com/skyrimspecialedition/mods/161913) offers ways to protect Eltrys, avoid the framed prison sentence, and make different choices about Madanach. **Killing Thongvor can block the Stormcloaks questline**, so consider that choice before committing.
 
-</details>
+    </details>
 
 - **Markarth — The Heart of Dibella:** The familiar route begins by intruding into the Temple of Dibella. Alternatively, [become Thane of the Reach and sleep](https://www.nexusmods.com/skyrimspecialedition/mods/94863); a courier's invitation then provides a respectful way in.
 - **Riften — Caught Red Handed:** Speak with Svana at Haelga's Bunkhouse.
 
-<details>
-<summary><strong>Spoilers: Caught Red Handed choices</strong></summary>
+  - <details>
+    <summary><strong>Spoilers: Caught Red Handed choices</strong></summary>
 
-You now have [more ways to handle her dispute with Haelga](https://www.nexusmods.com/skyrimspecialedition/mods/65708), including refusing the original plan to humiliate Haelga.
+    You now have [more ways to handle her dispute with Haelga](https://www.nexusmods.com/skyrimspecialedition/mods/65708), including refusing the original plan to humiliate Haelga.
 
-</details>
+    </details>
 
 - **The Rift — Infiltration:** Find Stalleo outside Treva's Watch and hear his plan to retake the fort.
 
-<details>
-<summary><strong>Spoilers: Infiltration choices</strong></summary>
+  - <details>
+    <summary><strong>Spoilers: Infiltration choices</strong></summary>
 
-[Talk to the people involved](https://www.nexusmods.com/skyrimspecialedition/mods/114054) before deciding how to deal with its occupants; the original single route is no longer your only option.
+    [Talk to the people involved](https://www.nexusmods.com/skyrimspecialedition/mods/114054) before deciding how to deal with its occupants; the original single route is no longer your only option.
 
-</details>
+    </details>
 
 - **The Rift — Nilheim:** Telrav asks for help on the road below Nilheim.
 
-<details>
-<summary><strong>Spoilers: Nilheim reveal and choices</strong></summary>
+  - <details>
+    <summary><strong>Spoilers: Nilheim reveal and choices</strong></summary>
 
-[You can question his story](https://www.nexusmods.com/skyrimspecialedition/mods/53792), investigate the fort, or confront the ambush without walking into it first.
+    [You can question his story](https://www.nexusmods.com/skyrimspecialedition/mods/53792), investigate the fort, or confront the ambush without walking into it first.
 
-</details>
+    </details>
 
 - **Windhelm — The White Phial:** Ask Nurelion at his alchemy shop about the legendary phial.
 
-<details>
-<summary><strong>Spoilers: The White Phial follow-up</strong></summary>
+  - <details>
+    <summary><strong>Spoilers: The White Phial follow-up</strong></summary>
 
-After the initial expedition, [his illness is depicted through new dialogue and behavior](https://www.nexusmods.com/skyrimspecialedition/mods/152547); the quest's usual follow-up still applies.
+    After the initial expedition, [his illness is depicted through new dialogue and behavior](https://www.nexusmods.com/skyrimspecialedition/mods/152547); the quest's usual follow-up still applies.
 
-</details>
+    </details>
 
 - **Solitude — Sybille Stentor:** Talk with Melaran or Odar in the Blue Palace to begin [an unmarked investigation](https://www.nexusmods.com/skyrimspecialedition/mods/109265) into Sybille's secret.
 
-<details>
-<summary><strong>Spoilers: Sybille Stentor investigation decision</strong></summary>
+  - <details>
+    <summary><strong>Spoilers: Sybille Stentor investigation decision</strong></summary>
 
-Decide whether to expose her after gathering evidence.
+    Decide whether to expose her after gathering evidence.
 
-</details>
+    </details>
 
 - **Riften — Face Sculptor:** Find Galathil in the Ragged Flagon after gaining access through the Ratway. Besides ordinary appearance changes, [she can make you unrecognizable](https://www.nexusmods.com/skyrimspecialedition/mods/110116), which can clear existing bounties for an additional fee.
 - **Solitude — Lights Out!:** Speak with **Jaree-Ra near the docks** about his plan for the Icerunner.
 
-<details>
-<summary><strong>Spoilers: Lights Out! choices and evidence locations</strong></summary>
+  - <details>
+    <summary><strong>Spoilers: Lights Out! choices and evidence locations</strong></summary>
 
-You can [investigate and save the ship](https://www.nexusmods.com/skyrimspecialedition/mods/34681) instead of causing the wreck. For an alternative route, look for evidence in **Broken Oar Grotto** and bring it to **Captain Aldis**, or confront Jaree-Ra. **Ahtar**, Solitude's headsman, can point you toward the grotto.
+    You can [investigate and save the ship](https://www.nexusmods.com/skyrimspecialedition/mods/34681) instead of causing the wreck. For an alternative route, look for evidence in **Broken Oar Grotto** and bring it to **Captain Aldis**, or confront Jaree-Ra. **Ahtar**, Solitude's headsman, can point you toward the grotto.
 
-</details>
+    </details>
 
 - **Solstheim — A New Debt:** After **Mogrul** confronts you in Raven Rock, you have [more ways to deal with his demand](https://www.nexusmods.com/skyrimspecialedition/mods/148427) than paying or fighting.
 
-<details>
-<summary><strong>Spoilers: A New Debt solutions</strong></summary>
+  - <details>
+    <summary><strong>Spoilers: A New Debt solutions</strong></summary>
 
-Evidence from his thugs can persuade **Adril Arano** to arrest him after *Served Cold*; strong Illusion, Speech, or **Bend Will** can open other solutions.
+    Evidence from his thugs can persuade **Adril Arano** to arrest him after *Served Cold*; strong Illusion, Speech, or **Bend Will** can open other solutions.
 
-</details>
+    </details>
 
 - **Ivarstead — Philter of the Phantom:** Optional exploration interaction; location and use below.
 
-<details>
-<summary><strong>Spoilers: Philter of the Phantom location and interaction</strong></summary>
+  - <details>
+    <summary><strong>Spoilers: Philter of the Phantom location and interaction</strong></summary>
 
-Explore Shroud Hearth Barrow for the potion, then [use it to play a ghostly prank](https://www.nexusmods.com/skyrimspecialedition/mods/32256) around the village. This is a small extra interaction rather than a major tracked quest.
+    Explore Shroud Hearth Barrow for the potion, then [use it to play a ghostly prank](https://www.nexusmods.com/skyrimspecialedition/mods/32256) around the village. This is a small extra interaction rather than a major tracked quest.
 
-</details>
+    </details>
 
 #### Exploration details
 
@@ -895,33 +878,26 @@ The groups below suggest **when to try** each adventure, not a promise that ever
 - **[Quest — Baba Yaga and the Labyrinth](https://www.nexusmods.com/skyrimspecialedition/mods/84492):** Ask the **Bee and Barb's innkeeper in Riften** about the walking hut, then find it east of Lake Geir. This is a compact, strange maze and witch story with exploration and puzzles. Bring a modest party into its cramped interiors.
 - **[The Frozen Heart](https://www.nexusmods.com/skyrimspecialedition/mods/159911):** Buy the **Snow Elf Mirror (Labyrinthian Passages)** from **Belethor in Whiterun** and inspect its back. Learn at least one word each of **Slow Time** and **Fire Breath** before starting; both shouts are needed for progress.
 
-<details>
-<summary><strong>Spoilers: The Frozen Heart destination</strong></summary>
-
-The mirror opens a frozen realm, puzzles, and a Snow Elf's story.
-
-</details>
-
 ##### Late-game challenges and long stories
 
 - **[Gravewind](https://www.nexusmods.com/skyrimspecialedition/mods/129582):** Enter the abandoned homestead **northwest of Roadside Ruins in Falkreath**. Its horror-themed journey traps you once it begins, so prepare before entering; the author recommends roughly **level 25 or higher**, and Authoria's Requiem balance may demand more. Followers can struggle to navigate it.
 - **[The Rot Below](https://www.nexusmods.com/skyrimspecialedition/mods/169298):** At **level 30**, find **Elroy's Journal 1** in a court wizard's room and read it to begin.
 
-<details>
-<summary><strong>Spoilers: The Rot Below setting and enemies</strong></summary>
+  - <details>
+    <summary><strong>Spoilers: The Rot Below setting and enemies</strong></summary>
 
-This plague-ridden underground city culminates in demanding lich fights; level 30 opens the quest rather than guaranteeing readiness.
+    This plague-ridden underground city culminates in demanding lich fights; level 30 opens the quest rather than guaranteeing readiness.
 
-</details>
+    </details>
 
 - **[The Tools of Kagrenac](https://www.nexusmods.com/skyrimspecialedition/mods/14168):** Finish the College of Winterhold side story *Arniel's Endeavor* and the main quest *The Way of the Voice*. This is best treated as a later College adventure.
 
-<details>
-<summary><strong>Spoilers: The Tools of Kagrenac reward and precise trigger</strong></summary>
+  - <details>
+    <summary><strong>Spoilers: The Tools of Kagrenac reward and precise trigger</strong></summary>
 
-*Arniel's Endeavor* provides **Keening**. Keep it in your inventory; a courier's letter arrives a couple of days later and starts the hunt for the other legendary tools through large dungeons.
+    *Arniel's Endeavor* provides **Keening**. Keep it in your inventory; a courier's letter arrives a couple of days later and starts the hunt for the other legendary tools through large dungeons.
 
-</details>
+    </details>
 
 ##### Short stories by Nimwraith
 
@@ -974,32 +950,32 @@ For a broader inventory, visit the [Authoria Modlist Grimoire](https://modlistgr
 
 The four VICN stories form Authoria's late-game arc. **DAc0da → Vigilant → Glenmoril → Unslaad** is a useful story order. These are large, sometimes unsettling adventures with long stretches away from ordinary Skyrim; reaching a start level does not mean your character is ready for every fight.
 
-- **[DAc0da](https://www.nexusmods.com/skyrimspecialedition/mods/134405):** At **level 30**, change location to trigger its opening. Follow the new lead in **Solitude**, including **Lokir** and the lighthouse.
+- **[DAc0da](https://www.nexusmods.com/skyrimspecialedition/mods/134405):** At **level 30 or higher**, the next location change triggers its opening. Follow the new lead in **Solitude**, including **Lokir** and the lighthouse.
 
-<details>
-<summary><strong>Spoilers: DAc0da opening and destination</strong></summary>
+  - <details>
+    <summary><strong>Spoilers: DAc0da opening and destination</strong></summary>
 
-The opening includes the Numidium's appearance. The adventure takes you inside the construct and sets up the later VICN stories.
+    The opening includes the Numidium's appearance. The adventure takes you inside the construct and sets up the later VICN stories.
 
-</details>
+    </details>
 
 - **[Vigilant](https://www.nexusmods.com/skyrimspecialedition/mods/11849):** At **level 30**, finish DAc0da. See the exact prerequisite below. On the next location change, **Altano and Orlando** appear at the **Windpeak Inn in Dawnstar**; speak with Altano to join the Vigil of Stendarr.
 
-<details>
-<summary><strong>Spoilers: Vigilant prerequisite quest title</strong></summary>
+  - <details>
+    <summary><strong>Spoilers: Vigilant prerequisite quest title</strong></summary>
 
-DAc0da's final quest is *Censored Fate*.
+    DAc0da's final quest is *Censored Fate*.
 
-</details>
+    </details>
 
-- **[Glenmoril](https://www.nexusmods.com/skyrimspecialedition/mods/32998):** At **level 40**, change location to trigger its opening quest. Its first objective is to speak to **Brandt in Lalanoah's House**.
+- **[Glenmoril](https://www.nexusmods.com/skyrimspecialedition/mods/32998):** At **level 40 or higher**, the next location change triggers its opening quest. Its first objective is to speak to **Brandt in Lalanoah's House**.
 
-<details>
-<summary><strong>Spoilers: Glenmoril story direction</strong></summary>
+  - <details>
+    <summary><strong>Spoilers: Glenmoril story direction</strong></summary>
 
-The opening is quieter than the dark witch-hunter story that follows.
+    The opening is quieter than the dark witch-hunter story that follows.
 
-</details>
+    </details>
 
 - **[Unslaad](https://www.nexusmods.com/skyrimspecialedition/mods/11789):** When you **level up to 40 or higher**, the doll appears on a ledge **behind the High Hrothgar courtyard gates**. Activate it to enter the first act of Authoria's current VICN finale.
 
@@ -1029,32 +1005,32 @@ Some of Legacy's later story depends on Skyrim's main quest and your character b
 - **Artifacts:** Authoria rebalances Legacy artifacts to fit Requiem. Their effects and strength may differ from descriptions written for an unmodified Legacy game; check the item you actually find.
 - **Replicas:** Authoria heavily weakens them. Make them to **fill museum displays**, not as substitute combat gear. Keep the original artifact if you want to use its powers; a replica should not be expected to preserve them.
 
-<details>
-<summary><strong>Spoilers: artifact retention during quests</strong></summary>
+  - <details>
+    <summary><strong>Spoilers: artifact retention during quests</strong></summary>
 
-This also applies when a quest later takes the original away.
+    This also applies when a quest later takes the original away.
 
-</details>
+    </details>
 
 - **Display milestones:** Auryen's artifact rewards for reaching display counts are replaced with **gold**. Those artifacts still exist, but Authoria moves them onto particular enemies in the world. You do not need the list below to play normally; it is there if you want to track down a specific reward.
 
-<details>
-<summary><strong>Former milestone artifacts: carriers and locations (spoilers)</strong></summary>
+  - <details>
+    <summary><strong>Former milestone artifacts: carriers and locations (spoilers)</strong></summary>
 
-Defeat the named carrier to loot the artifact. Some are in difficult areas or other questlines, so their presence here is not an early-game recommendation.
+    Defeat the named carrier to loot the artifact. Some are in difficult areas or other questlines, so their presence here is not an early-game recommendation.
 
-| Artifact | Carried by | Where to find the carrier |
-| --- | --- | --- |
-| Cleaver of St. Felms | Soran Savayn | Shriekwind Bastion |
-| Gravedigger | High-King Borgas | Korvanjund Crypt (Korvanjund) |
-| Skullcrusher | Grakk the Crusher | Bilegulch Mine |
-| Scourge | Ghunzul | Cracked Tusk Keep |
-| Stendarr's Hammer | Paladin Janus (Soul-Shriven) | Old Temple of the Eight Divines (**Vigilant**) |
-| Staff of Hasedoki | Ildari Sarothril | Highpoint Tower, Solstheim |
-| Hopesfire | Madura Seran | Damphall Mine, Solstheim |
-| Trueflame | High-Cultist Drathyn | Solstheim, outside the Temple of Miraak's secret exit |
+    | Artifact | Carried by | Where to find the carrier |
+    | --- | --- | --- |
+    | Cleaver of St. Felms | Soran Savayn | Shriekwind Bastion |
+    | Gravedigger | High-King Borgas | Korvanjund Crypt (Korvanjund) |
+    | Skullcrusher | Grakk the Crusher | Bilegulch Mine |
+    | Scourge | Ghunzul | Cracked Tusk Keep |
+    | Stendarr's Hammer | Paladin Janus (Soul-Shriven) | Old Temple of the Eight Divines (**Vigilant**) |
+    | Staff of Hasedoki | Ildari Sarothril | Highpoint Tower, Solstheim |
+    | Hopesfire | Madura Seran | Damphall Mine, Solstheim |
+    | Trueflame | High-Cultist Drathyn | Solstheim, outside the Temple of Miraak's secret exit |
 
-</details>
+    </details>
 
 ### Modded and custom followers
 
@@ -1062,84 +1038,84 @@ Authoria includes several companions with their own dialogue and stories, plus d
 
 - **[Kaidan](https://kaidanmod.com/all-in-one-installer/) — [Pre Thalmor](https://www.nexusmods.com/skyrimspecialedition/mods/166698):** You can first meet him at his old camp on the **northeast shore of Lake Ilinalta**. He is **not** waiting in the Abandoned Prison when you first start a new game. Rumors around Riverwood or Falkreath, or a clue in the Abandoned Prison, can point you there.
 
-<details>
-<summary><strong>Spoilers: Kaidan recruitment progression and personal story</strong></summary>
+  - <details>
+    <summary><strong>Spoilers: Kaidan recruitment progression and personal story</strong></summary>
 
-This early meeting is a prologue: after you speak with him and leave the area, he is eventually captured offscreen. Go to the **Abandoned Prison** to rescue and recruit him, then travel and talk with him to discover his personal story and Immersive Features content. Authoria also includes [Deadlands Expanded](https://www.nexusmods.com/skyrimspecialedition/mods/152623), which expands **Kaidan's Daedric quest** into a larger adventure involving the Deadlands. Follow his personal-story conversations and quest clues after recruiting him; it is part of his story, not a separate place to recruit him.
+    This early meeting is a prologue: after you speak with him and leave the area, he is eventually captured offscreen. Go to the **Abandoned Prison** to rescue and recruit him, then travel and talk with him to discover his personal story and Immersive Features content. Authoria also includes [Deadlands Expanded](https://www.nexusmods.com/skyrimspecialedition/mods/152623), which expands **Kaidan's Daedric quest** into a larger adventure involving the Deadlands. Follow his personal-story conversations and quest clues after recruiting him; it is part of his story, not a separate place to recruit him.
 
-</details>
+    </details>
 
 - **[Inigo](https://www.nexusmods.com/skyrimspecialedition/mods/1461):** Find him in **Riften Jail**, in the first cell on the left near Sibbi Black-Briar. Read the letter on the entrance table for context, then speak to him. For his personal mini-quest, ask **“Tell me more about your past”** and keep adventuring together.
 
-<details>
-<summary><strong>Spoilers: Inigo personal-quest progression</strong></summary>
+  - <details>
+    <summary><strong>Spoilers: Inigo personal-quest progression</strong></summary>
 
-To open his personal mini-quest, ask **“Tell me more about your past”** until he has finished telling it and you know his brother's name; the quest can then begin while you adventure together. His currently released story stops after this introductory quest.
+    To open his personal mini-quest, ask **“Tell me more about your past”** until he has finished telling it and you know his brother's name; the quest can then begin while you adventure together. His currently released story stops after this introductory quest.
 
-</details>
+    </details>
 
 - **[Auri — Song of the Green](https://www.nexusmods.com/skyrimspecialedition/mods/11278):** Find **Auri's Pod in Falkreath Hold**; it appears on the map.
 
-<details>
-<summary><strong>Spoilers: Auri friendship progression and conversation timing</strong></summary>
+  - <details>
+    <summary><strong>Spoilers: Auri friendship progression and conversation timing</strong></summary>
 
-Talk with her about herself and Bosmeri culture as you travel to develop her friendship and complete her short personal quest. More conversations unlock afterward. If a conversation at the camp near Evergreen Grove seems unavailable, try returning between **8 p.m. and midnight**.
+    Talk with her about herself and Bosmeri culture as you travel to develop her friendship and complete her short personal quest. More conversations unlock afterward. If a conversation at the camp near Evergreen Grove seems unavailable, try returning between **8 p.m. and midnight**.
 
-</details>
+    </details>
 
 - **[Ashe — Crystal Heart](https://www.martimiusmods.com/ashe):** Find the white-haired mercenary in **the Winking Skeever, Solitude**, and bring **200 septims** to recruit her. Get to know her through new dialogue topics and follow the journal prompts.
 
-<details>
-<summary><strong>Spoilers: Ashe story progression and troubleshooting</strong></summary>
+  - <details>
+    <summary><strong>Spoilers: Ashe story progression and troubleshooting</strong></summary>
 
-Early scenes sometimes require sleeping in a bed or allowing about a day to pass. Her longer, choice-driven story begins once she invites you to her home; the [hints-first quest guide](https://www.martimiusmods.com/ashe/walkthrough) can help if you lose the thread.
+    Early scenes sometimes require sleeping in a bed or allowing about a day to pass. Her longer, choice-driven story begins once she invites you to her home; the [hints-first quest guide](https://www.martimiusmods.com/ashe/walkthrough) can help if you lose the thread.
 
-</details>
+    </details>
 
 - **[Xelzaz](https://www.nexusmods.com/skyrimspecialedition/mods/62893):** Meet him at the **Southern Morrowind Gate**, east of Dayspring Canyon and northeast of Stendarr's Beacon. A note in Riften's Bee and Barb can mark his location. His first quest, **A Lawman's Ambition**, begins when you recruit him.
 
-<details>
-<summary><strong>Spoilers: Xelzaz quest progression</strong></summary>
+  - <details>
+    <summary><strong>Spoilers: Xelzaz quest progression</strong></summary>
 
-His first quest asks you to bring him to the Hammerfell Gate. Your relationship and choices at the gate affect what happens next; further quests open through travel, conversation, and particular locations.
+    His first quest asks you to bring him to the Hammerfell Gate. Your relationship and choices at the gate affect what happens next; further quests open through travel, conversation, and particular locations.
 
-</details>
+    </details>
 
 - **[Lucien Flavius](https://www.nexusmods.com/skyrimspecialedition/mods/20035):** Find him in **Dead Man's Drink, Falkreath**. He begins as an inexperienced scholar and learns as you travel together. For his personal quests, build your friendship and ask whether there is somewhere he would like to see.
 
-<details>
-<summary><strong>Spoilers: Lucien personal-quest progression</strong></summary>
+  - <details>
+    <summary><strong>Spoilers: Lucien personal-quest progression</strong></summary>
 
-The first quest starts when he is ready; the second begins after the first is complete and you have recruited him again for several in-game days.
+    The first quest starts when he is ready; the second begins after the first is complete and you have recruited him again for several in-game days.
 
-</details>
+    </details>
 
 - **[Remiel](https://www.nexusmods.com/skyrimspecialedition/mods/51874):** Find her in **the Silver-Blood Inn, Markarth**. Offer to help her enter **Nchuand-Zel** beneath the city.
 
-<details>
-<summary><strong>Spoilers: Remiel introductory rewards and later progression</strong></summary>
+  - <details>
+    <summary><strong>Spoilers: Remiel introductory rewards and later progression</strong></summary>
 
-Her introductory quest follows the vanilla **Lost Expedition** quest; completing it unlocks her fuller follower dialogue and her Dwemer spider, Scrap. Keep exploring Dwemer ruins with her for further developments.
+    Her introductory quest follows the vanilla **Lost Expedition** quest; completing it unlocks her fuller follower dialogue and her Dwemer spider, Scrap. Keep exploring Dwemer ruins with her for further developments.
 
-</details>
+    </details>
 
 - **[Val Serano](https://www.nexusmods.com/skyrimspecialedition/mods/103669):** Start his pirate story by reading the **message in a bottle on a crate outside White River Watch**, east of Whiterun.
 
-<details>
-<summary><strong>Spoilers: Val Serano recruitment and personal-story progression</strong></summary>
+  - <details>
+    <summary><strong>Spoilers: Val Serano recruitment and personal-story progression</strong></summary>
 
-Val is not waiting there to be recruited: follow *Between the Daedra and the Deep Blue Sea* to find him, then continue *He Runs a Tight Shipwreck* to gain his services. Travel and talk with him to advance his longer personal story; friendship and romance are separate choices. If you have begun **Legacy of the Dragonborn**, Auryen can also point you toward this overdue relic hunter. The author's [story walkthrough](https://www.nexusmods.com/skyrimspecialedition/articles/5975) is available if you lose the trail.
+    Val is not waiting there to be recruited: follow *Between the Daedra and the Deep Blue Sea* to find him, then continue *He Runs a Tight Shipwreck* to gain his services. Travel and talk with him to advance his longer personal story; friendship and romance are separate choices. If you have begun **Legacy of the Dragonborn**, Auryen can also point you toward this overdue relic hunter. The author's [story walkthrough](https://www.nexusmods.com/skyrimspecialedition/articles/5975) is available if you lose the trail.
 
-</details>
+    </details>
 
 - **[Serana — Serana Dialogue Add-On](https://www.nexusmods.com/skyrimspecialedition/mods/32161):** Meet her through **Dawnguard's Awakening quest in Dimhollow Crypt**.
 
-<details>
-<summary><strong>Spoilers: Serana recruitment progression and shared story prerequisites</strong></summary>
+  - <details>
+    <summary><strong>Spoilers: Serana recruitment progression and shared story prerequisites</strong></summary>
 
-Follow the early Dawnguard quests to return her home and later recruit her again. Her expanded conversations and optional relationship unfold as you travel and advance Dawnguard, so check in with her between major quest steps. The separate [Ashe & Serana banter patch](https://www.nexusmods.com/skyrimspecialedition/mods/167123) adds conversations that respond to both companions' stories; for the intended introduction, finish Ashe's **A Borrowed Soul** chapter and Serana's early Dawnguard recruitment before expecting their shared story beats.
+    Follow the early Dawnguard quests to return her home and later recruit her again. Her expanded conversations and optional relationship unfold as you travel and advance Dawnguard, so check in with her between major quest steps. The separate [Ashe & Serana banter patch](https://www.nexusmods.com/skyrimspecialedition/mods/167123) adds conversations that respond to both companions' stories; for the intended introduction, finish Ashe's **A Borrowed Soul** chapter and Serana's early Dawnguard recruitment before expecting their shared story beats.
 
-</details>
+    </details>
 
 **Dialogue expansions and newly recruitable NPCs.** Authoria includes [anbeegod's Follower Dialogue Expansions](https://www.nexusmods.com/skyrimspecialedition/users/32344400?tab=user+files) for many existing followers and several NPCs who become recruitable after a quest.
 
