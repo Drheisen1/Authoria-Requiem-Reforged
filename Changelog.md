@@ -1,3 +1,79 @@
+## Authoria - Requiem Reforged Version 2.9.10
+> Not Save Safe, start a new game.
+> - **UBE gear fitting overhaul**: far more armour shows and fits on UBE
+> - **Better controller support**
+> - **Faster levelling and skills**, with an optional slower setting
+> - **[Gameplay Guide](https://github.com/Drheisen1/Authoria-Requiem-Reforged/blob/main/GameplayGuide.md) rewritten and expanded**
+> - **20+ bug fixes**
+
+# Added
+- Vigilant 3BA + Vigilant 3BA - HDT Cloaks (3BA bodies for Vigilant armour), with our own Authoria - Vigilant 3BA Fixes
+- GLENMORIL CBBE 3BA Patch
+- Unslaad CBBE (3BA) Bodyslide, with our own patch (Authoria - Unslaad 3BA) so Requiem / Reqtificated edits stay in place
+- Authoria - Bodyslide Projects - UBE: ~1,670 UBE BodySlide projects, so you can rebuild every UBE piece yourself
+- Authoria - UBE Master Patch: UBE versions of the list's armour, including Glenmoril, Vigilant, Unslaad and Armors of the Velothi, first-person bodies, and helmets, hoods, masks, cloaks, rings, shields and other pieces that need no conversion (they previously showed nothing on UBE)
+- Authoria - Mesh Fixes: slot fixes for cloak meshes inside mod archives
+- Werewolf Transformation Fix (by thedoc)
+- Reading Is Good (SKSE): skill books raise that skill's XP rate (+4% per book, up to 5 books per skill) instead of giving +1 skill
+- Authoria - Leveling: skills level faster, most of all at higher skill levels
+- Optional, off by default (Slower Levelling section; pick before a new game, can be toggled mid-game): Authoria - Slower Leveling: levels take about 40% more XP than default (roughly +50% early, +30% late), close to ARR 2.5.2's pace; skills slow down to match
+- Follower Dialogue Expansion - Rayya
+- Authoria - HUD Reset: HUD gone (crosshair, compass, TrueHUD)? Cast the new **Reset HUD** power (Magic → Powers) before restarting, and tell us whether it brought everything back
+- Authoria - Serana UBE Hood and Hair patch: Serana's hood now matches her outfit and shows her hair; her long hair has physics
+
+# Removed
+- Authoria - UBE Converter Output (replaced by the UBE mods above)
+- Towels
+- BWB - VIGILANT Summoner's Armor Set plugin (covered by Vigilant 3BA)
+- Finding Velehk Sain (conflicted with Val Serano's quest)
+- Requiem SE Tweaks – Undead Wield Dawnbreaker (broken conditions; Serana's Dawnbreaker immunity now comes from SDA)
+- Universal Serana Hood Patches (Serana keeps her hood; see the fix below)
+
+# Updated
+- QuickLoot IE 3.4.1 → 4.1.3, with the matching Dragonborn Reskin (4.x)
+- Simple Power Attack 1.0.9 → 1.1.10
+- Pon's Ashe Crystal Heart UBE 1.0.1 → 1.0.3: outfit remade for UBE (no more clipping), cloak physics on UBE, potions visible, hair no longer swings through her body
+- Serana Dialogue Add-On 4.3.2 → 4.4.1 (+ Patch Hub 3.0.0, Ashe and Serana Banter 1.0.12)
+- Storm the Thalmor Embassy 1.0.2 → 1.0.3: skipping the party now starts the dragon mounds and puts Malborn in place
+
+# Fixed
+- Cloaks invisible list-wide: Reqtificated moved them to slot 46 but their meshes stayed on 35 / 45 / 51 (Witch Cape, Nibenean Fur cape, Ysgramor cloak, Chick Trader cloak, Sigrin cloaks, Unslaad Half-Dragon capes and Yngol's Coat, Glenmoril / Valkyrie / VKG cloaks and more)
+- Other invisible or clashing pieces from slot changes: Mage's Daily Outfit choker, Sparrows Mage jacket, Penetrator skirt, Fluted pauldron, Sigrin shoulders, Ash Reader Cuirass cloth and poncho
+- Ruby Flower hat, Huntress Hat and Ahzidal Mask no longer make the head invisible
+- Rogue Stalker ring and band invisible on UBE
+- FVO Leather Leg Band and Mage's Daily Outfit Book Holster no longer hide the UBE crotch
+- Vigilant: Belharza's Guard boots / gauntlets, Summoner's Hood, Katarina and Royal Khajiit first-person torsos were invisible on women
+- Unslaad 3BA BodySlide plugin reverted Reqtificated on the capes
+- Floating ring behind the left upper arm (IED treated slot-47 skirts as backpacks)
+- Power attacks went through with stamina below their cost (Scrambled Bugs settings were not being applied)
+- Controller power attack settings were never read (Simple Power Attack update)
+- Werewolf transformation: player alias fix
+- Whispers in the Dark: Cicero no longer gets stuck outside the Night Mother's chamber if you closed the iron door before getting in the coffin
+- Cicero was invisible during the Dark Brotherhood quests
+- Serana was bald under her hood
+- Dawnbreaker no longer hurts Serana (SDA 4.4.1 change, kept over Requiem)
+- Serana now comments when you use the All-Maker Stones on Solstheim (SDA patch was being overridden); the stones' ambient sound is back
+- Experience settings: the list's Experience.ini used setting names Experience 3.7 no longer reads, so several settings were ignored (books gave 2× the intended XP); a Synthesis patcher was also overwriting Experience's own files
+- Easy Mode: doubled out-of-combat regeneration was not applied
+- Engaging Combat (optional): its mechanics were switched off in the shipped settings
+- UBE fit: Nightingale Gauntlets show the hands again; hoods, masks and helmets now turn with the head (Summoner's Hood, Witch Hunter Mask, Vigilant Hood, Asura's Ebony Helmet, Bone Cultist Helmet, Acolyte, Mythic Dawn and Common hoods); belt props and straps no longer swing or tear with the legs (175 outfits, incl. Gardener's Armor); no gap at the neck on Skeleton Cuirass; Chick Trader Cloak, Wise Woman Robe hands, Indoril Wayfarer boots
+- Dwemer Armor SE and Falmer Slayer Helmet 2 invisible on UBE
+- Obi's Cimmerian skirt on UBE
+- Ultrawide (21:9 / 32:9): the loot menu now uses the same Dragonborn skin as 16:9
+
+# Changed
+- Levelling: player levels about 30% faster (mostly early game); skills level about 2–4× faster above 25; skills capped at 16 + 1.75 × your level (plus racial bonuses); no XP penalty with followers; low / medium courier missives pay 15 XP; no stray XP from background quests
+- **Keyboard: Horse Whistle is now H, Quick Follower Commands is now B**
+- Controller: cycle stances with D-pad Up; pad hotkeys are now Right 5 / Left 6 / Down 7; double-tap D-pad Right whistles your horse, double-tap Left toggles the light
+- Hotkey reminder (F11) shows the full controller map
+- Controller: **Y** also triggers QuickLoot's new "Use" action while the loot menu is open (Y is still Jump everywhere else)
+- Better Third Person Selection: "Stealing Only While Undetected" filter now off by default. "Stealing only While Sneaking" stays on, so you still have to sneak to steal
+- Crafting Pulls Resources From Containers is now optional (off by default, under Misc) because it costs FPS while active; enable it in MO2 to craft from your home chests and Legacy of the Dragonborn PermaLinks (ARR's settings now ship inside it; the separate LOTD Configs addon is gone)
+- Lisette has a new outfit (Gilded Doublet)
+- UBE Serana now has her long hairstyle (the short one was picked by mistake)
+- UBE armour variants now follow their source races (no doubled helmets / hoods on UBE characters)
+
+
 ## Authoria - Requiem Reforged Version 2.9.9
 > Not Save Safe, Major Cleanup for a more consistent playthrough.
 > The Main Profile is removed, NSFW is the only profile now, keep in mind that it is made even less intrusive now, this will help a lot in tracking down bugs and issues in the future.
