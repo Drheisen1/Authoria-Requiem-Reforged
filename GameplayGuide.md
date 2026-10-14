@@ -609,8 +609,6 @@ These are **quest start requirements**, not recommended levels for winning the f
 | *Discerning the Transmundane* | Level **20** for the independent start, with its usual quest-stage requirement. The main quest can also lead you to Septimus. |
 | *A Daedra's Best Friend* | Level **25** before Barbas's quest begins. |
 | *Dawnguard* | Level **30** before guards begin mentioning the Dawnguard. |
-| *The Gray Cowl of Nocturnal* | Level **15**; theft or pickpocketing can trigger the quest. |
-| Certain jarl or steward bounties | Level **20** or **30**, depending on the bounty quest; ask the jarl or steward for work. |
 
 *Dragonborn* can also be started by going to **Solstheim**. *The Ebony Warrior* starts at **level 50**, with alternate completion-based triggers below.
 
