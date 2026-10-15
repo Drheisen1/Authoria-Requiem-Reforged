@@ -15,7 +15,7 @@
 
 Authoria - Requiem Reforged is mainly a Skyrim modlist built around Requiem, with full Seasons integration including Unfrozen. Centered around nature, freedom, and the ever-changing balance of the world, Authoria - Requiem Reforged delivers a visually rich and mechanically demanding experience where survival and indulgence coexist. With sweeping landscape and city overhauls, seasonal world balancing, and a carefully curated selection of content and gameplay expansions, the list transforms Skyrim into a living, breathing wilderness—beautiful in summer, brutal in winter, and unforgiving to the unprepared.
 
-# NSFW Disclaimer
+### NSFW Disclaimer
 This modlist contains nudity, see [This Section](https://github.com/Drheisen1/Authoria-Requiem-Reforged/blob/main/GameplayGuide.md#presentation-and-adult-content) of the gameplay guide for more details.
 
 ## Features
