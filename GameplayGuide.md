@@ -368,7 +368,7 @@ Authoria uses [SunHelm](https://www.nexusmods.com/skyrimspecialedition/mods/3941
 
 With [Simple Hunting Overhaul](https://www.nexusmods.com/skyrimspecialedition/mods/95943), taking the **pelt** from a dead animal skins it. If you want to carry the whole animal instead, target its body and press **Shift+Q**; Authoria's [Carry Your Carcasses](https://www.nexusmods.com/skyrimspecialedition/mods/62628) setup lets you take it with you for later processing or sale. Choose before looting the pelt if you want the intact carcass.
 
-Fishing uses three complementary mods. [Simple Fishing Overhaul](https://www.nexusmods.com/skyrimspecialedition/mods/103440) improves first- and third-person fishing and replaces repetitive fishing-quest dialogue; its optional bait requirement can be managed in its MCM. [Fancy Fishing](https://www.nexusmods.com/skyrimspecialedition/mods/89352) adds convenience settings and a catch minigame, which **Authoria enables by default**. Check its MCM to change the fishing challenge.
+[Simple Fishing Overhaul](https://www.nexusmods.com/skyrimspecialedition/mods/103440) improves first- and third-person fishing and replaces repetitive fishing-quest dialogue; its optional bait requirement can be managed in its MCM. [Fancy Fishing](https://www.nexusmods.com/skyrimspecialedition/mods/89352) adds convenience settings and a catch minigame, which **Authoria enables by default**. Check its MCM to change the fishing challenge.
 
 #### Wounds
 
