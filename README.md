@@ -13,16 +13,16 @@
 
 ## Introduction
 
-Authoria - Requiem Reforged is mainly an NSFW Skyrim modlist built around Requiem, with full Seasons integration including Unfrozen. Centered around nature, freedom, and the ever-changing balance of the world, Authoria - Requiem Reforged delivers a visually rich and mechanically demanding experience where survival and indulgence coexist. With sweeping landscape and city overhauls, seasonal world balancing, and a carefully curated selection of content and gameplay expansions, the list transforms Skyrim into a living, breathing wilderness—beautiful in summer, brutal in winter, and unforgiving to the unprepared.
+Authoria - Requiem Reforged is mainly a Skyrim modlist built around Requiem, with full Seasons integration including Unfrozen. Centered around nature, freedom, and the ever-changing balance of the world, Authoria - Requiem Reforged delivers a visually rich and mechanically demanding experience where survival and indulgence coexist. With sweeping landscape and city overhauls, seasonal world balancing, and a carefully curated selection of content and gameplay expansions, the list transforms Skyrim into a living, breathing wilderness—beautiful in summer, brutal in winter, and unforgiving to the unprepared.
 
 ## Features
   
 - **Quest Mods:**  
   Authoria - Requiem Reforged includes a massive lineup of lore-rich, fully patched quests that expand Skyrim’s world with new factions, dungeons, and narratives. Major entries include:  
-  Legacy of the Dragonborn, Beyond Skyrim - Bruma, Tools of Kagrenac, Gray Cowl of Nocturnal, DAc0da, Vigilant, Glenmoril, Unslaad, Wyrmstooth, Sirenroot, Olenveld, Ascend — and many more.
+  Legacy of the Dragonborn, Beyond Skyrim - Bruma, Tools of Kagrenac, Gray Cowl of Nocturnal, DAc0da, Vigilant, Glenmoril, Unslaad, Wyrmstooth, Sirenroot, and many more.
 
 - **Combat:**  
-  Features For Honor, full MCO integration, and a suite of enemy balance and difficulty tweaks. The combat system supports a challenging but fair experience where any playstyle is viable and well balanced—battlemage, stealth archer, heavy melee, dual wield, and more. 
+  Features a full MCO integration, and a suite of enemy balance and difficulty tweaks. The combat system supports a challenging but fair experience where any playstyle is viable and well balanced—battlemage, stealth archer, heavy melee, dual wield, and more. 
 
 - **City and World Overhauls:**  
   Each city overhaul has been selectively picked to result in the best possible visuals:
@@ -113,10 +113,6 @@ Before you begin, make sure you meet the following **hard requirements**:
 - **You must own and install Skyrim Anniversary Edition (AE).**  
   The Standard Special Edition (SSE) will not work — this modlist requires the full AE version with all Creation Club content. You must launch the game and download the CC content prior to Wabbajack install
 
-- **You must have the Creation Kit installed via Steam.**  
-  It is required for the modlist to compile and **must be installed on the same drive** as your Skyrim AE installation.  Must run at least once, click yes when asked to extract scripts.
-  > Example: If Skyrim AE is installed on `D:\`, the Creation Kit must also be installed on `D:\`.
-
 - **Installation must be on an Internal SSD.**  
   Installing to an HDD or any external storage device will result in long load times, freezing, and crashes.
 
@@ -198,8 +194,8 @@ Before diving into your playthrough, take a moment to configure the list to matc
 
 ### Performance Tuning (Optional)
 
-* We encourage users to run **VRAMr** unless you have at least 16 GB of VRAM. If you have 10 GB of VRAM or less, we consider it a functional *necessity*. 
-* Instructions for both tools and additional performance improvements can be found in the [Tool Running Guide](https://github.com/Drheisen1/Authoria-Requiem-Reforged/blob/main/Authoria_Tool_Running_Guide.md).
+* We encourage users to enable the option **Texture Downscaler** mod unless you have at least 16 GB of VRAM. If you have 10 GB of VRAM or less, we consider it a functional *necessity*.
+* **Texture Downscaler** can be reinstalled for multiple performance presets.
 
 ---
 
