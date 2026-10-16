@@ -1,10 +1,6 @@
 # Authoria — Requiem Reforged — Post-installation & Official Options
 
-For Authoria 2.9.10.
-
 Complete these steps after [installation](InstallationGuide.md) and before starting your character. This guide collects first-launch preparation and the optional features included with Authoria.
-
-Authoria's settings are already configured. The MCM and keybind adjustments documented in the [Gameplay Guide](GameplayGuide.md#first-session-settings-and-controls) remain there. Other settings changes can have unwanted effects or break systems. Any modification to the modlist is covered by the unchanged [Rule 11 disclaimer](SafeCustomizationGuide.md#rule-11--modlist-modification-disclaimer); this guide creates no exclusions from that rule.
 
 ## Contents
 
