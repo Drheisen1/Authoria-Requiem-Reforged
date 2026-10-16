@@ -1,0 +1,27 @@
+title: Authoria — Requiem Reforged
+description: Installation, gameplay, and tool guides for Authoria — Requiem Reforged, a Skyrim modlist built around Requiem and Seasons.
+url: https://drheisen1.github.io
+baseurl: /Authoria-Requiem-Reforged
+markdown: kramdown
+kramdown:
+  input: GFM
+  parse_block_html: false
+  syntax_highlighter: rouge
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - README.md
+  - GameplayGuide.md
+  - Authoria_Tool_Running_Guide.md
+  - Changelog.md
+  - WEBSITE.md
+  - scripts
+  - vendor
+  - preview
+  - modlists.json
+  - .bundle
+defaults:
+  - scope:
+      path: ""
+    values:
+      layout: default

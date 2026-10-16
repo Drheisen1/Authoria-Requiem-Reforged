@@ -1,0 +1,15 @@
+- title: Home
+  url: /
+  key: home
+- title: Installation
+  url: /installation.html
+  key: installation
+- title: Gameplay
+  url: /gameplay.html
+  key: gameplay
+- title: Tools
+  url: /tools.html
+  key: tools
+- title: Changelog
+  url: /changelog.html
+  key: changelog

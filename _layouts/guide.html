@@ -1,0 +1,25 @@
+---
+layout: default
+---
+<main id="main" class="container guide-main">
+  <header class="page-heading">
+    <a class="eyebrow breadcrumb" href="{{ '/' | relative_url }}">Authoria <span aria-hidden="true">/</span> The guidebook</a>
+    <h1>{{ page.title }}</h1>
+    <p>{{ page.description }}</p>
+  </header>
+  <div class="guide-layout">
+    <aside class="guide-sidebar" aria-label="Guide sections">
+      <details class="toc-disclosure" open>
+        <summary>On this page <span aria-hidden="true">⌄</span></summary>
+        <nav class="toc" aria-label="On this page">
+          {% for item in page.toc %}<a class="toc-level-{{ item.level }}" href="#{{ item.id }}">{{ item.label }}</a>{% endfor %}
+        </nav>
+      </details>
+      <a class="source-link" href="https://github.com/Drheisen1/Authoria-Requiem-Reforged/blob/main/{{ page.source_file }}">View source on GitHub ↗</a>
+    </aside>
+    <div class="guide-body">
+      <article class="prose">{{ content }}</article>
+      <div class="guide-bottom"><a href="{{ '/' | relative_url }}">← All guides</a><a href="#main">Back to top ↑</a></div>
+    </div>
+  </div>
+</main>
