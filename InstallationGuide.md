@@ -1,7 +1,5 @@
 # Authoria — Requiem Reforged — Installation Guide
 
-For Authoria 2.9.10.
-
 This guide covers requirements, prerequisites, preparation, downloading, and installation. After Wabbajack finishes, continue with [Post-installation & Official Options](PostInstallationGuide.md).
 
 Authoria includes nudity and optional adult scenes. Read [Presentation and adult content](GameplayGuide.md#presentation-and-adult-content) before installing.
@@ -107,10 +105,6 @@ Before you begin, make sure you meet the following **hard requirements**:
 7. **While Wabbajack is running:**
    - Join the [Discord server](https://discord.gg/J6VkyeXDUv) and ask any questions you might have.
    - Review the [Gameplay Guide](https://github.com/Drheisen1/Authoria-Requiem-Reforged/blob/main/GameplayGuide.md)
-
-The storage figures above are rounded from Authoria 2.9.10's installer metadata and use decimal GB. They describe download archives and installed files, not a measured peak free-space requirement during installation or tool generation.
-
-For the included Texture Downscaler option and the existing VRAM guidance, see [Performance tuning](PostInstallationGuide.md#performance-tuning-optional). VRAMR is not included in Authoria 2.9.10.
 
 ## After installation
 
