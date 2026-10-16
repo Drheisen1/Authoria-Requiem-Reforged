@@ -82,11 +82,13 @@ Keep saves from before your changes separate from test saves. Reverting files do
 
 When investigating a problem, identify the personal changes and the guide version you followed. The Rule 11 disclaimer above still applies; these practices do not promise troubleshooting support.
 
-'Credits: https://www.themoddingbordello.com/guides/sos-rule-11-guide'
-
 ## Related guides
 
 - [Post-installation & Official Options](PostInstallationGuide.md): included options and first-launch preparation.
 - [Tool Running Guide](https://github.com/Drheisen1/Authoria-Requiem-Reforged/blob/main/Authoria_Tool_Running_Guide.md): the existing separate technical guide.
 - [Performance Profile Guide](PerformanceProfileGuide.md): placeholder for Authoria 2.9.10.
 - [Rule 11 Video Guides](https://www.youtube.com/playlist?list=PLF-HXyx5H2BMhZjI4aq2aBsvNlsSdrWX_).
+
+>
+> Credits: https://www.themoddingbordello.com/guides/sos-rule-11-guide
+>
