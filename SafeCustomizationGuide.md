@@ -1,7 +1,5 @@
 # Authoria — Requiem Reforged — Safe Customization Practices
 
-For Authoria 2.9.10.
-
 This guide describes habits for keeping personal modifications isolated, understandable, and easier to reverse. These precautions do not guarantee compatibility or save safety. Any modification to the modlist is Rule 11.
 
 ## Rule 11 – Modlist Modification Disclaimer
@@ -83,6 +81,8 @@ Retain the original mod files and outputs where practical, and keep backups of f
 Keep saves from before your changes separate from test saves. Reverting files does not necessarily reverse changes already stored in a save. Do not assume that switching back to the original profile repairs a save made with different mods or generated patches.
 
 When investigating a problem, identify the personal changes and the guide version you followed. The Rule 11 disclaimer above still applies; these practices do not promise troubleshooting support.
+
+'Credits: https://www.themoddingbordello.com/guides/sos-rule-11-guide'
 
 ## Related guides
 
