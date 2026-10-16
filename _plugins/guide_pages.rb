@@ -5,9 +5,12 @@ require "uri"
 # presentation and internal URLs change in the generated website.
 module Authoria
   GUIDES = {
-    "README.md" => ["installation", "Installation guide", "From a clean Skyrim installation to your first launch. Start here, and follow each step in order."],
+    "InstallationGuide.md" => ["installation", "Installation guide", "Requirements, prerequisites, preparation, downloading, and installation."],
+    "PostInstallationGuide.md" => ["post-installation", "Post-installation & Official Options", "First-launch preparation, configuration, and the optional features included with Authoria."],
     "GameplayGuide.md" => ["gameplay", "Gameplay guide", "Find your footing in Requiem. Character setup, progression, survival, combat, and exploration."],
+    "SafeCustomizationGuide.md" => ["safe-customization", "Safe Customization Practices", "Rule 11 preparation: profiles, isolated changes, compatibility checks, and rollback habits."],
     "Authoria_Tool_Running_Guide.md" => ["tools", "Tool running guide", "Regenerate outputs after modifying the list. Step-by-step instructions for BodySlide, Pandora, Reqtificator, and LOD tools."],
+    "PerformanceProfileGuide.md" => ["performance-profile", "Performance Profile Guide", "Placeholder for Authoria 2.9.10. Configuration details and instructions will be added later."],
     "Changelog.md" => ["changelog", "Changelog", "Release notes, additions, and fixes. Check each version’s save compatibility before updating."]
   }.freeze
 
@@ -28,11 +31,7 @@ module Authoria
       base = site.baseurl.to_s
       GUIDES.each do |file, (key, title, description)|
         markdown = File.read(File.join(site.source, file), encoding: "UTF-8").gsub("\r\n", "\n")
-        if key == "installation"
-          # This unclosed paragraph exists in the README's GitHub-only banner.
-          markdown.sub!(/\A.*?(?=^## Introduction)/m, "")
-          markdown.sub!(/^##\s+Screenshots\s*\n.*?(?=^##\s+Links)/m, "")
-        elsif key != "changelog"
+        if key != "changelog"
           markdown.sub!(/\A# [^\n]*\n/, "")
           markdown.sub!(/^## (Contents|Index)\n.*?(?=^## (?!Contents|Index))/m, "")
         else
@@ -76,7 +75,11 @@ module Authoria
         end
         html.gsub!(%r{https://github\.com/Drheisen1/Authoria-Requiem-Reforged/(?:blob|edit)/main/([^"#?\s<>]+)}) do |url|
           target = URI::DEFAULT_PARSER.unescape(Regexp.last_match(1))
-          GUIDES.key?(target) ? "#{base}/#{GUIDES[target][0]}.html" : url
+          if target == "README.md"
+            "#{base}/"
+          else
+            GUIDES.key?(target) ? "#{base}/#{GUIDES[target][0]}.html" : url
+          end
         end
         html.gsub!(%r{https://raw\.githubusercontent\.com/Drheisen1/Authoria-Requiem-Reforged/main/Resources/}, "#{base}/Resources/")
         GUIDES.each do |source, (target, *)|

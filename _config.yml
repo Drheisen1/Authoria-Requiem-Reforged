@@ -11,6 +11,10 @@ exclude:
   - Gemfile
   - Gemfile.lock
   - README.md
+  - InstallationGuide.md
+  - PostInstallationGuide.md
+  - SafeCustomizationGuide.md
+  - PerformanceProfileGuide.md
   - GameplayGuide.md
   - Authoria_Tool_Running_Guide.md
   - Changelog.md

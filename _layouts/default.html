@@ -20,7 +20,22 @@
       </a>
       <button class="menu-toggle" type="button" aria-controls="primary-nav" aria-expanded="false">Menu <span aria-hidden="true">☰</span></button>
       <nav id="primary-nav" class="primary-nav" aria-label="Main navigation">
-        {% for item in site.data.navigation %}<a href="{{ item.url | relative_url }}" {% if page.key == item.key %}aria-current="page"{% endif %}>{{ item.title }}</a>{% endfor %}
+        {% for item in site.data.navigation %}
+          {% if item.children %}
+            {% assign group_active = false %}
+            {% for child in item.children %}{% if page.key == child.key %}{% assign group_active = true %}{% endif %}{% endfor %}
+            <div class="nav-group{% if group_active %} is-current{% endif %}">
+              <a class="nav-parent" href="{{ item.url | relative_url }}" {% if page.key == item.key %}aria-current="page"{% endif %}>{{ item.title }}</a>
+              <button class="submenu-toggle" type="button" aria-expanded="false" aria-controls="submenu-{{ item.key }}" aria-label="Show {{ item.title }} guides"><span aria-hidden="true">⌄</span></button>
+              <div id="submenu-{{ item.key }}" class="nav-submenu" aria-label="{{ item.group | default: item.title }} guides">
+                {% if item.group %}<p class="nav-group-label">{{ item.group }}</p>{% endif %}
+                {% for child in item.children %}<a href="{{ child.url | relative_url }}" {% if page.key == child.key %}aria-current="page"{% endif %}>{{ child.title }}</a>{% endfor %}
+              </div>
+            </div>
+          {% else %}
+            <a href="{{ item.url | relative_url }}" {% if page.key == item.key %}aria-current="page"{% endif %}>{{ item.title }}</a>
+          {% endif %}
+        {% endfor %}
         <a class="discord-link" href="https://discord.gg/J6VkyeXDUv">Discord <span aria-hidden="true">↗</span></a>
       </nav>
     </div>

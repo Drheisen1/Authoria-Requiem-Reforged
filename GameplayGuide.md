@@ -1,10 +1,9 @@
 # Authoria - Requiem Reforged — Gameplay Guide
 
-Welcome to **Authoria - Requiem Reforged**, built on **Requiem 6.0.2**. Start with setup, then use the grouped reference sections as questions arise.
+Welcome to **Authoria - Requiem Reforged**, built on **Requiem 6.0.2**. Complete [Post-installation & Official Options](PostInstallationGuide.md) first, then use this guide for character setup and player reference.
 ## Contents
 
 - [1. Set up and start your game](#1-set-up-and-start-your-game)
-  - [Customization and launch](#customization-and-launch)
   - [Creating your character](#creating-your-character)
   - [First-session settings and controls](#first-session-settings-and-controls)
   - [Saving and loading](#saving-and-loading)
@@ -35,70 +34,11 @@ Welcome to **Authoria - Requiem Reforged**, built on **Requiem 6.0.2**. Start wi
 Follow this route for a new character:
 
 1. Read [Understanding Requiem](#understanding-requiem), then choose a general build.
-2. Choose your [customizations and difficulty](#customization-and-launch) in MO2, then launch.
+2. Complete [Post-installation & Official Options](PostInstallationGuide.md), choose your options and difficulty, then launch.
 3. Finish [character initialization](#creating-your-character), spend your three starting perks, and choose a start.
 4. Review [first-session settings and controls](#first-session-settings-and-controls); settings changes are optional.
 5. Choose your [saving routine](#saving-and-loading), including profile setup if using SSSO3.
 6. Prepare [food](#food-in-authoria), water, rest, warm gear, and a route to shelter before travelling farther. Look for [early jobs](#early-game-jobs-and-bounties) and check each destination before accepting.
-
-### Customization and launch
-
-#### Choosing your customizations
-
-In **Mod Organizer 2 (MO2)**, look for the **Customization** separator in the left panel. The groups below it contain the available customization options.
-
-**Choose your customizations before starting a new character.** Changes outside the Difficulty separator are not safe for an existing playthrough: they require a new save. Requiem Lite can be enabled at any time; follow the difficulty instructions below when switching an existing character to Easy Mode.
-
-> The screenshot is slightly outdated, but the structure for optional mods is the same.
-
-<img width="1041" height="423" alt="Customization groups in Mod Organizer 2" src="https://github.com/user-attachments/assets/8c8adb60-2a4a-4f76-9843-c96be1680dd1" />
-
-<details>
-<summary><strong>Customization options</strong></summary>
-
-| Group | What to do |
-| --- | --- |
-| Controller Setup | Enable every mod in this group if you plan to use a controller. |
-| RaceMenu Presets | Add the character presets you want to use here. |
-| ENB Presets | Choose your preferred ENB preset. When switching away from Cabbage ENB, disable Cabbage ENB and clear MO2's Overwrite folder. |
-| ReShade | Enable everything in this group if you want to use ReShade. |
-| Weaker Followers | Reduce follower damage if you plan to use multiple modded followers. See the recommendations below. |
-| Authoria - Slower Leveling | Enable for slower early leveling. See [Leveling and perks](#leveling-and-perks) for details. |
-| Crafting pulls resources from containers | Enable for shared crafting storage. Already preconfigured. **Warning: this can be heavy on performance.** |
-
-Recommended follower damage reductions:
-
-| Number of followers | Reduction |
-| --- | --- |
-| 1–2 | 25% |
-| 3 | 50% |
-| More than 3 | 75% |
-
-</details>
-
-#### Choosing your difficulty
-
-**Easy Mode is strongly recommended for your first Requiem playthrough.** It slows survival needs, increases the damage you deal, reduces the damage you take, and adjusts the economy and stamina costs.
-
-To start a new character in Easy Mode:
-
-1. Before starting your character, enable both **[Requiem Lite](https://www.nexusmods.com/skyrimspecialedition/mods/120272)** and **Authoria - Easy Mode Settings** in MO2.
-2. During character initialization, choose the **Easy** options when prompted.
-3. Open the **Mod Configuration Menu (MCM)** in game, find **Requiem Lite**, and enable it.
-
-**Already finished initialization?** You can enable Requiem Lite at any time; you do not need to start a new character to switch to an easier difficulty.
-
-1. Exit Skyrim completely.
-2. Enable **Requiem Lite** in MO2.
-3. Relaunch the game and load your save.
-4. Open **MCM Recorder** in the MCM and manually run the **`AUTORIA_EASY`** recording to apply Authoria's Easy Mode settings.
-5. Open **Requiem Lite** in the MCM and enable it manually. MCM Recorder does not enable it for you.
-
-**[Engaging Combat - Keep Combat Dynamic at Higher Levels](https://www.nexusmods.com/skyrimspecialedition/mods/132625?tab=description)** can be enabled or disabled before or during your playthrough.
-
-#### Launching the game
-
-Once you have finished choosing your options, select **Authoria - Requiem Reforged** in MO2's top-right dropdown and run the game.
 
 ### Creating your character
 
@@ -294,7 +234,7 @@ If a skill stops improving despite continued use, check whether it has reached y
 
 Followers do not reduce your character XP from kills. You can bring a companion without slowing the XP awarded for the content you complete together.
 
-**Optional: slower leveling.** If you want a slower pace, enable **Authoria - Slower Leveling** in the **Slower Levelling** section of MO2's User Customization area. Choose before you start a new game. Skill practice slows down to match. The skill cap still follows your character level, so the perk landmarks above stay the same; each level just takes longer to reach.
+**Optional: slower leveling.** If you want a slower pace, enable **Authoria - Slower Leveling** in the **Slower Levelling** section of MO2's User Customization area. A new game remains preferred when choosing this option. Skill practice slows down to match. The skill cap still follows your character level, so the perk landmarks above stay the same; each level just takes longer to reach.
 #### Unarmed progression
 
 Authoria has a custom **Hand to Hand** perk tree adapted from [Hand to Hand - An Adamant Addon](https://www.nexusmods.com/skyrimspecialedition/mods/59790). It follows that mod's perk tree, but Authoria changes some values. Check the in-game perk descriptions for the exact effects in this list.
@@ -1009,7 +949,7 @@ Some of Legacy's later story depends on Skyrim's main quest and your character b
 
 ### Modded and custom followers
 
-Authoria includes several companions with their own dialogue and stories, plus dialogue expansions for Skyrim NPCs. The list rebalances followers and includes some follower quest add-ons. You can meet them as you explore; you do not need to recruit everyone at once. Bringing several followers can make fights much easier, so the optional **Weaker Followers** setting under [Customization and launch](#customization-and-launch) is worth considering for a large party.
+Authoria includes several companions with their own dialogue and stories, plus dialogue expansions for Skyrim NPCs. The list rebalances followers and includes some follower quest add-ons. You can meet them as you explore; you do not need to recruit everyone at once. Bringing several followers can make fights much easier, so the optional **Weaker Followers** setting under [Post-installation & Official Options](PostInstallationGuide.md#choose-your-included-options) is worth considering for a large party.
 
 - **[Kaidan](https://kaidanmod.com/all-in-one-installer/) — [Pre Thalmor](https://www.nexusmods.com/skyrimspecialedition/mods/166698):** You can first meet him at his old camp on the **northeast shore of Lake Ilinalta**. He is **not** waiting in the Abandoned Prison when you first start a new game. Rumors around Riverwood or Falkreath, or a clue in the Abandoned Prison, can point you there.
 

@@ -4,12 +4,30 @@
 - title: Installation
   url: /installation.html
   key: installation
+  children:
+    - title: Installation Guide
+      url: /installation.html
+      key: installation
+    - title: Post-installation & Official Options
+      url: /post-installation.html
+      key: post-installation
 - title: Gameplay
   url: /gameplay.html
   key: gameplay
 - title: Tools
   url: /tools.html
   key: tools
+  group: Rule 11 / List Customization
+  children:
+    - title: Safe Customization Practices
+      url: /safe-customization.html
+      key: safe-customization
+    - title: Tool Running Guide
+      url: /tools.html
+      key: tools
+    - title: Performance Profile Guide (placeholder)
+      url: /performance-profile.html
+      key: performance-profile
 - title: Changelog
   url: /changelog.html
   key: changelog

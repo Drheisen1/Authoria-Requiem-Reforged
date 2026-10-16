@@ -12,3 +12,18 @@
 .brand{display:block;position:relative;width:224px;height:66px;overflow:hidden}
 .brand .brand-logo{position:absolute;left:0;top:-29px;width:224px;height:auto;max-width:none}
 @media(max-width:800px){.brand{width:190px;height:56px}.brand .brand-logo{width:190px;top:-25px}}
+
+/* Keep the existing top-level navigation; reveal guide links within it. */
+.nav-group{position:relative;display:grid;grid-template-columns:auto auto;align-items:center;column-gap:3px}
+.nav-parent{padding:10px 0;color:var(--muted);position:relative}
+.nav-parent:hover,.nav-group.is-current>.nav-parent{color:var(--purple-light)}
+.nav-group.is-current>.nav-parent:after{content:"";height:2px;position:absolute;bottom:0;left:0;right:0;background:var(--purple)}
+.submenu-toggle{border:0;background:transparent;color:var(--purple);font:inherit;padding:10px 4px;cursor:pointer}
+.nav-submenu{display:none;position:absolute;top:100%;right:0;min-width:260px;max-width:330px;padding:10px;background:var(--surface);border:1px solid var(--border);border-radius:5px;box-shadow:0 12px 24px rgb(0 0 0/.25)}
+.nav-group.is-open>.nav-submenu{display:block}
+.nav-submenu>a{display:block;padding:10px 12px;color:var(--muted);font-size:12px;line-height:1.6;border-radius:3px}
+.nav-submenu>a:hover,.nav-submenu>a:focus-visible,.nav-submenu>a[aria-current]{color:var(--purple-light);background:var(--surface-hover)}
+.nav-group-label{color:var(--purple);font-size:10px;letter-spacing:.07em;padding:8px 12px;margin:0;border-bottom:1px solid var(--border)}
+.guide-related{display:flex;flex-wrap:wrap;gap:14px 24px;margin-top:24px;font-size:13px;color:var(--purple)}
+.guide-related a:hover{text-decoration:underline;text-underline-offset:3px}
+@media(max-width:800px){.primary-nav{max-height:calc(100dvh - var(--header));overflow-y:auto}.nav-group{grid-template-columns:1fr auto}.nav-parent{padding:10px 4px}.nav-group.is-current>.nav-parent:after{width:20px;right:auto}.submenu-toggle{padding:10px 12px}.nav-submenu{position:static;grid-column:1/-1;min-width:0;max-width:none;box-shadow:none;margin:3px 0 8px}.guide-related{flex-direction:column;gap:12px}}
