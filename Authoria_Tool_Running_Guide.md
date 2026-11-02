@@ -178,7 +178,7 @@ If you still don't understand, just follow these steps — they should walk you 
   - If you ignore this point, expect all guards to turn into vampires and other madness.
 - You should rerun Synthesis if you rerun the Reqtificator. ParallaxGen, xLODGen, TexGen, and DynDOLOD do **not** need to be rerun, however.
 
-1. On the right panel of MO2 (the plugins list), disable all the plugins that are **below** `Requiem for the Indifferent.esp`.
+1. On the right panel of MO2 (the plugins list), disable all the plugins that are **below** `Requiem for the Indifferent.esp`, also Disable `Dyndolod.esm` and `PGPatcher.esp` at the top of the load order.
 
    ![Screenshot](https://raw.githubusercontent.com/Drheisen1/Authoria-Requiem-Reforged/main/Resources/Tool%20Guide/Reqtificator1.png)
 
@@ -202,7 +202,6 @@ If you still don't understand, just follow these steps — they should walk you 
 
 - As a good rule of thumb, rerun Synthesis after **any** modification to the load order.
 - Synthesis requires the latest .NET runtimes.
-- as of 2.9.9 we suspect that the experience patcher applies outdated ini options, it is marginal though and shouldnt affect gameplay too much.
 
 1. Navigate to tools/sythesis, and run synthesis outside of mo2, it doesnt matter if mo2 remains open.
 2. Wait for all the patchers to load. If one of them errors, click on it and switch it (on **both** rows) from **"Profile"** to **"Match"**. Wait for it to successfully load, then change it back to **"Profile"**.
